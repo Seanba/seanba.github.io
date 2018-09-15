@@ -1,0 +1,29 @@
+title: Sean Barton - Game Developer
+email: sean@seanba.com
+description: >-
+  Hi! My name is Sean Barton. I'm a US-Canadian game developer working in Austin, Texas.
+  I've been programming video games professionally since 1999 and I still love it.
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Seanba_
+github_username:  Seanba
+
+collections_dir: collections
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
