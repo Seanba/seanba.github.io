@@ -9,21 +9,13 @@ twitter_username: Seanba_
 github_username:  Seanba
 
 collections_dir: collections
+collections:
+  - sidenotes
+show_excerpts: true
 
 # Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

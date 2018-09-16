@@ -1,0 +1,40 @@
+$mybackground: #E4F2FD;
+$myborder-color: #C6D9E9;
+$myborder-width: 2px;
+
+#myheader
+{
+  width: 100%;
+  background: $mybackground;
+  border-bottom-width: $myborder-width;
+  border-bottom-color: $myborder-color;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+#myheader a
+{
+  color: #222;
+  text-decoration: none;
+}
+
+#mysidebar
+{
+}
+
+#myfooter
+{
+  width: 100%;
+  border-top-width: $myborder-width;
+  border-top-color: $myborder-color;
+  border-top-style: solid;
+  padding-top: 10px;
+}
+
+.mybreak
+{
+  border-bottom-color: $myborder-color;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
