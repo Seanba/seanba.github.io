@@ -13,6 +13,8 @@ collections:
   - sidenotes
 show_excerpts: true
 
+permalink: /:title:output_ext
+
 # Build settings
 sass:
   sass_dir: _sass
