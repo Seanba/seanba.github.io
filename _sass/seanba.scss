@@ -34,7 +34,8 @@ $myborder-width: 2px;
 
 .mybreak
 {
+  border-top-style: none;
   border-bottom-color: $myborder-color;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: $myborder-width;
 }
