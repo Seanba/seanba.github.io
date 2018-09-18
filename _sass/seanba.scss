@@ -40,7 +40,7 @@ $myborder-width: 2px;
   border-bottom-width: $myborder-width;
 }
 
-/* Styles for commenting system */
+/* Styles for commenting system. */
 div#comments
 {
   border-color: $myborder-color;
@@ -53,12 +53,58 @@ div#comments #comments-list
   list-style-type: none;
 }
 
+/*
 #comments li
 {
   background: red;
 }
+*/
 
 #comments li.byauthor
 {
-  background: green;
+  border-style: solid;
+  border-color: $myborder-color;
+  border-width: 1px;
+}
+
+div#comments #comments-list li
+{
+  margin: 0;
+  padding: 8px;
+  clear: both;
+  min-height: 48px;
+  font-size: 15px;
+  line-height: 21px;
+  margin-top: 8px;
+}
+
+div#comments #comments-list li blockquote
+{
+  margin: 0;
+  margin-left: 60px;
+}
+
+div#comments #comments-list li blockquote cite
+{
+  font-style: normal;
+  font-size: 12px;
+}
+
+div#comments #comments-list li blockquote cite span.author
+{
+  font-weight: 700;
+  font-size: 13px;
+}
+
+div#comments #comments-list li blockquote div.comment-body p
+{
+  margin: 0;
+}
+
+div#comments img.avatar
+{
+  border-radius: 4px;
+  float: left;
+  width: 48px;
+  height: 48px;
 }

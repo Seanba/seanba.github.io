@@ -7,15 +7,10 @@
 {% endif %}
 
 <blockquote id="{{ comment.id }}">
-  <div class="comment-body">{{ comment.message | markdownify }}</div>
   <cite>
-    {% if comment.url %}
-      <a href="{{ comment.url }}" rel="nofollow">{{ comment.name | xml_escape }}</a>
-    {% else %}
-      {{ comment.name | xml_escape }}
-    {% endif %}
-    &ndash;
-    <span class="muted" title="{{ comment.date | date_to_rfc822 }}">
+    <span class="author"> {{ comment.name | xml_escape }} </span>
+    <span class="bullet">•</span>
+    <a href="#{{ comment.id }}"class="muted" title="{{ comment.date | date_to_rfc822 }}">
       {{ comment.date | date: '%B' }}
       {% assign d = comment.date | date: "%-d" %}
       {% case d %}
@@ -25,6 +20,7 @@
         {% else %}{{d}}th,
       {% endcase %}
       {{ comment.date | date: '%Y' }}
-    </span>
+    </a>
   </cite>
+  <div class="comment-body">{{ comment.message | markdownify }}</div>
 </blockquote>
