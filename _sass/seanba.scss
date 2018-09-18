@@ -39,3 +39,26 @@ $myborder-width: 2px;
   border-bottom-style: solid;
   border-bottom-width: $myborder-width;
 }
+
+/* Styles for commenting system */
+div#comments
+{
+  border-color: $myborder-color;
+  border-top-style: solid;
+  border-top-width: $myborder-width;
+}
+
+div#comments #comments-list
+{
+  list-style-type: none;
+}
+
+#comments li
+{
+  background: red;
+}
+
+#comments li.byauthor
+{
+  background: green;
+}
