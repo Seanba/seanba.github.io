@@ -29,6 +29,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       author: "seanba"
+      commenting: open
 
 # Build settings
 sass:
