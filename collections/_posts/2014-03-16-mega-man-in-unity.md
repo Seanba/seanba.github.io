@@ -24,9 +24,9 @@ But I’ve been longing for some technology to help me prototype gaming ideas qu
 
 I also decided that this would be the first time in my double life as a hobbyist game programmer that I was actually going to finish something. To that point I chose a beloved game from my childhood and decided to remake, in part, the original [Mega Man from the NES golden days](http://en.wikipedia.org/wiki/Mega_Man_(video_game)). I figured my love for the franchise would help get me past the eventual malaise that smothers every hobby project of mine once real life kicks in.
 
-I’ve just recently finished the exercise and [you can play the game in your browser here …]({{ '/unity/mm/MMvsCM-mf/' | relative_url }}.html)
+I’ve just recently finished the exercise and [you can play the game in your browser here …]({{ 'assets/unity/mm/MMvsCM-mf.html' | relative_url }})
 
-[<img title="Mega Man in Unity" alt="Mega Man in Unity" src="/assets/wp-content/uploads/2014/03/mm-vs-cm.png" width="640" height="460" />]({{ '/unity/mm/MMvsCM-mf/' | relative_url }}.html "Mega Man Versus Cutman")
+[<img title="Mega Man in Unity" alt="Mega Man in Unity" src="/assets/wp-content/uploads/2014/03/mm-vs-cm.png" width="640" height="460" />]({{ 'assets/unity/mm/MMvsCM-mf.html' | relative_url }} "Mega Man Versus Cutman")
 
 ## Only Cutman’s Stage
 
