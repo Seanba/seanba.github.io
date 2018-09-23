@@ -1,6 +1,8 @@
 $mybackground: #E4F2FD;
 $myborder-color: #C6D9E9;
 $myborder-width: 2px;
+$mywarning-color: #FFFFDD;
+$mywarning-border-color: #AAAA88;
 
 #myheader
 {
@@ -38,6 +40,26 @@ $myborder-width: 2px;
   border-bottom-color: $myborder-color;
   border-bottom-style: solid;
   border-bottom-width: $myborder-width;
+}
+
+.mydeprecated:before
+{
+  padding: 0;
+  content: "Deprecation notice:\A";
+  white-space: pre-wrap;
+  font-weight: 700;
+}
+
+.mydeprecated
+{
+  content: "Deprecation Warning!";
+  background:$mywarning-color;
+  border-color: $mywarning-border-color;
+  border-style: none;
+  border-left-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  padding-top: 1px;
 }
 
 /* Styles for commenting system. */
@@ -113,4 +135,16 @@ div#commentstatus
 {
   margin-bottom: 2em;
   font-weight: 700;
+}
+
+/* Styles from the old hosted www.seanba.com website */
+img.sba-align-left
+{
+  border-style: none;
+  border-width: 0;
+  padding: 0;
+  margin: 0.5em 1em 0.25em 0;
+  float: left;
+  clear: left;
+  display: inline;
 }
