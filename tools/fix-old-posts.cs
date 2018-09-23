@@ -48,9 +48,10 @@ class Script
         File.WriteAllText(path, contents);
     }
 
-    private static FixPermalinks(string contents)
+    private static string FixPermalinks(string contents)
     {
         // var output = Regex.Replace(input, @"\$\$.+?\$\$", m => m.Value.ToLower());
+        return string.Empty;
     }
 }
 
