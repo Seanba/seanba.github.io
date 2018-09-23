@@ -2,7 +2,7 @@ $mybackground: #E4F2FD;
 $myborder-color: #C6D9E9;
 $myborder-width: 2px;
 $mywarning-color: #FFFFDD;
-$mywarning-border-color: #AAAA88;
+$mywarning-border-color: #CCCCAA;
 
 #myheader
 {
@@ -57,7 +57,7 @@ $mywarning-border-color: #AAAA88;
   border-color: $mywarning-border-color;
   border-style: none;
   border-left-style: solid;
-  border-width: 1px;
+  border-width: $myborder-width;
   padding: 10px;
   padding-top: 1px;
 }
@@ -137,6 +137,16 @@ div#commentstatus
   font-weight: 700;
 }
 
+span.post-meta
+{
+  font-weight: 700;
+}
+
+iframe
+{
+  margin-bottom: 1em;
+}
+
 /* Styles from the old hosted www.seanba.com website */
 img.sba-align-left
 {
@@ -147,4 +157,59 @@ img.sba-align-left
   float: left;
   clear: left;
   display: inline;
+}
+
+img.sba-align-left-tight
+{
+  border-style: none;
+  border-width: 0;
+  padding: 0;
+  margin-right: 0.5em;
+  float: left;
+  clear: left;
+  display: inline;
+}
+
+img.sba-align-right
+{
+  border-style: none;
+  border-width: 0;
+  padding: 0;
+  margin: 0.5em 0 0.25em 1em;
+  float: right;
+  clear: right;
+  display: inline;
+}
+
+.sba-footnotes
+{
+  background-color: #E9F7F7;
+  border-color: #438988;
+  border-width: 2px;
+  border-style: none;
+  border-left-style: solid;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+.sba-footnotes p
+{
+  margin-bottom: 0;
+}
+
+.dev-crush
+{
+    background-color: #FFD1C9;
+    border-color: #AE0000;
+    border-width: 2px;
+    border-left-style: solid;
+    padding-top: 54px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-image: url(images/dev-crush.png);
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    margin-bottom: 1em;
 }

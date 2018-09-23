@@ -5,10 +5,13 @@
 using System;
 using System.Collections;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 class Script
 {
+    public static char[] NewLines = Environment.NewLine.ToCharArray();
+
     public static void Main()
     {
         Console.WriteLine($"Current Directory: {Directory.GetCurrentDirectory()}");
@@ -30,28 +33,44 @@ class Script
 
     private static void FixFile(string path, string contents)
     {
+        // Back up the file in case I bone things up
+        var dir = Path.GetDirectoryName(path) + "_bak";
+        Directory.CreateDirectory(dir);
+        File.WriteAllText(Path.Combine(dir, Path.GetFileName(path)), contents);
+
         Console.WriteLine($"Fixing wordpress post: {path}");
 
         // fixit - choose deprecation type (or no deprecation at all)
         contents = contents.SetFrontMatterValue("layout", "old-post-deprecated");
 
+        // Get rid of the guid front-matter
+        var lines = contents.Split(NewLines).Where(l => !l.StartsWith("guid:")).ToArray();
+        contents = string.Join("\n", lines);
+
         // Get rid of decorated characters
         contents = contents.Replace("&#8230;", "...");
         contents = contents.Replace("&#8217;", "'");
         contents = contents.Replace("&#160;", " ");
+        contents = contents.Replace("&amp;", "&");
+        contents = contents.Replace("&rsquo;", "'");
+        contents = contents.Replace("&ndash;", "-");
+        contents = contents.Replace("&#8211;", "-");
 
         // Fix content links
         contents = contents.Replace("http://www.seanba.com/blog/wp-content/uploads", "/assets/wp-content/uploads");
-
-        // Fix internal permalinks
+        contents = FixPermalinks(contents);
 
         File.WriteAllText(path, contents);
     }
 
     private static string FixPermalinks(string contents)
     {
-        // var output = Regex.Replace(input, @"\$\$.+?\$\$", m => m.Value.ToLower());
-        return string.Empty;
+        // convert http://www.seanba.com/path/to/page to {{ page/to/page | relative_url }}
+        contents = Regex.Replace(contents,
+            @"http://www.seanba.com/([A-Za-z0-9\-\\_/]+)",
+            m => string.Format("{{{{ '/{0}/' | relative_url }}}}", m.Groups[1].Value),
+            RegexOptions.IgnoreCase);
+        return contents;
     }
 }
 
