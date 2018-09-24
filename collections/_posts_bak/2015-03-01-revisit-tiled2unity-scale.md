@@ -3,7 +3,7 @@ id: 858
 title: Revisiting Tiled2Unity Scale with Scaled Vertices
 date: 2015-03-01T19:33:35+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /revisit-tiled2unity-scale.html
 thesis_title:
   - Tiled2Unity Scaled Vertices

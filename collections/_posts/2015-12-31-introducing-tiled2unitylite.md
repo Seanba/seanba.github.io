@@ -3,7 +3,7 @@ id: 1058
 title: Introducing Tiled2UnityLite with Support for OSX/Linux
 date: 2015-12-31T19:15:17+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /introducing-tiled2unitylite.html
 thesis_description:
   - Tiled2Unity is now available for use on OSX and Linux platforms through Tiled2UnityLite, the command line utility version of this popular 2D game development tool.
@@ -66,31 +66,18 @@ However, I did have some difficultly getting CS-Script running on OSX. This is l
 I also needed to update my `.bash_profile` file so that CS-Script was in my PATH:
 
 <pre class="brush: plain; title: ; notranslate" title="">export CSSCRIPT_DIR=/usr/share/CS-Script
-
-export PATH=$PATH:$CSSCRIPT_DIR
-
-</pre>
+export PATH=$PATH:$CSSCRIPT_DIR</pre>
 
 At this point you should be able to run CS-Script from the terminal:
-
 <pre class="brush: plain; title: ; notranslate" title="">mono $CSSCRIPT_DIR/cscs.exe -v
 
-
-
 C# Script execution engine. Version 3.9.20.0.
-
 Copyright (C) 2004-2014 Oleg Shilo. www.csscript.net
 
-
-
    CLR:            4.0.30319.17020
-
    System:         Unix 14.0.0.0
-
    Architecture:   x86
-
    Home dir:       /usr/share/CS-Script
-
 </pre>
 
 With that achieved we're ready to run C# files as a script.
@@ -112,62 +99,33 @@ Go to the directory you've unzipped Tiled2UnityLite.cs to and run the help comma
 
 <pre class="brush: plain; title: ; notranslate" title="">mono $CSSCRIPT_DIR/cscs.exe Tiled2UnityLite.cs --help
 
-
-
 Tiled2UnityLite Utility, Version: 1.0.1.0
-
 Usage: Tiled2UnityLite [OPTIONS]+ TMXPATH [UNITYDIR]
-
 Example: Tiled2UnityLite -s=0.01 MyTiledMap.tmx ../../MyUnityProject/Assets/Tiled2Unity
 
-
-
 Options:
-
   -s, --scale=VALUE          Scale the output vertices by a value.
-
                                A value of 0.01 is popular for many Unity 
-
                                projects that use 'Pixels Per Unit' of 100 for 
-
                                sprites.
-
                                Default is 1 (no scaling).
-
   -t, --texel-bias=VALUE     Bias for texel sampling.
-
                                Texels are offset by 1 / value.
-
                                Default value is 8192.
-
                                 A value of 0 means no bias.
-
   -v, --verbose              Print verbose messages.
-
   -h, --help                 Display this help message.
 
-
-
 Prefab object properties (set in TMX file for each layer/object)
-
   unity:sortingLayerName
-
   unity:sortingOrder
-
   unity:layer
-
   unity:tag
-
   unity:scale
-
   unity:isTrigger
-
   unity:ignore (value = [false|true|collision|visual])
-
   unity:resource
-
   (Other properties are exported for custom scripting in your Unity project)
-
 </pre>
 
 Once your environment is configured to run Tiled2UnityLite like this then you are ready to export Tiled maps directly from Tiled Map Editor into your Unity project using the Execute Command GUI.
@@ -175,9 +133,6 @@ Once your environment is configured to run Tiled2UnityLite like this then you ar
 <img class="alignnone size-full wp-image-1089" src="/assets/wp-content/uploads/2015/12/tiled-mac-commands.png" alt="Tiled Command Editor" width="620" height="193" srcset="/assets/wp-content/uploads/2015/12/tiled-mac-commands.png 620w, /assets/wp-content/uploads/2015/12/tiled-mac-commands-300x93.png 300w" sizes="(max-width: 620px) 100vw, 620px" />
 
 <pre class="brush: plain; title: ; notranslate" title="">/bin/sh /MyPath/tiled2unitylite.sh %mapfile /MyProject/Assets/Tiled2Unity
-
-
-
 </pre>
 
 You'll notice I decided to run a shell script from Tiled when exporting to Unity. I'll explain that a bit below but for now the command I use in Tiled is broken up into a number of parts:
@@ -191,29 +146,17 @@ The `tiled2unitylite.sh` shell script is pretty standard fare:
 
 <pre class="brush: bash; title: ; notranslate" title="">#!/bin/sh
 
-
-
 THIS_DIR=`dirname $0`
-
 pushd $THIS_DIR &gt; /dev/null 2&gt;&1
 
-
-
 CSSCRIPT_DIR=/usr/share/CS-Script
-
 mono $CSSCRIPT_DIR/cscs.exe -nl Tiled2UnityLite.cs "$@" &&gt; tiled2unitylite.log
 
-
-
-popd &gt; /dev/null 2&lt;&1
-
-</pre>
+popd &gt; /dev/null 2&lt;&1</pre>
 
 You'll note that I'm redirecting the output from `Tiled2UnityLite.cs` into a `tiled2unitylite.log` file (_Quick note: You will have to create this log file before running the script_). This helps me track down any errors that may be reported. I use the the `tail` command in another terminal so that I can track export progress in real time.
 
-<pre class="brush: plain; title: ; notranslate" title="">tail -f tiled2unitylite.log
-
-</pre>
+<pre class="brush: plain; title: ; notranslate" title="">tail -f tiled2unitylite.log</pre>
 
 With everything finally configured I'm able to, on a Mac, press F5 to export a Tiled map into Unity. Here's a quick example from one of my most cherished memories in gaming history that old school gamers will quickly recognize.
 

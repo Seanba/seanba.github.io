@@ -3,10 +3,9 @@ id: 1145
 title: Convex Polygon Collider Support in Tiled2Unity
 date: 2016-02-07T14:48:58+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /convex-polygons.html
-thesis_description:
-  - Tiled2Unity can now export polygons that are strictly convex.
+excerpt: Tiled2Unity can now export polygons that are strictly convex.
 thesis_keywords:
   - Tiled2Unity Unity Tiled Convex Polygons
 categories:

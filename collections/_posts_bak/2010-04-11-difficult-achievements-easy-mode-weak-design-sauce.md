@@ -62,7 +62,7 @@ Of course, I still heartily recommend Mega Man 10, but **there is a missing atte
   </p>
   
   <p>
-    ** I won’t complain about beating all 8 robot masters with only your default blaster. Although challenging, it is a fun achievement &#8211; exactly the kind of stuff I’m looking for.
+    ** I won’t complain about beating all 8 robot masters with only your default blaster. Although challenging, it is a fun achievement - exactly the kind of stuff I’m looking for.
   </p>
   
   <p>

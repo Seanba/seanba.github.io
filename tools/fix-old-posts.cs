@@ -40,8 +40,17 @@ class Script
 
         Console.WriteLine($"Fixing wordpress post: {path}");
 
-        // fixit - choose deprecation type (or no deprecation at all)
-        contents = contents.SetFrontMatterValue("layout", "old-post-deprecated");
+        if (!contents.Contains("old-post-okay"))
+        {
+            if (contents.Contains("Tiled2Unity"))
+            {
+                contents = contents.SetFrontMatterValue("layout", "old-post-tiled2unity");
+            }
+            else
+            {
+                contents = contents.SetFrontMatterValue("layout", "old-post-deprecated");
+            }
+        }
 
         // Get rid of the guid front-matter
         var lines = contents.Split(NewLines).Where(l => !l.StartsWith("guid:")).ToArray();

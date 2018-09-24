@@ -3,7 +3,7 @@ id: 771
 title: The Real-Life Adventures of Mega Dad with Tiled2Unity
 date: 2014-07-04T16:20:57+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /megadadadventures.html
 ---
 <a title="Mega Dad Adventures" href="{{ '/unity/tiled2unity/MegaDadAdventures/' | relative_url }}.html" target="_blank" rel="Mega Dad Adventures"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="The Real Life Adventures of MegaDad" src="/assets/wp-content/uploads/2014/07/megadad-adventures.png" alt="The Real Life Adventures of MegaDad" width="640" height="180" border="0" /></a>

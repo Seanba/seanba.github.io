@@ -3,12 +3,11 @@ id: 858
 title: Revisiting Tiled2Unity Scale with Scaled Vertices
 date: 2015-03-01T19:33:35+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /revisit-tiled2unity-scale.html
 thesis_title:
   - Tiled2Unity Scaled Vertices
-thesis_description:
-  - Tiled2Unity now supports vertex scaling for tile meshes and collision geometry.
+excerpt: Tiled2Unity now supports vertex scaling for tile meshes and collision geometry.
 thesis_keywords:
   - Tiled Unity Tiled2Unity scale Pixels Per Unit vertex scaling
 categories:

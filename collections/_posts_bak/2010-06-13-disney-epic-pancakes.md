@@ -18,7 +18,7 @@ categories:
 ---
 Team Barton has a ritual every Sunday morning where the kids let the grown-ups sleep in a bit and the family is rewarded with pancakes afterwards.
 
-(And yes, we allow &#8211; no, encourage &#8211; the children to spend these mornings watching TV. Don’t approve? Get bent.)
+(And yes, we allow - no, encourage - the children to spend these mornings watching TV. Don’t approve? Get bent.)
 
 **Anyway, the pancakes:** They taste great, and they’re served with Canadian maple syrup – but other than that they’re just regular pancakes with no extra ingredients, sides, or frills*.
 
@@ -30,7 +30,7 @@ I have to admit, I really was touched by the gesture, and the kids got a huge la
 
 And because I just have to over-analyze everything I couldn’t help but think of a way to tie this into some kind of career advice or something.
 
-**So here’s my tortured motivation for the day:** We game developers do an exceptional job at conjuring ideas, features, and tasks that &#8211; although potentially cool &#8211; eat up a lot of time and money, increase project complexity, and introduce tremendous risk towards our goal of shipping great video game software. Let’s try harder to **identify some absolutely kickass items that take virtually no effort** to achieve instead.
+**So here’s my tortured motivation for the day:** We game developers do an exceptional job at conjuring ideas, features, and tasks that - although potentially cool - eat up a lot of time and money, increase project complexity, and introduce tremendous risk towards our goal of shipping great video game software. Let’s try harder to **identify some absolutely kickass items that take virtually no effort** to achieve instead.
 
 <div class="sba-footnotes">
   <p>

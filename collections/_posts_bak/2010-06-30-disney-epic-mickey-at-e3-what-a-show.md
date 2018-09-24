@@ -1,6 +1,6 @@
 ---
 id: 481
-title: 'Disney Epic Mickey at E3 &#8211; What a Show!'
+title: 'Disney Epic Mickey at E3 - What a Show!'
 date: 2010-06-30T00:01:57+00:00
 author: Seanba
 layout: old-post-deprecated
@@ -20,7 +20,7 @@ I’ve been to E3 before for the games I’ve worked on and have reached the sam
 
 [<img title="A great welcome home from E3" src="/assets/wp-content/uploads/2010/06/e3banner_thumb.jpg" alt="Junction Point E3 Banner" width="600" height="268" />](/assets/wp-content/uploads/2010/06/e3banner.jpg)
 
-In previous E3 experiences there would generally be something there to get a little jazzed about (like the odd nomination or spurts of increased booth activity) &#8211;  but in my opinion it wasn’t worth the pain of going unless you’re really into that kind of thing (and most programmers aren’t into being on their feet all day and yelling over the EA booth next door).
+In previous E3 experiences there would generally be something there to get a little jazzed about (like the odd nomination or spurts of increased booth activity) -  but in my opinion it wasn’t worth the pain of going unless you’re really into that kind of thing (and most programmers aren’t into being on their feet all day and yelling over the EA booth next door).
 
 This year I went into E3 with Disney Epic Mickey expecting something a little more positive than before, like more buzz for our title and perhaps even a couple of “Best Wii Game” nominations from the larger outlets – but I wouldn’t allow myself to believe much more was feasible – especially once Nintendo announced their upcoming Zelda, Kirby, Kid Icarus (finally!) and Donkey Kong Country titles.
 
@@ -46,7 +46,7 @@ And check out the honors and awards!
 
 [<img title="The E3 awards just kept comging for Disney Epic Mickey" src="/assets/wp-content/uploads/2010/06/disneyepicmickeykiosk_thumb.jpg" alt="Disney Epic Mickey kiosk with nominations" width="535" height="480" />](/assets/wp-content/uploads/2010/06/disneyepicmickeykiosk.jpg)
 
-Plus the top-dog, big-enchilada, holy grail of _Best of E3_ nods &#8211; the Game Critics Awards – were announced today and [Disney Epic Mickey bagged four nominations](http://www.gamecriticsawards.com/nominees.html):
+Plus the top-dog, big-enchilada, holy grail of _Best of E3_ nods - the Game Critics Awards – were announced today and [Disney Epic Mickey bagged four nominations](http://www.gamecriticsawards.com/nominees.html):
 
   * Best of Show
   * Best Original Game
@@ -61,11 +61,11 @@ But don’t tell Warren I said that. 😉
 
 ## What this means to me
 
-Of course, doing well at E3 &#8211; even exceptionally well &#8211; is a far cry from _actually shipping_ top quality software, and any experienced game developer knows the challenge that is before us in these final months for a holiday release date. I may be drunk on E3 right now but I’m very much aware of that fact.
+Of course, doing well at E3 - even exceptionally well - is a far cry from _actually shipping_ top quality software, and any experienced game developer knows the challenge that is before us in these final months for a holiday release date. I may be drunk on E3 right now but I’m very much aware of that fact.
 
 And it’s kind of funny how scary this is in a way. If we were under the radar no one would think much if we didn’t succeed in delivering a true triple-A game to retail. It’s a tough business and most will fail. No big deal. It happens to the best of us.
 
-But now we’re in everyone’s face, so to speak, and it’s time to deliver. It's possible that I'll never get the opportunity to work on a game of such potential again &#8211;  **so I’m going all in.**
+But now we’re in everyone’s face, so to speak, and it’s time to deliver. It's possible that I'll never get the opportunity to work on a game of such potential again -  **so I’m going all in.**
 
 [<img title="I'm the guy on the right holding the Best of E3 award" src="/assets/wp-content/uploads/2010/06/e3epicmickeyteam_thumb.jpg" alt="Disney Epic Mickey E3 Team" width="640" height="480" />](/assets/wp-content/uploads/2010/06/e3epicmickeyteam.jpg)
 

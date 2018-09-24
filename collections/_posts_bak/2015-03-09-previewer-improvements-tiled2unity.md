@@ -3,7 +3,7 @@ id: 883
 title: Previewer Improvements with Tiled2Unity
 date: 2015-03-09T22:15:41+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /previewer-improvements-tiled2unity.html
 thesis_description:
   - The previewer in Tiled2Unity is improved with the addition of Previewer Options.

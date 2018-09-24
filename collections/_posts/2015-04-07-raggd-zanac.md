@@ -5,8 +5,7 @@ date: 2015-04-07T23:51:29+00:00
 author: Seanba
 layout: old-post-deprecated
 permalink: /raggd-zanac.html
-thesis_description:
-  - 'My Review a Great Game Day entry focuses on the most essential SHMUP of the NES platform: Zanac'
+excerpt: 'My Review a Great Game Day entry focuses on the most essential SHMUP of the NES platform: Zanac'
 thesis_keywords:
   - 'Zanac NES Nintendo Entertainment System Review a Great Game Day Compile '
 thesis_thumb_width:
@@ -25,7 +24,7 @@ _**Note**: It’s April 8th again which means my friends at <a title="1 More Cas
 <div class="review-box">
   <p>
     <strong><a href="/assets/wp-content/uploads/2015/04/zanac-title.png"><img title="Zanac (NES)" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="zanac-title" src="/assets/wp-content/uploads/2015/04/zanac-title_thumb.png" width="183" height="160" /></a>Title:</strong> Zanac <br /><strong>Developer:</strong> Compile <br /><strong>Publisher:</strong> Pony Inc. <br /><strong>Platform:</strong> Nintendo Entertainment System <br /><strong>Release:</strong> 1987 <br /><strong>Genre:</strong> Shoot ‘Em Up (SHMUP)
-  </p></p>
+  </p>
 </div>
 
 It’s no secret to people that know me that I love the 1980s. What other decade can compare culturally to the one that gave us **Tears for Fears**, **Back to the Future**, **ThunderCats**, and the **Nintendo Entertainment System**? Granted, my children have a good argument in **My Little Pony: Friendship is Magic** representing their generation well but what if you want to experience <a title="Transformers: The Movie" href="http://en.wikipedia.org/wiki/The_Transformers:_The_Movie" rel="Transformers: The Movie">a good Transformers movie</a> for once? Sorry kids, you need the 80s for that. (_‘Til all are one!_)

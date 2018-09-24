@@ -3,12 +3,11 @@ id: 771
 title: The Real-Life Adventures of Mega Dad with Tiled2Unity
 date: 2014-07-04T16:20:57+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /megadadadventures.html
+excerpt: In this post, we implement animations, ladders, water volumes, scripted importers and more with Mega Dad and Tiled2Unity.
 ---
 <a title="Mega Dad Adventures" href="{{ '/unity/tiled2unity/MegaDadAdventures/' | relative_url }}.html" target="_blank" rel="Mega Dad Adventures"><img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="The Real Life Adventures of MegaDad" src="/assets/wp-content/uploads/2014/07/megadad-adventures.png" alt="The Real Life Adventures of MegaDad" width="640" height="180" border="0" /></a>
-
-(**Note:** All the examples in this post are <a title="Mega Dad Adventures" href="{{ '/unity/tiled2unity/MegaDadAdventures/' | relative_url }}.html" target="_blank" rel="Mega Dad Adventures">playable in the Unity Web Browser here</a>.)
 
 I recently introduced my <a title="Tiled2Unity" href="{{ '/introtiled2unity/' | relative_url }}.html" rel="Tiled2Unity">Tiled2Unity Utility</a> where I showed how to get started with Unity2Tiled and walked us through a couple of simple examples.
 
@@ -285,31 +284,18 @@ Tiled2Unity provides an interface that allows you to add custom behavior to the 
 <pre class="brush: csharp; gutter: false;">// Example custom importer:
 
 [Tiled2Unity.CustomTiledImporter]
-
 class MyCustomImporter : Tiled2Unity.ICustomTiledImporter
-
 {
-
     public void HandleCustomProperties(GameObject gameObject,
-
         IDictionary&lt;string, string&gt; keyValuePairs)
-
     {
-
         Debug.Log("Handle custom properties from Tiled map");
-
     }
-
-
 
     public void CustomizePrefab(GameObject prefab)
-
     {
-
         Debug.Log("Customize prefab");
-
     }
-
 }</pre>
 
 &nbsp;
@@ -317,145 +303,75 @@ class MyCustomImporter : Tiled2Unity.ICustomTiledImporter
 For this example we’re going to use the `CustomizePrefab` method to crack open the `PolygonCollider2D` instances belonging to ladders and add the EdgeCollider2Ds we desire.
 
 <pre class="brush: csharp; gutter: false;">// From CustomTiledImporterForLadders.cs
-
 public void CustomizePrefab(GameObject prefab)
-
 {
-
     // Find all the polygon colliders in the pefab
-
     var polygon2Ds = prefab.GetComponentsInChildren&lt;PolygonCollider2D&gt;();
-
     if (polygon2Ds == null)
-
         return;
 
-
-
     // Find all *ladder* polygon colliders
-
     int ladderMask = LayerMask.NameToLayer("Ladders");
-
     var ladderPolygons = from polygon in polygon2Ds
-
                          where polygon.gameObject.layer == ladderMask
-
                          select polygon;
 
-
-
     // For each ladder path in a ladder polygon collider
-
     // add a top, spine, and bottom edge collider
-
     foreach (var poly in ladderPolygons)
-
     {
-
         GameObject ladderTops = new GameObject("LadderTop-EdgeColliders");
-
         GameObject ladderSpines = new GameObject("LadderSpine-EdgeColliders");
-
         GameObject ladderBottoms = new GameObject("LadderBottom-EdgeColliders");
-
         ladderTops.layer = LayerMask.NameToLayer("LadderTops");
-
         ladderSpines.layer = LayerMask.NameToLayer("LadderSpines");
-
         ladderBottoms.layer = LayerMask.NameToLayer("LadderBottoms");
 
-
-
         // Create edge colliders for the ladder tops
-
         // We assume that every polygon path represents a ladder
-
         for (int p = 0; p &lt; poly.pathCount; ++p)
-
         {
-
             Vector2[] points = poly.GetPath(p);
 
-
-
             float xmin = points.Min(pt =&gt; pt.x);
-
             float xmax = points.Max(pt =&gt; pt.x);
-
             float ymax = points.Max(pt =&gt; pt.y);
-
             float ymin = points.Min(pt =&gt; pt.y);
-
             float xcen = xmin + (xmax - xmin) * 0.5f;
 
-
-
             // Add our edge collider points for the ladder top
-
             EdgeCollider2D topEdgeCollider2d =
-
                 ladderTops.AddComponent&lt;EdgeCollider2D&gt;();
-
             topEdgeCollider2d.points = new Vector2[]
-
             {
-
                 new Vector2(xmin, ymax),
-
                 new Vector2(xmax, ymax),
-
             };
-
-
 
             // Add our edge collider points for the ladder spine
-
             EdgeCollider2D spineEdgeCollider2d =
-
                 ladderSpines.AddComponent&lt;EdgeCollider2D&gt;();
-
             spineEdgeCollider2d.points = new Vector2[]
-
             {
-
                 new Vector2(xcen, ymin),
-
                 new Vector2(xcen, ymax),
-
             };
-
-
 
             // Add our edge collider points for the ladder bottom
-
             EdgeCollider2D bottomEdgeCollider2d =
-
                 ladderBottoms.AddComponent&lt;EdgeCollider2D&gt;();
-
             bottomEdgeCollider2d.points = new Vector2[]
-
             {
-
                 new Vector2(xmin, ymin),
-
                 new Vector2(xmax, ymin),
-
             };
-
         }
 
-
-
         // Parent the ladder components to our ladder object
-
         ladderTops.transform.parent = poly.gameObject.transform;
-
         ladderSpines.transform.parent = poly.gameObject.transform;
-
         ladderBottoms.transform.parent = poly.gameObject.transform;
-
     }
-
 }</pre>
 
 At first glance this may seem like a lot of work, but, once written, this script will now import all ladders for us in all our maps. We can place ladders with ease in Tiled and let the custom importer do all the heavy lifting.
@@ -493,129 +409,68 @@ Here’s an example of a custom importer script that looks for a custom `AddComp
 <img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="Custom Property in Tiled" src="/assets/wp-content/uploads/2014/07/tiled-custom-prop.jpg" alt="Custom Property in Tiled" width="293" height="285" border="0" />
 
 <pre class="brush: csharp; gutter: false;">[Tiled2Unity.CustomTiledImporter]
-
 class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
-
 {
-
     public void HandleCustomProperties(UnityEngine.GameObject gameObject,
-
         IDictionary&lt;string, string&gt; props)
-
     {
-
         // Simply add a component to our GameObject
-
         if (props.ContainsKey("AddComp"))
-
         {
-
             gameObject.AddComponent(props["AddComp"]);
-
         }
-
     }
-
-
 
     public void CustomizePrefab(GameObject prefab)
-
     {
-
         // Do nothing
-
     }
-
 }</pre>
 
 Going back to our example with blocks, what we want to do is look for a `spawn` custom property with a value of `AppearingBlock`, instantiate the appropriate sprite, and then attach it to our game object.
 
 <pre class="brush: csharp; gutter: false;">[Tiled2Unity.CustomTiledImporter]
-
 class CustomTiledImporterForBlocks : Tiled2Unity.ICustomTiledImporter
-
 {
-
-
-
     public void HandleCustomProperties(UnityEngine.GameObject gameObject,
-
         IDictionary&lt;string, string&gt; props)
-
     {
-
         // Does this game object have a spawn property?
-
         if (!props.ContainsKey("spawn"))
-
             return;
-
-
 
         // Are we spawning an Appearing Block?
-
         if (props["spawn"] != "AppearingBlock")
-
             return;
 
-
-
         // Load the prefab assest and Instantiate it
-
         string prefabPath = "Assets/Prefabs/AppearingBlock.prefab";
-
         UnityEngine.Object spawn = 
-
             AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
-
         if (spawn != null)
-
         {
-
             // Remove old tile object
-
             Transform oldTileObject = gameObject.transform.Find("TileObject");
-
             if (oldTileObject != null)
-
             {
-
                 GameObject.DestroyImmediate(oldTileObject.gameObject);
-
             }
 
- 
-
             // Replace with new spawn object
-
             GameObject spawnInstance = 
-
                 (GameObject)GameObject.Instantiate(spawn);
-
             spawnInstance.name = spawn.name;
 
-
-
             // Use the position of the game object we're attached to
-
             spawnInstance.transform.parent = gameObject.transform;
-
             spawnInstance.transform.localPosition = Vector3.zero;
-
         }
-
     }
-
-
 
     public void CustomizePrefab(UnityEngine.GameObject prefab)
-
     {
-
         // Do nothing
-
     }
-
 }</pre>
 
 Now when we reimport the map we see that our spawned block sprites were added to the prefab hierarchy …
@@ -626,7 +481,6 @@ With these spawned sprite objects now in the prefab they can be manipulated by o
 
 [<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="heatman-blocks" src="/assets/wp-content/uploads/2014/07/heatman-blocks_thumb.png" alt="heatman-blocks" width="512" height="672" border="0" />](/assets/wp-content/uploads/2014/07/heatman-blocks.png)
 
-## 
 
 ## Complicated Gameplay with Little Work
 

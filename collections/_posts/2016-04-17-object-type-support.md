@@ -3,7 +3,7 @@ id: 1183
 title: Object Type Support Added to Tiled2Unity
 date: 2016-04-17T13:07:39+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /object-type-support.html
 thesis_description:
   - Tiled2Unity now allows you to use tiles with different collider types on the same layer.

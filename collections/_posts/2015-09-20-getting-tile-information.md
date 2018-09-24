@@ -3,7 +3,7 @@ id: 927
 title: Retrieving Tile Information at Runtime with Tiled2Unity
 date: 2015-09-20T11:44:36+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /getting-tile-information.html
 thesis_description:
   - This post describes how to use Tiled2Unity for strategy and RPG style games where tile information is needed.
@@ -22,7 +22,7 @@ Both approaches make use of the powerful, yet regrettably arcane, [automapping 
 
 **Note:** If you're having a hard time figuring out how to use automapping, [I found this video to be helpful](https://www.youtube.com/watch?v=UUi0lD1pxyQ) in making sense of it all. It's 10 minutes well spent.
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UUi0lD1pxyQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Example Project Files
 
@@ -61,47 +61,25 @@ Applying that rule you can see how a `Tiled Object` was placed upon every tree t
 Upon export into our Unity project, those objects are added to the map prefab as Unity `GameObject`s. There isn't much to them originally besides a `BoxCollider2D` so that's where our custom import script will come in.
 
 <pre class="brush: csharp; title: ; notranslate" title="">[Tiled2Unity.CustomTiledImporter]
-
 public class CustomImporter_StrategyTiles : Tiled2Unity.ICustomTiledImporter
-
 {
-
-
-
     public void HandleCustomProperties(GameObject gameObject,
-
         IDictionary&lt;string, string&gt; customProperties)
-
     {
-
         if (customProperties.ContainsKey("Terrain"))
-
         {
-
             // Add the terrain tile game object
-
             StrategyTile tile = gameObject.AddComponent&lt;StrategyTile&gt;();
-
             tile.TileType = customProperties["Terrain"];
-
             tile.TileNote = customProperties["Note"];
-
         }
-
     }
-
-
 
     public void CustomizePrefab(GameObject prefab)
-
     {
-
         // Do nothing
-
     }
-
 }
-
 </pre>
 
 The `CustomImporter_StrategyTiles.HandleCustomProperties` method is invoked for every `Tiled Object` in our map file. As you can see from the code above we are looking for the custom properties we've added to our Tiled map and, once found, we shove them into a custom component to be used by our game.
@@ -164,5 +142,3 @@ All things considered? I don't think so. I often get requests from developers t
   2. **What would per-Tile information look like anyhow?** In my mind, there is no way to make a general, one-size-fits-all offering for this. All data in Tiled is text but when we consume it in our game it must be in a format that makes sense for our specific application.
 
 Having said that, with some clever use of features already available to us and maybe a little tool-side scripting you should be able to make Tiled and Tiled2Unity work for you in ways that are unique to your game development needs.
-
-&nbsp;

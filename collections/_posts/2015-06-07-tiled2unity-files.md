@@ -3,7 +3,7 @@ id: 930
 title: Better Control of Tiled2Unity Files in Your Unity Project
 date: 2015-06-07T14:25:26+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-files.html
 thesis_description:
   - Tiled2Unity can now reside anywhere in your Unity project. Also, you can easily instantiate Tiled map prefabs in script by marking them as a resource.

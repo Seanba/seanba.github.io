@@ -31,7 +31,7 @@ And now I’m a bit smarter about it. I’ve got special shoes to help absorb th
 
 Now maybe I think about my job too much but I can’t help but to take everything I learn in life and somehow apply it to the career I love. When I started my life in game development the goal was simple: **I was going to make a really kickass game.** Metal Gear Solid and Quake 3 and Age of Kings better watch out, I have arrived.
 
-Ten years and three shipped titles later that goal is still not achieved. That does get me down if I allow it &#8211; but I’ve done work I’m really proud of, with some crazy smart people, and have shipped 3 games that were _just shy_ of being great.
+Ten years and three shipped titles later that goal is still not achieved. That does get me down if I allow it - but I’ve done work I’m really proud of, with some crazy smart people, and have shipped 3 games that were _just shy_ of being great.
 
 Plus I learned, much more than I thought I would, that **I really do love programming**. It’s not just about having a career somehow tied to video games anymore.  I get a real kick out of doing my day-to-day job well and learning how to do it better. 
 

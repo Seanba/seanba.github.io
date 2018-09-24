@@ -3,7 +3,7 @@ id: 869
 title: Tiled2Unity Update for Unity 5
 date: 2015-03-04T22:22:18+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-unity-5.html
 thesis_description:
   - Tiled2Unity is now compliant with Unity 5.

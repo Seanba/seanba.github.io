@@ -3,10 +3,9 @@ id: 795
 title: 'Tiled2Unity: Edge Collider Support in Tiled Layers'
 date: 2014-07-06T09:48:18+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-edge-collider-support-in-tiled-layers.html
-thesis_description:
-  - Tiled2Unity now supports exporting EdgeCollider2D components from polyline objects added through the Tile Collision Editor in Tiled.
+excerpt: Tiled2Unity now supports exporting EdgeCollider2D components from polyline objects added through the Tile Collision Editor in Tiled.
 thesis_keywords:
   - Tiled Unity Tiled2Unity EdgeCollider2D Polyline Tutorial Export TMX
 thesis_thumb_width:
@@ -18,7 +17,7 @@ categories:
 ---
 <img title="Edge Colliders for One-Way Collision" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="Edge Colliders for One-Way Collision" src="/assets/wp-content/uploads/2014/07/Preview_smb3-long.png" width="640" height="146" />
 
-(**Note:** You can play the results of this tutorial <a title="Play the Edge Collider Demo" href="{{ '/unity/tiled2unity/Tiled2UnityEdgeCollider/' | relative_url }}.html" rel="Play the Edge Collider Demo" target="_blank">in the Unity Web Player here</a>. You can also find the Unity package and source Tiled files <a title="Download Edge Collider Example Files" href="{{ '/downloads/Tiled2Unity/Tiled2UnityEdgeCollider/' | relative_url }}.zip" rel="Download Edge Collider Example Files">by downloading here</a>.)
+fixit - find the files for this example and add them to github
 
 Judging from the emails I’ve been getting, my little <a title="Download Tiled2Unity" href="{{ '/Tiled2Unity/' | relative_url }}" rel="Download Tiled2Unity" target="_blank">Tiled2Unity</a> tool is proving to be useful for developers wanting to bring their <a title="Tiled Map Editor" href="http://www.mapeditor.org/" rel="Tiled Map Editor">Tiled Map Editor</a> levels into their Unity projects.
 
@@ -50,4 +49,4 @@ That path gets built into one continuous EdgeCollider2D component with 44 vertic
 
 <a title="Play the Edge Collider Example in Unity Web Player" href="{{ '/unity/tiled2unity/Tiled2UnityEdgeCollider/' | relative_url }}.html" rel="Play the Edge Collider Example in Unity Web Player"><img title="Tiled2Unity Map Exported to Unity With EdgeCollider2D" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Tiled2Unity Map Exported to Unity With EdgeCollider2D" src="/assets/wp-content/uploads/2014/07/uni-path-example.png" width="512" height="448" /></a>
 
-And we’re done. Feel free to [download all the tutorial files]({{ '/downloads/Tiled2Unity/Tiled2UnityEdgeCollider/' | relative_url }}.zip "Download Edge Collider Example Files") or <a title="Play the Edge Collider Demo" href="{{ '/unity/tiled2unity/Tiled2UnityEdgeCollider/' | relative_url }}.html" rel="Play the Edge Collider Demo">play the demo</a>. Send questions to me via the comments or [email](mailto:sean@seanba.com). Happy developing.
+And we’re done. Send questions to me via the comments or [email](mailto:sean@seanba.com). Happy developing.

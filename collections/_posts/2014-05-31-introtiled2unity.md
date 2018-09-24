@@ -3,10 +3,9 @@ id: 696
 title: Import Tiled Maps to Unity with Tiled2Unity
 date: 2014-05-31T23:48:55+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /introtiled2unity.html
-thesis_description:
-  - Export Tiled TMX files to Unity with the free Tiled2Unity Utility
+excerpt: Export Tiled TMX files to Unity with the free Tiled2Unity Utility
 thesis_keywords:
   - 'Tiled Map Editor Unity TMX files import export Tiled2Unity PolygonCollider2D '
 thesis_thumb_width:

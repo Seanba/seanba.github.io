@@ -40,7 +40,7 @@ Case in point:
   </p>
 </div>
 
-Quick &#8211; what does that code above perform? Unless you’re an old-school [Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library) user (the usage has been simplified with [Technical Report 1](http://en.wikipedia.org/wiki/Technical_Report_1)) then you’re probably going to have to look something up.
+Quick - what does that code above perform? Unless you’re an old-school [Standard Template Library](http://en.wikipedia.org/wiki/Standard_Template_Library) user (the usage has been simplified with [Technical Report 1](http://en.wikipedia.org/wiki/Technical_Report_1)) then you’re probably going to have to look something up.
 
 `std::for_each` is itself easy enough to grok:
 
@@ -120,7 +120,7 @@ To be honest, I read about `for_each`, `bind2nd`, and `mem_fun` in some book abo
 
 And, unfortunately for me, the very first time I had a code review with a `for_each`  loop of this fashion in it, the reviewer had these reactions:
 
-  * **First impression:** “What the f\*\\*\* is this s\*\**?”
+  * **First impression:** “What the f\*\*\* is this s\*\*\*?”
   * **After explaining:** “Oh cool, I didn’t even know you could do that with STL.”
 
 I wish he had of just kept with his first impression and told me to rewrite that line of code into something readable, but he was impressed with the new knowledge I shared with him, and I couldn’t help but feel smart about the whole stupid thing.

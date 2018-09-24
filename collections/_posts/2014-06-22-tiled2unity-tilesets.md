@@ -3,7 +3,7 @@ id: 738
 title: Additional Tileset Support in Tiled2Unity
 date: 2014-06-22T12:29:40+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-tilesets.html
 thesis_description:
   - Tiled2Unity support for Tilesets that use an alpha color key and for Tilesets that are made up out of a collection of images.

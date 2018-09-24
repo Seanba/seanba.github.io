@@ -3,7 +3,7 @@ id: 1058
 title: Introducing Tiled2UnityLite with Support for OSX/Linux
 date: 2015-12-31T19:15:17+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /introducing-tiled2unitylite.html
 thesis_description:
   - Tiled2Unity is now available for use on OSX and Linux platforms through Tiled2UnityLite, the command line utility version of this popular 2D game development tool.
@@ -105,8 +105,8 @@ With that achieved we're ready to run C# files as a script.
 
 You can download Tiled2UnityLite from the [Tiled2Unity download page]({{ '/tiled2unity/' | relative_url }}) as a separate zip. This zip contains two files:
 
-  * `Tiled2Unity.unityproject` &#8211; Include this package in your Unity project.
-  * `Tiled2UnityLite.cs` &#8211; The C# file that contains all the Tiled2Unity source, all 10,000+ lines of it, with all the Windows-specific stuff excised out.
+  * `Tiled2Unity.unityproject` - Include this package in your Unity project.
+  * `Tiled2UnityLite.cs` - The C# file that contains all the Tiled2Unity source, all 10,000+ lines of it, with all the Windows-specific stuff excised out.
 
 Go to the directory you've unzipped Tiled2UnityLite.cs to and run the help command on our script.
 

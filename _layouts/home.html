@@ -11,20 +11,24 @@ layout: default
 <div class="row">
   <div class="eight columns">
     <ul class="post-list">
+
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h5>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h5>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+      {%- assign mod2 = forloop.index | modulo: 2 -%}
+        <li {% if mod2 == 0 %} class="post-item-even"{% else %} class="post-item-odd" {% endif %}>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h5>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h5>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+            <a class="post-link" href="{{ post.url | relative_url }}">(Read more)</a>
+          {%- endif -%}
+        </li>
       {%- endfor -%}
+
     </ul>
   </div>
   <div class="four columns"> {% include sidebar.html %} </div>

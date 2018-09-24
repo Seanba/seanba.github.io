@@ -3,7 +3,7 @@ id: 722
 title: Controlling Tiled2Unity Scale
 date: 2014-06-14T17:14:53+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /controlling-tiled2unity-scale.html
 thesis_title:
   - Tiled2Unity Scale

@@ -11,6 +11,7 @@ thesis_keywords:
   - Double Dragon 2 (NES) Review a Great Game Day
 categories:
   - Uncategorized
+excerpt: Today is Review a Great Game Day! I love this idea and have decided to review one of my favorite games of all time, Double Dragon II on the NES.
 ---
 _**Note**: The guys at_ [_1 More Castle_](http://1morecastle.com/) _came up with a great idea: a day of blogging completely devoted to the review of games, new or old, retail or indie, that we may consider great. It’s an exercise of positive reflection on the titles that make us the gamers we are._ 
 

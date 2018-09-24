@@ -3,7 +3,7 @@ id: 1008
 title: Improved Animations and Tile Objects in Tiled2Unity
 date: 2015-12-26T21:26:01+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /animations-and-tile-objects.html
 thesis_description:
   - Tiled2Unity has been improved with optimized animations and tile object support.

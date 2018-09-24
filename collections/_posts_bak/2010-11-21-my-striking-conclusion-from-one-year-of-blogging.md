@@ -29,18 +29,11 @@ It’s kind of funny I’ve been surprised by this fact as everything I’ve eve
   * Drawing, painting and other fine arts 
   * Making video games 
 
-By the way, that last example has been an especially sore point for me for years, as _the general public_ tends to think game developers just sit around playing games all day with perhaps the odd task here and there to _tighten up the graphics_.</p> 
+By the way, that last example has been an especially sore point for me for years, as _the general public_ tends to think game developers just sit around playing games all day with perhaps the odd task here and there to _tighten up the graphics_.
 
-<div style="margin-bottom: 1.5em">
-  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:6399bed6-d445-4526-b224-fa0db9be7c21" class="wlWriterEditableSmartContent">
-    <div>
-      <embed style="width:400px; height:326px;" wmode="transparent" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-7675519043804402267&hl=en" flashvars="">
-      </embed>
-    </div>
-  </div>
-</div></p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BRWvfMLl4ho" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-So consider this my apology to writing professionals and enthusiasts everywhere. This stuff is crazy hard &#8211; just like any other worthy pursuit – **and I’m sorry I took it for granted**.
+So consider this my apology to writing professionals and enthusiasts everywhere. This stuff is crazy hard - just like any other worthy pursuit – **and I’m sorry I took it for granted**.
 
 But this experiment has taught me there is value at keeping at it, if for no other reason than to be more than just a guy with a résumé. I care about my craft and this is a good forum to grow outside my day job (which has often been a night and weekend job too this past year as we brought Epic Mickey to ship).
 

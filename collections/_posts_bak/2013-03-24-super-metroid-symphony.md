@@ -3,7 +3,7 @@ id: 576
 title: Super Metroid Symphony is in Captivity
 date: 2013-03-24T14:27:44+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-okay
 permalink: /super-metroid-symphony.html
 thesis_title:
   - Super Metroid Symphony

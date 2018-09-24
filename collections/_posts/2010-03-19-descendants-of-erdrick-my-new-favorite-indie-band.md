@@ -4,7 +4,7 @@ title: 'Descendants of Erdrick: My new favorite indie band'
 date: 2010-03-19T01:33:24+00:00
 author: Seanba
 excerpt: In which I take my 7-year-old daughter (and fellow video gaming enthusiast) to see the Descendants of Erdrick, my new favorite band that covers music from the golden age of video games.
-layout: old-post-deprecated
+layout: old-post-okay
 permalink: /descendants-of-erdrick-my-new-favorite-indie-band.html
 thesis_title:
   - Seanba | Descendants of Erdrick

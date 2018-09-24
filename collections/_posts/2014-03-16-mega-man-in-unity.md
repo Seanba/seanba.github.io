@@ -11,6 +11,7 @@ thesis_keywords:
   - MegaMan Cutman Unity3D Unity
 categories:
   - Uncategorized
+excerpt: In this post I detail my experience in re-creating Mega Man within Unity.
 ---
 [<img title="Mega Man in Unity" alt="Mega Man in Unity" src="/assets/wp-content/uploads/2014/03/mm-unity.png" width="640" height="240" />]({{ '/unity/mm/MMvsCM-mf/' | relative_url }}.html "Mega Man in Unity")
 

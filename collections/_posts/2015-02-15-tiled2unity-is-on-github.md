@@ -3,12 +3,11 @@ id: 840
 title: Tiled2Unity is on GitHub
 date: 2015-02-15T00:03:18+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-is-on-github.html
 thesis_title:
   - Tiled2Unity on GitHub
-thesis_description:
-  - The Tiled2Unity that exports Tiled TMX files to Unity is available now on GitHub
+excerpt: The Tiled2Unity Utility that exports Tiled TMX files to Unity is available now on GitHub
 thesis_keywords:
   - GitHub Tiled2Unity Tiled Unity MIT License
 categories:

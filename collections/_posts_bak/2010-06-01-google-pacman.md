@@ -22,7 +22,7 @@ Remember how cool it was when Google turned their homepage, and logo, into a [pl
 
 I thought it was rather charming at the time – and just further proof that Google is the kind of modern, fun, and productive company that other software development studios should emulate.
 
-But then came the news that Google’s Pac-Man [ate](http://scitech.blogs.cnn.com/2010/05/25/google-pac-man-eats-4-8-million-hours/), or [gobbled](http://news.aol.ca/canada/article/google-pac-man-gobbled-550-years-of-work/1080975), or [devoured](http://www.huffingtonpost.com/2010/05/25/google-pacman-doodle-devo_n_588605.html), or simply [took a bite](http://consumerist.com/2010/05/google-took-bite-out-of-workplace-productivity-with-pac-man-game.html) out of our global economy/market/productivity &#8211; to the tune of **5 million work hours** and … get your best Dr. Evil voice ready … **$120 million dollars**!
+But then came the news that Google’s Pac-Man [ate](http://scitech.blogs.cnn.com/2010/05/25/google-pac-man-eats-4-8-million-hours/), or [gobbled](http://news.aol.ca/canada/article/google-pac-man-gobbled-550-years-of-work/1080975), or [devoured](http://www.huffingtonpost.com/2010/05/25/google-pacman-doodle-devo_n_588605.html), or simply [took a bite](http://consumerist.com/2010/05/google-took-bite-out-of-workplace-productivity-with-pac-man-game.html) out of our global economy/market/productivity - to the tune of **5 million work hours** and … get your best Dr. Evil voice ready … **$120 million dollars**!
 
 Damn. Talk about a buzz kill … **and complete nonsense to boot.**
 
@@ -37,7 +37,7 @@ And RescueTime crunches the numbers further to find:
 >   * Google Pac-Man consumed 4,819,352 hours of time (beyond the 33.6m daily man hours of attention that Google Search gets in a given day)
 >   * $120,483,800 is the dollar tally, If the average Google user has a COST of $25/hr (note that cost is 1.3 – 2.0 X pay rate).
 
-Hmm … well, that’s interesting &#8211; because I did my own back-of-the-envelope calculation and came up with a different figure:
+Hmm … well, that’s interesting - because I did my own back-of-the-envelope calculation and came up with a different figure:
 
 [<img title="My calcuation came out differently" src="/assets/wp-content/uploads/2010/06/bullcrap_thumb.jpg" alt="100% Bullcrap" width="540" height="135" />](/assets/wp-content/uploads/2010/06/bullcrap.jpg) 
 
@@ -55,4 +55,4 @@ Further assumptions needed to make their conclusion work are just as nonsensical
 
 I don’t really blame RescueTime for playing fast and loose with numbers like this. Copious amounts of lost productivity is an important narrative for them, and although their tortured statistics may turn off people like me there’s little doubt it was anything but a net positive for them.
 
-I just wish agents reporting on the news (including trusted news outlets) would apply some skepticism before parroting stuff like this &#8211; but of course they didn’t – **and _that’s_ tragic**.
+I just wish agents reporting on the news (including trusted news outlets) would apply some skepticism before parroting stuff like this - but of course they didn’t – **and _that’s_ tragic**.

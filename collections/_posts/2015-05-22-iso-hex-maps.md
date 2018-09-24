@@ -3,10 +3,9 @@ id: 922
 title: Isometric and Hexagonal Map Support in Tiled2Unity
 date: 2015-05-22T00:21:22+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /iso-hex-maps.html
-thesis_description:
-  - Tiled2Unity now supports exporting Isometric and Hexagonal maps into your Unity projects.
+excerpt: Tiled2Unity now supports exporting Isometric and Hexagonal maps into your Unity projects.
 thesis_keywords:
   - Tiled Map Editor Unity Hexagonal Tiled2Unity Patreon Import Export
 thesis_thumb_width:

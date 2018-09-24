@@ -3,7 +3,7 @@ id: 844
 title: Support Thorbjorn's Tiled Map Editor on Patreon
 date: 2015-02-28T13:30:11+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled-map-editor-on-patreon.html
 thesis_title:
   - Tiled Map Editor on Patreon

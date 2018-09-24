@@ -25,7 +25,7 @@ Yet ironically, the [game we put together](http://en.wikipedia.org/wiki/Tabula_R
 There’s a double-edged sword to working on MMOs that I never really thought about until [Tabula Rasa went into sunset](http://www.massively.com/2008/11/21/tabula-rasa-to-shut-down-in-february-2009/):
 
   * If you succeed you can continue to work on the game well after you ship to retail. This is no small benefit. Post-ship layoffs are legion in this industry even for successful games. With an MMO you have a much better chance at pulling yourself off project, respectfully, at a time that is more comfortable for you. 
-  * **But**, if you don’t pull off &#8211; oh man &#8211; **your game is gone forever.** Oh yeah, and you’re laid off. 
+  * **But**, if you don’t pull off - oh man - **your game is gone forever.** Oh yeah, and you’re laid off. 
 
 I usually have a “let’s see other people” kind of relationship with the games I’ve worked on by the time it comes to ship, but every know and then I still like to dust the game off, pop it into my PC or Xbox, and take delight in some of the work I’ve done over the years – but I just can’t do that with Tabula Rasa ever again.
 

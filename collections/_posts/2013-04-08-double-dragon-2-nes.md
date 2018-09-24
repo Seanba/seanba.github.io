@@ -3,7 +3,7 @@ id: 604
 title: 'Review a Great Game Day: Double Dragon 2 (NES)'
 date: 2013-04-08T18:03:44+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-okay
 permalink: /double-dragon-2-nes.html
 thesis_description:
   - My contribution to "Review a Great Game Day" where I review a favorite game from my childhood, Double Dragon 2 (NES).

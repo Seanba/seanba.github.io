@@ -3,7 +3,7 @@ id: 815
 title: Tiled Animation Editor Support Added to Tiled2Unity
 date: 2014-09-01T11:52:12+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled-animation-editor-support-added-to-tiled2unity.html
 thesis_title:
   - Tiled2Unity Animations

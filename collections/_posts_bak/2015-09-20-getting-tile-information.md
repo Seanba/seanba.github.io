@@ -3,7 +3,7 @@ id: 927
 title: Retrieving Tile Information at Runtime with Tiled2Unity
 date: 2015-09-20T11:44:36+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /getting-tile-information.html
 thesis_description:
   - This post describes how to use Tiled2Unity for strategy and RPG style games where tile information is needed.

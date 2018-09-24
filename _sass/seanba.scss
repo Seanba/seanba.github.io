@@ -1,8 +1,16 @@
 $mybackground: #E4F2FD;
 $myborder-color: #C6D9E9;
 $myborder-width: 2px;
+
 $mywarning-color: #FFFFDD;
 $mywarning-border-color: #CCCCAA;
+$mytiled2unitywarning-color: #F4E3B2;
+$mytiled2unitywarning-border-color: #F8B800;
+
+$even-background: #FFFCFC;
+$even-border-color: #CC8888;
+$odd-background: #FCFCFF;
+$odd-border-color: #8888CC;
 
 #myheader
 {
@@ -52,9 +60,27 @@ $mywarning-border-color: #CCCCAA;
 
 .mydeprecated
 {
-  content: "Deprecation Warning!";
   background:$mywarning-color;
   border-color: $mywarning-border-color;
+  border-style: none;
+  border-left-style: solid;
+  border-width: $myborder-width;
+  padding: 10px;
+  padding-top: 1px;
+}
+
+.mytiled2unitywarning:before
+{
+  padding: 0;
+  content: "Warning: Tiled2Unity Is old software!\A";
+  white-space: pre-wrap;
+  font-weight: 700;
+}
+
+.mytiled2unitywarning
+{
+  background: $mytiled2unitywarning-color;
+  border-color: $mytiled2unitywarning-border-color;
   border-style: none;
   border-left-style: solid;
   border-width: $myborder-width;
@@ -137,6 +163,26 @@ div#commentstatus
   font-weight: 700;
 }
 
+li.post-item-even
+{
+  background: $even-background;
+  list-style-type: none;
+  padding: 8px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: $even-border-color;
+}
+
+li.post-item-odd
+{
+  background: $odd-background;
+  list-style-type: none;
+  padding: 8px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: $odd-border-color;
+}
+
 span.post-meta
 {
   font-weight: 700;
@@ -212,4 +258,58 @@ img.sba-align-right
     background-repeat: no-repeat;
     background-position: 10px 8px;
     margin-bottom: 1em;
+}
+
+.review-box
+{
+  border-color: #00AE00;
+  background-color: #DCFFDC;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Calibri";
+  font-size: 10;
+  text-align: left;
+  height: 168px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.review-box img
+{
+  margin-right: 1em;
+  float: left;
+  clear: left;
+  display: inline;
+  height: 160px;
+}
+
+.wp-caption
+{
+  border-style: solid;
+  border-color: #ddd;
+  background-color: #eee;
+  text-align: center;
+  font-style: italic;
+}
+
+.wp-caption.alignnone
+{
+  clear: both;
+  margin-bottom: 1em;
+  border-width: 1px;
+  padding-top: 8px;
+}
+
+.format_text
+{
+  font-size: 1.6em;
+  line-height: 1.5em;
+}
+
+format_text .wp-caption
+{
+  padding: 0.688em;
+  border-width: 0.063em;
 }

@@ -3,7 +3,7 @@ id: 815
 title: Tiled Animation Editor Support Added to Tiled2Unity
 date: 2014-09-01T11:52:12+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled-animation-editor-support-added-to-tiled2unity.html
 thesis_title:
   - Tiled2Unity Animations
@@ -50,6 +50,8 @@ As of this writing the collision and animation editors in Tiled are not in a sta
 Being a big fan of the Zelda series I’ve taken a room out of the Desert Palace from <a title="The Legend of Zelda: A Link to the Past" href="http://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past" rel="The Legend of Zelda: A Link to the Past">The Legend of Zelda: A Link to the Past</a> as an example. I like how the animated water and lamps bring a bit of life to the room – and no custom scripting or sprite objects are needed.
 
 [<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="Tile Animations" src="/assets/wp-content/uploads/2014/09/tile-anim_thumb.gif" alt="Tile Animations" width="512" height="448" border="0" />](/assets/wp-content/uploads/2014/09/tile-anim.gif)
+
+fixit - downloads below are not supported. Use a github link.
 
 You can [download the example project here]({{ '/downloads/Tiled2Unity/animated-tiles/' | relative_url }}.zip "Tiled2Unity Tile Animation Example") to see it for yourself. It includes both the final Unity project and the source Tiled files (map and textures).
 

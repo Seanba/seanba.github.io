@@ -11,6 +11,7 @@ thesis_keywords:
   - MegaMan Cutman Unity3D Unity
 categories:
   - Uncategorized
+excerpt: In this post I detail my experience in re-creating Mega Man within Unity.
 ---
 [<img title="Mega Man in Unity" alt="Mega Man in Unity" src="/assets/wp-content/uploads/2014/03/mm-unity.png" width="640" height="240" />]({{ '/unity/mm/MMvsCM-mf/' | relative_url }}.html "Mega Man in Unity")
 
@@ -24,9 +25,9 @@ But I’ve been longing for some technology to help me prototype gaming ideas qu
 
 I also decided that this would be the first time in my double life as a hobbyist game programmer that I was actually going to finish something. To that point I chose a beloved game from my childhood and decided to remake, in part, the original [Mega Man from the NES golden days](http://en.wikipedia.org/wiki/Mega_Man_(video_game)). I figured my love for the franchise would help get me past the eventual malaise that smothers every hobby project of mine once real life kicks in.
 
-I’ve just recently finished the exercise and [you can play the game in your browser here …]({{ '/unity/mm/MMvsCM-mf/' | relative_url }}.html)
+I’ve just recently finished the exercise and [you can play the game in your browser here …]({{ 'assets/unity/mm/MMvsCM-mf.html' | relative_url }})
 
-[<img title="Mega Man in Unity" alt="Mega Man in Unity" src="/assets/wp-content/uploads/2014/03/mm-vs-cm.png" width="640" height="460" />]({{ '/unity/mm/MMvsCM-mf/' | relative_url }}.html "Mega Man Versus Cutman")
+[<img title="Mega Man in Unity" alt="Mega Man in Unity" src="/assets/wp-content/uploads/2014/03/mm-vs-cm.png" width="640" height="460" />]({{ 'assets/unity/mm/MMvsCM-mf.html' | relative_url }} "Mega Man Versus Cutman")
 
 ## Only Cutman’s Stage
 
@@ -59,16 +60,3 @@ After that short time I could have (and maybe should have) moved on to something
 
 **And as far as Unity goes**: I use it for all my hobby game programming projects now. I’d like to see the 2D components mature some more (Unity 4.3 is a great start to that) but overall I can’t think of any other (free) game engine that comes close to this one.
 
-<div class="sba-footnotes">
-  <p>
-    <strong>NOTE:</strong> I feel I should apologize for the occasional jittery scrolling and screen tearing in the playable Unity game. This appears to be an issue with the Web Player that other developers struggle with and as far as I’ve researched there’s no easy solution. If I’m wrong, <a href="mailto:sean@seanba.com">email me the details</a>. I’ll gladly fix it.
-  </p>
-  
-  <p>
-    &nbsp;
-  </p>
-  
-  <p>
-    I’m embarrassed I didn’t realize it would be a problem until after the game was complete as I should have tested on the Web Player throughout development. That’s a total rookie mistake there.
-  </p>
-</div>

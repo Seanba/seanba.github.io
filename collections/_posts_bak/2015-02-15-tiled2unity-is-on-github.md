@@ -3,7 +3,7 @@ id: 840
 title: Tiled2Unity is on GitHub
 date: 2015-02-15T00:03:18+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-is-on-github.html
 thesis_title:
   - Tiled2Unity on GitHub

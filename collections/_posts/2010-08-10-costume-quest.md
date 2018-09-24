@@ -7,8 +7,7 @@ layout: old-post-deprecated
 permalink: /costume-quest.html
 thesis_title:
   - Seanba | Double Fine Productions Makes Me Sick to My Stomach
-thesis_description:
-  - Double Fine Productions has a great idea for their new video game, I only wish I had brought the same idea to light years ago when I first thought of it.
+excerpt: Double Fine Productions has a great idea for their new video game, I only wish I had brought the same idea to light years ago when I first thought of it.
 thesis_keywords:
   - Double Fine Productions Costume Quest Ideas
 categories:

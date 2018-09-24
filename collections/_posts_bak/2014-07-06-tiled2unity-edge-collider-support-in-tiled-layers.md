@@ -3,7 +3,7 @@ id: 795
 title: 'Tiled2Unity: Edge Collider Support in Tiled Layers'
 date: 2014-07-06T09:48:18+00:00
 author: Seanba
-layout: old-post-deprecated
+layout: old-post-tiled2unity
 permalink: /tiled2unity-edge-collider-support-in-tiled-layers.html
 thesis_description:
   - Tiled2Unity now supports exporting EdgeCollider2D components from polyline objects added through the Tile Collision Editor in Tiled.
