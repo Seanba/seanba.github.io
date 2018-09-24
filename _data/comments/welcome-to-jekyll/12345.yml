@@ -8,7 +8,7 @@ message: "
 *Does Markdown commenting work?*
 
 
-Yes it appears so.
+Yes it appears so.  But what about newlines? Just use margin?
 
 
 `// This is some code.`
