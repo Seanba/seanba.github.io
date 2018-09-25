@@ -7,18 +7,17 @@
 {% endfor %}
 {% assign comment_count = comments | size %}
 {% if comment_count > 0 %}
-  {% assign author = site.authors[page.author] %}
-<div id="comments">
-  <h3>{% if comment_count == 1 %}One response{% else %}{{ comment_count }} responses{% endif %}</h3>
-  <ol id="comments-list">
-  {% assign sorted_comments = comments | sort: 'date' %}
-  {% for comment in sorted_comments %}
-    <li{% if comment.email == author.email %} class="byauthor" {% endif %}>
-      {% include comment.html %}
-    </li>
-  {% endfor %}
-  </ol>
-</div>
+  <div id="comments">
+    <h3>{% if comment_count == 1 %}One response{% else %}{{ comment_count }} responses{% endif %}</h3>
+    <ol id="comments-list">
+    {% assign sorted_comments = comments | sort: 'date' %}
+    {% for comment in sorted_comments %}
+      <li{% if comment.is_sean == true %} class="byauthor" {% endif %}>
+        {% include comment.html %}
+      </li>
+    {% endfor %}
+    </ol>
+  </div>
 {% endif %}
 {% if page.commenting == 'open' %}
 {% include comment-new.html %}

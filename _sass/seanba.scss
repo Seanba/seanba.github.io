@@ -7,9 +7,9 @@ $mywarning-border-color: #CCCCAA;
 $mytiled2unitywarning-color: #F4E3B2;
 $mytiled2unitywarning-border-color: #F8B800;
 
-$even-background: #FFFCFC;
+$even-background: #FFefef;
 $even-border-color: #CC8888;
-$odd-background: #FCFCFF;
+$odd-background: #efefFF;
 $odd-border-color: #8888CC;
 
 #myheader
@@ -147,7 +147,7 @@ div#comments #comments-list li blockquote cite span.author
 div#comments #comments-list li blockquote div.comment-body p
 {
   margin: 0;
-  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 div#comments img.avatar
