@@ -1,0 +1,9 @@
+id: 50179
+name: Vy
+gravatar: 78ded2125138bb83358c4b585508fa83
+date: 2016-10-07 23:35:48
+message: >-
+  Hi, I'm Vy. Thanks so much for this product. I an game artist and just started to build my first game, an rpg game. I am using version 1.0.7.8 and cant Help -&gt; import Unity Package to project. The error name was Application not found. Could u please tell me sthg about it?
+
+
+  <em><strong>Seanba sez:</strong> Some development environments lose their file association for *.unityproject files. There's really nothing Tiled2Unity can do about this since it's an issue with your OS. However, you can always import the Tiled2Unity.unityproject "by hand" by opening your project in Unity and selecting the "Assets -> Import Package -> Custom Package ..." menu item. The Tiled2Unity.unityproject file you want to import will be in your Tiled2Unity install folder.</em>

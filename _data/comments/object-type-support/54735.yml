@@ -1,0 +1,15 @@
+id: 54735
+name: Omer
+gravatar: 9784d75777698873427a675b3f70bb0d
+date: 2017-07-31 06:42:46
+message: >-
+  Hey Sean,
+
+
+  I have a problem (similar to Afmordeav I think) with ObjectTypes. I have a few custom properties assigned to my ObjectTypes. But when Unity imports any object with a custom type assigned, it is recognised automatically as a layer. When that layer isn't defined in Unity, whole process fails.
+
+
+  As far as I can see, the problem lies in that "Type" is assigned as "layer" attribute in the exported xml. So there isn't any solution in trying to fix this in Unity (other than doing a null check for the Unity layer perhaps?).
+
+
+  Am I missing something here? Thanks in advance.

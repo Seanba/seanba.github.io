@@ -1,0 +1,12 @@
+id: 52445
+name: JamesK
+gravatar: fixit
+date: 2017-03-25 10:08:53
+message: >-
+  Hey Sean, thanks again for the great job you've done with this tool.  I was going to report the issue with the collision polygons not always generating correctly (with diagonals in my case) but it looks like you just fixed it in 10.0.10.1.  So thanks!
+
+
+  Might I recommend a small change for your next update? I was getting a namespace collision with  the new SpriteDepthInMapEditor class, as it inherits 'Editor'.  Your other classes use 'UnityEditor.Editor' so they don't collide. A minor issue, I know.
+
+
+  <em><strong>Seanba sez:</strong> Hi James. I just submitted this small fix but it may take a week or two before it is deployed with a build. Thanks.</em>

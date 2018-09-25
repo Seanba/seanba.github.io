@@ -3,8 +3,7 @@ name: Sean Barton
 gravatar: ff5a13b37fd8ebc821088528d23b5987
 date: 2007-12-18 18:51:55
 is_sean: true
-message: "
-*Does Markdown commenting work?*
+message: "*Hey! Does Markdown commenting work?*
 
 
 Yes it appears so.  But what about newlines? Just use margin?
