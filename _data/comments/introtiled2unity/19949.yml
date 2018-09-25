@@ -1,0 +1,10 @@
+id: 19949
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-08-14 23:25:49
+is_sean: true
+message: >-
+  Hi Shawn, the fix was posted in build 0.9.4.6 (<a href="http://www.seanba.com/tiled2unity" title="download page" rel="nofollow">download page</a>)
+
+
+  I'll look into the draw order thing this weekend. Hopefully it can be achieved through manipulating the z value of the separate tiles in the mesh.

@@ -1,0 +1,18 @@
+id: 30563
+name: Ben
+gravatar: 00cecdb990f2dfd467fa38d5e74e72e8
+date: 2015-01-29 17:51:53
+message: >-
+  Hey Sean,
+
+
+  I'm using a 16 x 16 tile set with margin 1 and spacing 1. This is what my map looks like with your preview: http://i.imgur.com/LHyRH2c.jpg
+
+
+  and here it is in unity: http://imgur.com/LHyRH2c,UOrYhxx#1
+
+
+  There is about 1 pixel spacing in between each tile. I was wondering if you knew what might be happening? I was using the same tile set earlier but with no margin or spacing and got a similar but different issue where there were weird streaks leftover on some of the tiles. The map looked fine in your program's preview in both cases. Also not sure if this helps but here are my map properties: http://i.imgur.com/99cE0PT.jpg
+
+
+  Any help is appreciated! Thanks, Ben

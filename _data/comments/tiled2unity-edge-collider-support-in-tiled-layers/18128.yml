@@ -1,0 +1,10 @@
+id: 18128
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-07-18 10:54:35
+is_sean: true
+message: >-
+  Thanks for the bug report, Tim. I'll put in a fix for this over the weekend.
+
+
+  <strong>Edit to add:</strong> Fixed now. The problem is catching when Unity renames meshes on us. In this case it was when you use texture files with spaces in their file names (the generated meshes get their names from a combination of the layer and texture they are tied to -- this is what allows us to support multiple layers using multiple tilesets). Thanks again for the bug report.

@@ -1,0 +1,12 @@
+id: 41088
+name: Zain Cheema
+gravatar: 9125254a5ad34d06b1993e6d21fd3f1f
+date: 2016-01-12 18:37:41
+message: >-
+  Hello there! I have a problem when importing the tiled file into Unity. After specifying where to export to and clicking the big ass export button when Unity tries to import the tiled file it seems to get stuck. I have the same problem on both unity 4 and 5. When I then force quit unity and restart it the same problem occurs where it seems to get stuck when the Tiled file is importing. The tiled file in question is very big and contains a lot of collision data -&gt; I don't know if this may be the problem. When I try smaller less heavy tiled files they import into unity just fine. Any help would be appreciated! Thanks!
+
+
+  <em> <strong>Seanba sez:</strong> Hi Zain, it's hard to tell without seeing the imported file but "very large" maps tend to be issue even when they do complete importing. It's always much better to work with smaller maps that are stitched together by some other process. That isn't unique to Tiled2Unity or Unity, btw, it's good game development hygine -- especially when working with others.
+
+
+  However, I would guess it is your collision data that is slowing down Unity on import. A common source of trouble is when using the Collision Editor in Tiled without turning on "Snap to (Fine) Grid". You end up with sub-pixel polygons that will not merge well with their neighbors, leading to a real mess. Check that first. You can also email me your imported file and I'll take a quick look when I can.</em>

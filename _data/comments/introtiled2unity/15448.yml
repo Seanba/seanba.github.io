@@ -1,0 +1,11 @@
+id: 15448
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-06-02 17:43:47
+is_sean: true
+message: >+
+  Hi Matthew. The exporter will have generated a *.unity2tiled.xml file and placed it in your Assets/Tiled2Unity/Imported directory. Do you mind sending it to me? If possible, please send me your Tiled map files too.
+
+
+  For some reason, it looks like your Tiled map, when exported, is not sending along tileset information. Is it possible your exporting a map with all tile layers set to invisible? (It doesn't look like I'm catching that case, I'll fix that.)
+

@@ -1,0 +1,6 @@
+id: 31026
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-02-10 21:39:50
+is_sean: true
+message: downstroy, with the latest version of Tiled2Unity you can use the -s or --scale command line argument to have an exported map that is "scaled" to your liking but the prefab's scale remains (1, 1, 1). For your case you would add --scale=0.01 to the arguments passed in to Tile2Unity.

@@ -1,0 +1,24 @@
+id: 36507
+name: James
+gravatar: fixit
+date: 2015-07-11 13:37:18
+message: >-
+  With the new export option, I can't seem to get the command line to work.  For simplicity, say my unity project is in C:\Game and my Tiled2Unity.export.txt is in C:\Game\Assets\ThirdParty\Tiles2Unity
+
+
+  Well when I export manually I put the path to the export txt and it processes just fine.
+
+
+  When I run the command "c:\Program Files (x86)\Tiled2Unity\Tiled2Unity.exe" %mapfile C:\Game\Assets\ThirdParty\Tiled2Unity  the tiled2unity window pops up with buttons enabled, but when pressing the big ass export button, I get the error:
+
+
+  UNITYDIR 'C:\Game\Assets\ThirdParty\Tiled2Unity' is not a Unity Project folder
+
+
+  This a bug or am I just doing things incorrectly?
+
+
+  <em><strong>Seanba sez:</strong> Hi James, that does appear to be a bug. I will get a fix up sometime this weekend. Thanks for the report and stay tuned.</em>
+
+
+  <em><strong>Seanba sez (part deux):</strong> James, try the latest version from the download page (0.9.11.2). That should put the command line features of Tiled2Unity back in working order. Apologies of the mess.</em>

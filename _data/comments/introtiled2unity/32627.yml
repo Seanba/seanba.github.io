@@ -1,0 +1,10 @@
+id: 32627
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-05-08 20:34:48
+is_sean: true
+message: >-
+  Jeremy, the "Insert Tile" Object does not resolve to a sprite or tile because there is no general way to support that. Should it be a sprite object? Should it be a simple stand-alone quad with texture coordinates? Should the whole texture that tile is referencing be imported? What about several Tile Objects of they same tile -- should they be merged into a one mesh?
+
+
+  I use Tile Objects all the time, mind you, but that is so I can mark up a Tiled map in a visual way that makes sense at design-time. When exporting I will have custom scripts that turn them into GameObjects though -- most likely a Unity sprite to be spawned at that location on the map.

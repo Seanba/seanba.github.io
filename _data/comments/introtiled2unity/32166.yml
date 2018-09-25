@@ -1,0 +1,19 @@
+id: 32166
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-04-15 10:06:56
+is_sean: true
+message: >-
+  Alan, I'll be putting together a tutorial on this kind of thing soon but here's the gist of it ...
+
+
+  You can't get at the individual tile but you can create a collision mesh for every tile "type" and do a raycast to see what kind of tile type your avatar is currently placed on top of.
+
+
+  But, that requires you to have different tile types on individual layers in Tiled. That is a PITA but you can use Tiled Automapping to automatically create those layers for you.
+
+
+  Then, as you're only interested in the collision data from those layers you can use the <code>unity:collisionOnly</code> property so that the collision for those layers is imported into Unity -- but not the mesh that would make up those extra layers.
+
+
+  This sounds complicated at first but isn't that bad. Hopefully I can have a tutorial up this weekend that helps explain better.

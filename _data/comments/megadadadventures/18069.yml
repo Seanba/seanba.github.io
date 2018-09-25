@@ -1,0 +1,6 @@
+id: 18069
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-07-17 14:52:52
+is_sean: true
+message: Hi Kevin, yes, tiles in the Object Layers are purposely not rendered. It sounds like what you need is a Tiled Layer with a given Tag. When you want that layer to go away you have a script somewhere that looks for GameObjects with that Tag and disables them. This should remove the rendering and colliders you no longer want to interact with. Does that make sense?

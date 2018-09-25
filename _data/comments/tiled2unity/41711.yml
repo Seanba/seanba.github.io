@@ -1,0 +1,12 @@
+id: 41711
+name: Josh
+gravatar: cddd040674d514d76111efb04ddec053
+date: 2016-02-22 13:03:24
+message: >-
+  I love the tool, I used to use it in Unity 4 and haven't used it for awhile, I am now trying to use it with Unity 5.2.1 and whenever I load it the prefab never shows up. The target is standalone, and like duppie said, I followed the same tutorial using my Tiled2Unity.export.txt as the target, I hit the big ass export button and it goes, no errors in either unity or your tool and says successful yet there is no prefab.
+
+
+  Unity : 5.3.2f1 Tiled2Unity : 1.0.4.2 Tiled : 0.15.1
+
+
+  Any ideas?

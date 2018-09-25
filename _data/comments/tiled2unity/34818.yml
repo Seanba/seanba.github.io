@@ -1,0 +1,9 @@
+id: 34818
+name: Xephin
+gravatar: 6d4c790ea2ce4ef48de096d0083e0e85
+date: 2015-06-25 06:11:53
+message: >-
+  I am also having issues with colliders not importing in, ive tried reimporting the file multiple times, tried remaking the collision layer i can see my collsion layer in unity but no collision happens I just pass under it
+
+
+  <em><strong>Seanba sez:</strong> Hi Xephin, if you're seeing collision layers and colliders on your map prefab in Unity then it sounds like the importer is doing its job. It sounds like your problem may be with whatever game object is attempting to collide with the map. If you are relying on Unity's physics engine for collision detection you will need a rigid body component and a collider or two on that game object.</em>

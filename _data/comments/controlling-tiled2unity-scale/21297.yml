@@ -1,0 +1,13 @@
+id: 21297
+name: thor6136
+gravatar: 12049e67042629d43a9ec114c8a0f6f8
+date: 2014-09-02 15:34:27
+url: /
+message: >-
+  Thanks!
+
+
+  One more thing, probably not related to tiled2unity, but maybe you can help :)
+
+
+  So, i have isometric art with orthographic map. What i need to do is render objects in front when player goes behind them. But you see, player goes behind when bottom of the legs go around certain area. I hope you know what i mean. Do you think the best way to go about is with with layers? Would you setup trigger ares to detect when player is "behind" object and change culling mask? Or any other way?

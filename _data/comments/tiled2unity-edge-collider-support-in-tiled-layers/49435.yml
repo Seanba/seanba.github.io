@@ -1,0 +1,9 @@
+id: 49435
+name: Wowsers
+gravatar: 3b947f62b3b4067f25909c49ef493fb0
+date: 2016-05-28 13:44:38
+message: >-
+  I'm quite stumped here as to how I can access a property in  unity that I make in tiled, can you enlighten me in how to make a custom one?
+
+
+  <em><strong>Seanba sez:</strong> Hi Wowsers, during import into Unity, any custom property that you have in your Tiled file will be passed on, automatically, to a 'Custom Importer' that you have to create. I talk about Custom Importers in this post here: <a href="http://www.seanba.com/megadadadventures.html">http://www.seanba.com/megadadadventures.html</a>.</em>

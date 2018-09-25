@@ -1,0 +1,18 @@
+id: 39581
+name: Dutra
+gravatar: eeb76d9bc29bf5f998fedb57a4cd024d
+date: 2015-10-19 15:19:15
+message: >-
+  Hey, thanks for the awesome tool!
+
+
+  Is it possible for one .tmx map to reference 2 different Tilesets when exporting? Map looks perfectly fine in Tiled, but when I export it to Unity, what happens is that it only uses the 1st tileset to fill the mesh or however it works.
+
+
+  For example, let's say my entire map is a 2x2 mesh. If I have a "tileset #2 - tile 1,1" on position 2,1 of my mesh, when it exports, it uses the "tileset #1 - tile 1,1" for that same position, kinda "overwriting" the fact that it has 2 tilesets in it.
+
+
+  Don't know if that's clear enough, but would be awesome to figure this out, since my map is quite big and I don't want to re-do it all using different tilemaps!
+
+
+  <em><strong>Seanba sez:</strong> Multiple tilesets are indeed supported. This turned out to be a bug in Tiled2Unity when two textures have different paths but the same file name. I will think about how to fix this in a future release.</em>

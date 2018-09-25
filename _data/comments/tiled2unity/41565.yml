@@ -1,0 +1,9 @@
+id: 41565
+name: Jake
+gravatar: 535f8cb9062045ff9733b9566860c0dc
+date: 2016-02-12 12:44:45
+message: >-
+  Hi again, I have updated my unity from 4.x to 5.1.4 and it got rid of the console error that i was getting, thanks. But now when i export my map into unity, while it is loading the bar stops as it is making the meshes and will not load any further. I have tried waiting a while, restarting, downloading version 5.2.4 of unity, and also just recently updated Tiled2Unity from 1.0.4.0 to 1.0.4.2, but i am still getting the same problem. Any ideas that can help? Thanks.
+
+
+  <em><strong>Seanba sez:</strong> Hi Jake. Constructing a PolygonCollider2D instance slows to a crawl if your collision geometry is complex. This is most likely due to making polygon and rectangle objects in Tiled's "Tile Collision Editor" without using "Snap to Grid" or "Snap to Fine Grid". With sub-pixel coordinates your colliders from neighboring tiles are failing to merge. I'm working on a version of Tiled2Unity that will warn you of this since it seems to be a common user pattern.</em>

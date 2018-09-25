@@ -1,0 +1,6 @@
+id: 24721
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-10-22 16:00:11
+is_sean: true
+message: Hi GreyToad, I get asked about procedurally generated content often. Tiled2Unity assumes you are using Tiled to create maps/levels/whatever. The only way I could see it working is if you build pieces of levels in Tiled, export into your project with Tiled2Unity, and then stitch those pieces together with some custom scripting.

@@ -1,0 +1,10 @@
+id: 24720
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-10-22 15:56:50
+is_sean: true
+message: >-
+  Hi Wax, that aliasing is likely due to the point sampling for the textures used. When textures are imported into a Unity project by Tiled2Unity they are forced to point sampling. I do this because I'm going for a "pixel perfect" look.
+
+
+  You can trick out the system by having those textures *inside* your Unity project to start off with. In that case Tiled2Unity trusts your texture settings. You could then set your textures for bilinear filtering and see if that looks better.

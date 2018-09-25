@@ -1,0 +1,18 @@
+id: 55556
+name: Nicholas
+gravatar: fixit
+date: 2017-08-22 20:38:20
+message: >-
+  Hey there! Not sure if I'm missing something. But I've installed Tiled2Unity to my project (lets say it's at C:/Project/Assets/Tiled2Unity) and I can export to the folder targeting the installed Tiled2Unity.export.txt file.
+
+
+  I want to export to a different folder (ex: C:/Project/Assets/Levels), but I can only get it to work if I copy over all of the contents inside the Tiled2Unity folder (i.e. the prefabs/materials etc).
+
+
+  I would like to be able to select the corresponding folder (Levels/Level01) and export the map to there. Then the next map, target Levels/Level02 if I wanted to. But if the above is the only way, then I would have to move the entire folder heirarchy every time, or have copies in every level folder.
+
+
+  Am I missing something, or is that the only way to change where it exports to? Otherwise, I have move and overwrite the prefab that I'm using in the game, and of course that has the possibility to losing the reference link and other obvious annoyances.
+
+
+  Thanks for the help!

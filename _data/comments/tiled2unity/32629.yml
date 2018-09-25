@@ -1,0 +1,13 @@
+id: 32629
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-05-08 20:42:14
+is_sean: true
+message: >-
+  Tease, you will need to write a custom script to change the local origin of the map imported via Tiled2Unity. It should only be a matter of changing the translation on the root object.
+
+
+  See this link to get started with custom scripting: http://www.seanba.com/megadadadventures.html
+
+
+  BTW, I never ever fix anything manually in Unity (or any platform, really). As a rule of thumb, if I'm doing something by hand *after* an export/import then I modify my scripts to do the work for me. It's a good habit to have, IMHO. :)

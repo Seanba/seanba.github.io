@@ -1,0 +1,9 @@
+id: 29674
+name: William
+gravatar: b41c78df33b88ef1ff351eebaa7e2fd8
+date: 2015-01-13 09:35:05
+message: >-
+  Hi, thank you very much for writing this tool, prior to it I had to use something similar (but way more basic) I wrote myself to import maps into unity. I used to import the tiles as prefabs and create the level "on the fly" inside the awake() function, your method is a lot better, expecially with collisions (with my method even a long platform would have been a sum of box colliders).
+
+
+  Anyway I have a problem, how can I tell tiled2unity to create some tiles as prefabs? I need to add rigidbody or other components to some of them and I don't know how to do that right now.

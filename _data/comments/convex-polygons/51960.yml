@@ -1,0 +1,16 @@
+id: 51960
+name: Nanofus
+gravatar: 92e994ef20dd759762a2280a08e1b58e
+date: 2017-02-11 11:26:25
+url: http://clanonium.nanof.us/
+message: >-
+  Hi Sean!
+
+
+  I encountered a bug in the convex colliders. I have a long floor (21 tiles) with a step on both ends. However Tiled2Unity calculated the collider on that floor incorrectly, as seen here: https://drive.google.com/open?id=0B1NTd6uEwN5DSG9JT0JDajBBU00 The tiles are 12x12 px and the floor tiles are entirely colliders.
+
+
+  Thank you for your work! :)
+
+
+  <em><strong>Seanba sez:</strong> Thanks to Nanofus I was able to find a fix for an annoying edge-case in generating convex collider geometry.</em>

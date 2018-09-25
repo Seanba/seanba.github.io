@@ -1,0 +1,12 @@
+id: 30672
+name: Tiled User
+gravatar: fixit
+date: 2015-01-31 15:19:59
+message: >-
+  Even a 128x128 tile map creates a file with over 65k vertices.
+
+
+  This is only good for small maps I guess.
+
+
+  There is another technique to make tile maps (a couple of the $$ plugins use) that do not have this problem but I don't know how they are doing it.

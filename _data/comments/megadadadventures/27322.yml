@@ -1,0 +1,5 @@
+id: 27322
+name: Eadom
+gravatar: 3c849888988d3826e26e0ba403301d26
+date: 2014-11-29 12:53:12
+message: Hi, I've been using your Tiled2Unity feature and I find it incredibly well done! It's made very simple to use for relative newcomers to Unity, and I love that. However (and I apologize if you already covered this), does Tiled2Unity support triggers? My game involves transporting the main character to another scene once he steps on a specified spot, and I think the easiest way would be to use a trigger. Also, how would I select the gameobject that I want to teleport the main character to? I have an idea to split the tiled map into an array of sprites, and add game objects (and then add the triggers) individually, but I feel that there may be a simpler solution.

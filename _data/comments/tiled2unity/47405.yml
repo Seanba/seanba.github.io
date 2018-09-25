@@ -1,0 +1,12 @@
+id: 47405
+name: Ben
+gravatar: 6a22f5881819a0fac16d84bccaf81c86
+date: 2016-04-14 22:45:33
+message: >-
+  Hey Sean, I've been using your utility to import and update my game map for a while now, and I recently added another tileset to my map that's  giving me trouble with the utility. It's an exceptionally oddly proportioned file (256x16704) and the import results in incredibly distorted tiles, with the preview in the materials pane in unity looking like smears of color, while textures maintains the image correctly.
+
+
+  Do you know what could be causing this and if there's a way to fix it besides cutting up the tileset and remapping it?
+
+
+  <em><strong>Seanba sez:</strong> Hi Ben. Look at the texture importer settings for that textures in Unity. By default, Unity has a max texture size of 2048x2048 so your file is being re-sized and you're losing pixel data in the process (end result is everything looks washed out). You can change the max size of the texture in the importer settings but I don't think Unity will allow you to go any higher than 8192x8192 -- so you'll have no choice but to cut your texture up and remap, I'm afraid.</em>

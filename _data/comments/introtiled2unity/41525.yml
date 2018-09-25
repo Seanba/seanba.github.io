@@ -1,0 +1,9 @@
+id: 41525
+name: Ignacio
+gravatar: a9d5f248d6805296f71bc7b1932d687b
+date: 2016-02-10 09:55:10
+message: >-
+  Hello Sean! First of all thank you for your tutorial, Really well explained. I have a question and I feel I'm missing something essential and it's probably a stupid question but I've been searching for days and can't find an answer. The thing is, I imported a top down tiled map following the tutorial and all went perfect but now I want to create a Navmesh so I can have some agents patrolling the area. The map is very simple just a ground layer and a walls layer. So I select the tiles layers and mark them as navigation static walkable (the ground) and not walkable (the walls) but for some reason when I try to bake the navmesh nothing happens and I have no idea why. Is this happening   to anybody else? What am I missing? Thank you!
+
+
+  <em><strong>Seanba sez:</strong> Hi Ignacio, I've actually never tried to generate navmesh data myself for a 2D game in Unity. The people that do tend to use another plugin they found on the Asset Store and I think that's because the stock navmesh tools in Unity don't work (at least well) for 2D projects. Sorry that doesn't help much but hopefully other users out there can point you in the right direction.</em>

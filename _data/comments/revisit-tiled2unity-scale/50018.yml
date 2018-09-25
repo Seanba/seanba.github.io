@@ -1,0 +1,21 @@
+id: 50018
+name: Mark
+gravatar: e3770513e29ca177861a41125d2f6d40
+date: 2016-09-07 11:36:17
+message: >-
+  The label next to Vertex Scale on the latest version is even more confusing than it used to be.
+
+
+  Why would I set this to the inverse of unity's Pixels Per Unit?
+
+
+  Inverst of +100 is -100?? Does that make sense?
+
+
+  It also contradicts the advise on this page which says set it to the tile size.  Which worked brilliantly for me on my 32 and 64 pixel tiles.
+
+
+  <em><strong>Seanba sez:</strong> Hi Mark. The inverse of 100 is 1/100. So, if you wanted 1 pixel to represent 100 units then the vertices would be scaeld by 0.01. However, months ago I changed this feature to simply be "Pixels Per Unit" (the same as in Unity for sprites) and the tool does the vertex scaling math behind the scenes. Too many people were trying exotic "Pixels Per Unit" settings like 16 and 32 in Unity, thinking the inverse was 16/100 and 32/100 instead of 1/16 and 1/32.
+
+
+  <strong>But long story short:</strong> It sounds like you're on a old version of Tiled2Unity. Update it and just set "Pixels Per Unit" like you normally would in the Texture Importer settings for your sprites.</em>

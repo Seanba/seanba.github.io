@@ -1,0 +1,5 @@
+id: 18070
+name: Kevin Morrell
+gravatar: 1b1c271a1b196a2847981269094a2eeb
+date: 2014-07-17 15:55:54
+message: Oh yeah, that makes a lot of sense. I was thinking of attaching that script to every individual tile, but you're right. It would be much simpler to just have one instance on the player. Thanks!

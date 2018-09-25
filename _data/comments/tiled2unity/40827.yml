@@ -1,0 +1,9 @@
+id: 40827
+name: Nick
+gravatar: 5ce62f09884dace835b8d21553b6a7aa
+date: 2015-12-18 16:59:20
+message: >-
+  hello to your program does not support layer objects. do you plan to change it?
+
+
+  <em><strong>Seanba sez:</strong> Hi Nick, the latest version of Tiled2Unity has better support of layer objects. In particular you can have Tile Objects in your Object Layers now that will show up in your exported maps.</em>

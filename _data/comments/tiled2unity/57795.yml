@@ -1,0 +1,5 @@
+id: 57795
+name: Adam David
+gravatar: a896ba6a42b4b379bb0b2bc7e9dce6e4
+date: 2017-11-25 00:22:41
+message: Hello so I'm trying to upload a map that is 1500tiles wide and 1500 long, unfortunately I get it uploading from tiled2unity into my unity world and it freezes at the loading portion at what appears to be 99% ive been working on it for almost 5 hours now and still cant figure out a fix. ive done snap filter and everything but cannot get this to work.

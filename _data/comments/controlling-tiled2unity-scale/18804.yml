@@ -1,0 +1,16 @@
+id: 18804
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-07-28 22:30:36
+is_sean: true
+message: >-
+  Also, Kong, I suspect you are referencing a texture that was already in your Unity project and is therefore dependent on the import settings you have set for that texture.
+
+
+  If so, try these import settings: Texture Type: GUI Filter Mode: Point Format: Truecolor
+
+
+  The source texture is a non-power-of-two (hence the GUI texture type). I bet that's where you're seeing your problems as the texture coordinates will be off ever so slightly.
+
+
+  For textures referenced by Tiled that are *outside* your Unity Project you'll find that Tiled2Unity automatically copies the texture for you with the proper import settings. This is how I recommend using Tiled2Unity.

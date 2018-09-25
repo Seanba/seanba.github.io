@@ -1,0 +1,12 @@
+id: 31822
+name: zoltar
+gravatar: 465aafa47a1ec267b3a1bd48745660ab
+date: 2015-03-25 14:11:25
+message: >-
+  awesome tool, thanks for making this Seanba.
+
+
+  One issue i came across. Is that in the Tiled command, if you have white space in your command for example, my project file was in a folder called "Unity Projects" and when Tiled2Unity went to export it error-ed out because it couldn't find the directory. I tried "%" and that didn't work.
+
+
+  thanks!

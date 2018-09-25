@@ -1,0 +1,12 @@
+id: 32035
+name: zolar
+gravatar: 487ee6a05b0a6e9f9a0a6a24ded0c698
+date: 2015-04-09 22:18:45
+message: >-
+  Hello again. I when i use the "unity:tag" custom property I would also like that tag to be applied to the children (specifically the collision objects). Do i need to modify the ImportedTiled2Unity.Mesh.cs to do this?
+
+
+  thanks!
+
+
+  z

@@ -1,0 +1,12 @@
+id: 39962
+name: Ken
+gravatar: 04d84f626aad64c397d7dc9cf788004f
+date: 2015-11-08 01:13:22
+message: >-
+  Just wanted to say thanks for this! I'm pretty new to game development and Unity and wanted to see how far I could get making a game similar to FE. I already coded up some game logic in C++ (used SDL) that I translated to C# (for Unity) so I could take advantage of Tiled2Unity and other Unity perks. Since I wanted to reuse as much code as possible (and I had already handled the representation Tiles in a different way), the PolygonCollider2D method was just what I needed to quickly get and bridge the tile types into my game logic.
+
+
+  Since the GBA FE games are pretty popular, I already had a few completed maps at my disposal. It felt easier to just create a layer for each tile type in Tiled and then "color in" the relevant tiles on the base layer in each layer with collision tiles since there were many different tile images that are of the same type (and making rules all of the tiles seemed like it would take a lot of time if I understand the process correctly). Also, after importing into unity with Tiled2Unity, instead of separating the tile type-collisions into different layers, I put them all on the same layer and used the raycast technique to reference the collisions' parents gameObject names instead of the layer names.
+
+
+  Thanks again!

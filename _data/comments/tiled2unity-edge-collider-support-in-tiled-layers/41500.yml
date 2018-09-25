@@ -1,0 +1,9 @@
+id: 41500
+name: Berdu Smith
+gravatar: 816c055e316db315957298366cb52745
+date: 2016-02-09 04:18:57
+message: >-
+  Hey I don't know if i did something wrong but if i try to add colliders in tile collision editor I'm stuck on the size box and cant draw anything on the tile. The buttons on the main screen is also grayed out
+
+
+  <em><strong>Seanba sez:</strong> Hi Berdu, that's a small annoyance with the Tiled Map Editor when you're using tileset (TSX) files. You need to "import" the tileset first, then make your changes, then "export" the tileset back out.</em>

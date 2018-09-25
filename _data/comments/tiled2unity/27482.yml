@@ -1,0 +1,21 @@
+id: 27482
+name: Kai Arnold
+gravatar: 0fb05a46db947f0a9033cbc776b21ad7
+date: 2014-12-02 19:49:42
+message: >-
+  Hey Sean, thanks again for writing this awesome tool.  My game wouldn't be nearly as far along w/o it.  The way it coalesces a PolygonCollider2D out of individual tiles is truly inspired!
+
+
+  A few bits of feedback:
+
+
+  - I'm getting a NRE when my map has a tile in an object layer: System.NullReferenceException: Object reference not set to an instance of an object. at Tiled2Unity.TiledMapExporter.AssignTiledProperties[T](T tmx, XElement xml) at Tiled2Unity.TiledMapExporter.CreateObjectElementList(TmxObjectGroup objectGroup) at Tiled2Unity.TiledMapExporter.CreatePrefabElement() at Tiled2Unity.TiledMapExporter.Export(String exportToUnityProjectPath)
+
+
+  - I still see some texture seams when playing in the editor.  It's always the same tiles that seam.  Fortunately, I don't see them in the compiled builds, but it's still a bit disconcerting.
+
+
+  - if the tiles' collision isn't set up so that they correctly blob together into a single collider, Unity CPU spins for a long time (forever?) when opening the prefab.  This is only true for largish (~50x50) maps.
+
+
+  Let me know if you'd like a .tmx that replicates the above problems.  I'm on the latest version of everything.

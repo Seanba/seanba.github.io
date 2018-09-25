@@ -1,0 +1,23 @@
+id: 30446
+name: downstroy
+gravatar: bf4e1e599aadae40410baa1c9901848c
+date: 2015-01-27 05:14:21
+message: >-
+  Hi Sean,
+
+
+  I have been using your TiledToUnity software with success until now. I have just a little question about the scaling that is done on the prefab.
+
+
+  My player prefab (which is of localsScale 1, with 100 pixel = 1 unit in unity) is not in the level prefab when moving around for convenience reason. When I attach/detach it to the level prefab (which is of localScale 0.01), I have to update all properties of my player prefab to scale them by 100/ 0.01 (sprite size, box collision ...) which is really messy.
+
+
+  Is there a way to set a "pixel per unit" setting in the export of Tiled2Unity, so that the exported prefab i displayed correctly at scale 1.
+
+
+  I have tried to set pixel to unit to 1 in unity , but I get wonky behavior when updating player position.
+
+
+
+
+  Thanks for the work  on this nice tool!

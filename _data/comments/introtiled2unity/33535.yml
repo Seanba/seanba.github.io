@@ -1,0 +1,37 @@
+id: 33535
+name: wraithseeker
+gravatar: 3aae849af47d41c34facec33c13147e7
+date: 2015-06-08 11:30:51
+url: http://www.wraithseeker.com
+message: >-
+  Hello Sean, thanks for putting effort in making this tool. However, I have run into a couple of problems which I will list down while porting my game from iOS to Unity.
+
+
+  1)  The Tiled tmx map of my game texture's look distorted
+
+
+  In Tiled:  http://puu.sh/ihcDp/ad6de33b53.png In Unity: http://puu.sh/ihcCq/5b23079f40.png
+
+
+  2) I am unable to get the main camera to fit within my Tiled map as seen from the Unity picture, do you know a solution for it?
+
+
+  TileMap details:  http://puu.sh/ihcXq/efa5b5c450.png
+
+
+  3) My Tilemap uses Object Layers  to trigger collisions in my game using scripts, is there no support for object layers currently?
+
+
+  ------------------
+
+
+  <em><strong>Seanba sez</strong>: Hi Wraithseeker, here's my attempt at answering your questions: 1) If a texture looks distorted then check your texture import settings on that texture. You don't want any filtering nor do you want Unity shrinking the size of your textures. Also, it looks like you have some issues with seams near the bottom edge of your map. These may not appear in-game once you fix your texture import settings. If they persist, they are best handled by having 1 extra pixel border each tile in your tileset. There is a Gimp plugin named Gutter that can help with this. You will have set your margin setting to 1 pixel in your tileset too, btw.
+
+
+  2) Camera settings can be a pain. The rule of thumb is to have an Orthographic Size that is half your map height. In your case (576x480 map) that size would be 240. You will need to position the camera as well, of course, but that will depend on the mechanics of how the camera should track the player in your game.
+
+
+  3) Object Layers are totally supported with a limitation that Elliptical objects must be circles (i.e. width and height are equivalent).
+
+
+  Hope that helps.</em>

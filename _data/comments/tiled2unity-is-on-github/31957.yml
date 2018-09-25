@@ -1,0 +1,6 @@
+id: 31957
+name: tikilittle
+gravatar: a13f389c032fec9a705ee6aff01f5ad2
+date: 2015-04-03 16:15:57
+url: http://www.aidanlittle.com
+message: "The Mac version works. Here's a step-to-step guide for how I got it to work with the example. Following Arlefreak's above method: 1) Install Mono 2) Import package \"Tiled2Unity.unitypackage\" into your project 3) Go File &gt; \"Open Tiled File...\" 4) Find the \"minimalist.tmx\" file 5) Click on \"Choose Export Folder\" and find the folder top level folder above the \"Assets\" folder for your project (NOTE: it will not work if you set the path to a folder within the project). 6) Click on the Export button 7) Go back to your Unity package and check the Tiled2Unity/Prefabs folder"

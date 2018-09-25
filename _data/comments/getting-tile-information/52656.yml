@@ -1,0 +1,6 @@
+id: 52656
+name: Aquarius
+gravatar: c97ec87f712ac88e69ca3b9746ad293a
+date: 2017-04-18 15:20:29
+url: http://aquariusfr.github.io
+message: I think that a lighter way will be to get the position on the 'grid' of the given tile then look into the json file that Tiled can produce to have additional information.

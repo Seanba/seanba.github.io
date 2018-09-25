@@ -1,0 +1,9 @@
+id: 53164
+name: Ben
+gravatar: 6e8572e1641cac447e271c6299d72f12
+date: 2017-06-04 00:12:58
+message: >-
+  Hi Seanba, thanks for your great work.
+
+
+  Supposed I want to add Platform Effector to all the tiles in a layer (typical of endless runner one way platform), Can I use the custom properties in the layer, or I should put the custom properties in all the platform tiles? Would appreciate if you can also post a code snippets for that. Thanks!

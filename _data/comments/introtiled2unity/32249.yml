@@ -1,0 +1,6 @@
+id: 32249
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-04-19 16:08:11
+is_sean: true
+message: Hi Emmanuel, what happens when you right click on the *.tiled2unity.xml file in Unity and reimport it? Is there any useful output in the console window? It should "just work" as everything Tiled2Unity needs to build the materials, meshes, etc. should be in that one file.

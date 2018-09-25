@@ -1,0 +1,6 @@
+id: 19924
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-08-14 12:50:28
+is_sean: true
+message: Hello Shawn, it may be an issue with external tilesets or, as you say, collision on the last tile. In either case if you send me your TMX, TSX and texture/bitmap files I'll be happy to fix.

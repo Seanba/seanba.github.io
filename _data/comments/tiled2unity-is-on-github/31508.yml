@@ -1,0 +1,17 @@
+id: 31508
+gravatar: fixit
+date: 2015-03-06 14:41:09
+message: >-
+  Few changes are needed to make Tiled2Unity work on linux with mono. Probably a mac "version" should need no aditional changes. I have made a fork on GitHub here:
+
+
+  https://github.com/Gnumaru/Tiled2Unity
+
+
+  The build can be downloaded here:
+
+
+  https://github.com/Gnumaru/Tiled2Unity/raw/master/tool/Tiled2Unity/build/Tiled2UnityTool.zip
+
+
+  Anyone who wants to try it on linux or a mac, just download the .zip and run the .exe. Since this is a dotnet app, it should run unmodified in every platform, be it windows, linux or mac

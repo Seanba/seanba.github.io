@@ -1,0 +1,9 @@
+id: 31496
+name: Adam
+gravatar: 7889be771e308952d286b4bf619b7d1b
+date: 2015-03-05 19:43:25
+message: >-
+  Hi Sean, thank you so much for this update! And for this wonderful tool in general.
+
+
+  For games that do use the physics engine, it seems to me that setting the pixels per unit to the size of your tiles makes sense, in my case 16. That's because as far as the physics engine is concerned, one unit is one meter. With a tile size of 16, 100 gives you colliders that are too small and 1 gets into some large values that make me worry about floating point errors. Anyway, that's just my two cents- this update makes it easy to use whatever value you want!

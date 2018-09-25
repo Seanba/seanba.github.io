@@ -1,0 +1,5 @@
+id: 32256
+name: Tease
+gravatar: fixit
+date: 2015-04-20 07:03:00
+message: Hi there, I was wondering if there was a way to change what tile is at the origin without needing to fix it manually in Unity? Currently the topleft tile is the origin, so everything else is at or below 0,0. I want the bottomleft tile to be the origin, so everything else is at or above 0,0. Is there some way to do this automatically?

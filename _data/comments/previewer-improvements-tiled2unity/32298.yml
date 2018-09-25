@@ -1,0 +1,10 @@
+id: 32298
+name: Thorbjørn Lindeijer
+gravatar: 760543a118f69ff404709992df16f0f3
+date: 2015-04-22 06:36:48
+url: http://www.mapeditor.org/
+message: >-
+  @Adam The terrain tool solves a quite specific terrain tiling use-case and won't help with this particular problem. While the automapping is indeed more complicated to set up, it is also much more versatile.
+
+
+  Both tools could be improved (for example the automapping could use a preview and the terrain tool could use support for roads and fences), but they will remain different tools for solving different problems.

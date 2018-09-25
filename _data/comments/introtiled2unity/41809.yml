@@ -1,0 +1,18 @@
+id: 41809
+name: Shane
+gravatar: 0d4d9d206f89676f3b8c4b41cd1fbb95
+date: 2016-03-14 19:56:42
+message: >-
+  Hey Sean,
+
+
+  Keep getting this error when exporting to latest Unity. Prefab is also not showing up. Wondering if you have any suggestions.
+
+
+  'Importing 'Assets/Tiled2Unity/Imported/First Map.tiled2unity.xml' but Tiled2Unity files cannot be imported with the WebPlayer[deprecated] platform. However, You can use Tiled2Unity prefabs imported by another platform. UnityEngine.Debug:LogWarning(Object)
+
+
+  Hope all is well!
+
+
+  <em><strong>Seanba sez:</strong> Unity has stopped supporting the Unity Web Player (it will be removed wholesale with Unity 5.4, thank god). In the meantime you can press CTRL+SHIFT+B in Unity and switch your build platform away from the Web Player. I suggest PC, Mac & Linux.</em>

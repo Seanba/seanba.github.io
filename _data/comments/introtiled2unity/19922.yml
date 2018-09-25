@@ -1,0 +1,16 @@
+id: 19922
+name: Shawn
+gravatar: b796faf0fa590a5a33351f19886fda48
+date: 2014-08-14 12:18:52
+url: http://treefortress.com
+message: >-
+  Hi, first off thanks for the amazing looking plugin, it seems amazingly robust and powerful.
+
+
+  However, every time I try and load a TMX file, I'm getting errors: System.InvalidOperationException: Sequence contains no elements at System.Linq.Enumerable.First[TSource](IEnumerable`1 source) at Tiled2Unity.TmxMap.ParseInternalTileset(XElement elemTileset, UInt32 firstId) at Tiled2Unity.TmxMap.ParseExternalTileset(String tsxPath, UInt32 firstId)
+
+
+  I can load a completely empty scene. But as soon as I add even a single tile, I get this error. It must have something to do with our TileSet?
+
+
+  Here's a link to the test scene w/ our tile set: https://www.dropbox.com/s/f7ydyfl9l1mk86o/TiledTestScene.zip

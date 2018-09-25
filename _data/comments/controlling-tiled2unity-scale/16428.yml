@@ -1,0 +1,10 @@
+id: 16428
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-06-20 21:44:07
+is_sean: true
+message: >-
+  Hello Ginich, I think you're talking about a TileSet that is of type "Collection of Images"? I've actually just discovered that feature in Tiled just now and have confirmed that throws an exception when loading the TMX file in Tiled2Unity.
+
+
+  I'll look into my options here. What I don't like about that feature is that every Layer+Image combination has to be a separate mesh and that's going to complicate your prefabs significantly.

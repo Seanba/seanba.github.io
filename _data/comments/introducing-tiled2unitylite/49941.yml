@@ -1,0 +1,12 @@
+id: 49941
+name: dan
+gravatar: fixit
+date: 2016-08-08 10:59:28
+message: >-
+  Hi Sean. No matter what I do, I just keep getting message 'the command failed to start' whenever I try to execute a command. Please help, this is driving me crazy.
+
+
+  <em><strong>Seanba sez:</strong> Hi Dan, I'm afraid you gave us little to work here. What command are you trying to run? Are you running it from the command line or from within Tiled? Which OS are you using?
+
+
+  A couple quick pointers: 1) If you are on Mac (and not well versed in shell scripting, environment variables, etc.) use Tiled2UnityMac instead of Tiled2UnityLite. 2) Check that any path in your command doesn't have whitespace in it. If it does, put it in quotes.</em>

@@ -1,0 +1,5 @@
+id: 38586
+name: Candescence
+gravatar: b66d45b4e8d08bfa31c659e51edbec6f
+date: 2015-09-05 03:22:00
+message: Hey, Sean, I've noticed that the vertex scaling import is inaccurate, especially if you use the tile map size (aka one tile is the same size as a unity unit), as suggested by Adam in the post where you detailed vertex scaling. For example, a 32x32 tile ends up being slightly larger than a unity unit (by almost an entire pixel), which, as a result, adds up until the actual position of the tiles are completely off. This is something of a big deal for all sorts of reasons, so you probably should fix that.

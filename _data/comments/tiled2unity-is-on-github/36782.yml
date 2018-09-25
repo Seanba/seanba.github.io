@@ -1,0 +1,5 @@
+id: 36782
+name: Christian
+gravatar: fixit
+date: 2015-07-13 21:03:55
+message: Hey guys, I figured out my issue. My problem was using the Tiled2Unity.exe in Tiled2Unity/tool/Tiled2Unity/src/bin/Debug/ . Instead I used "Tiled2Unity-master/tool/Tiled2Unity/build/Tiled2UnityTool" (the folder is from the zip downloaded from an above link). Once you've changed the directory use "mono Tiled2Unity.exe". This seems to have completely solved my directories issue. (I also put together a quick Automator application to quickly get it up and running without opening terminal).

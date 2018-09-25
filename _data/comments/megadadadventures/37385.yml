@@ -1,0 +1,15 @@
+id: 37385
+name: Flashbak
+gravatar: ba76d4374fddfd9db442fdaf90ce5421
+date: 2015-07-19 13:01:42
+message: >-
+  Hi, thx for these tutorials, just a question, does the "unity:tag" works on tile instead of layer in TME ? My "unity:layer -&gt; blockedlayer" work on a layer but my "unity:tag -&gt; rock" don't on my tiles... Am i supose to create a new layer for rock and asign the tag ever on a layer ? :x
+
+
+  <em><strong>Seanba sez:</strong> Flashbak, if you have just the one collision type ("rock") then you do not need a separate layer. Just put the collision shapes on the tiles you are supposed to collide with in the Tiled Collision Editor.
+
+
+  If you require different collision types ("rock", "lava", "ladder", whatever) then you will want different layers for each type of collision. However, I use the Tiled Autompping feature so that I only drop tiles in my "master" layer by hand, then have the Automapper do the rest of the work on the separate layers.
+
+
+  You cannot access properties on separate tiles as 2D maps grow with O(N^2) complexity. </em>

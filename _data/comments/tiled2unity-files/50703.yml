@@ -1,0 +1,19 @@
+id: 50703
+name: Pedro Camacho D`Andrea
+gravatar: 20fb5c22f19ed06833779882ac5f34e9
+date: 2016-11-07 18:09:32
+url: http://www.kongregate.com/games/cassios7/attlantis
+message: >-
+  Hello, my name is Pedro, and I am currently on a Game Development Marathon, with final due date to 25/11/2016.
+
+
+  I have used TILED and TILED2UNITY to create the level for a 2D Platformer.
+
+
+  All the resources are working fine inside unity, but when we EXPORT TO WEBGL, the assets  get bugged, stop showing entirely or some parts of them vanish/breaks.
+
+
+  Any advices on a fix, PLEASE?
+
+
+  <em><strong>Seanba sez:</strong> It appears that this is a problem with some WebGL implementations when using NPOT textures. As a rule, try to always use textures that are powers-of-two (64x64, 128x256, 512x512, etc..) for your tilesets. Most platforms don't have this limitation but it's a real pain when it shows up.</em>

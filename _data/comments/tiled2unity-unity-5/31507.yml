@@ -1,0 +1,5 @@
+id: 31507
+name: Igor S.
+gravatar: 067b5a739f1d5d76bf7aeb57cdd9ee98
+date: 2015-03-06 11:29:35
+message: It seems that with this update the support for Unity 4 is a bit broken. Unity can't compile script ImportTiled2Unity.Mesh.cs because of missing Collider2D.offset functionality. Good exporter BTW :-)

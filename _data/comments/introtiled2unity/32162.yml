@@ -1,0 +1,5 @@
+id: 32162
+name: Alan Stagner
+gravatar: f8b446cc16e5b43a5995bf3550e994b3
+date: 2015-04-15 05:22:10
+message: Hello, I've got a very simple use case for this, that is my characters move like in an old-school RPG (one tile at a time), and I don't necessarily want to use the generated collision mesh for this purpose. Is it possible to get access to the source tile data for this (so my characters can just do a simple tile check when they move)? Or would I have to write my own exporter for Tiled?

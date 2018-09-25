@@ -1,0 +1,15 @@
+id: 15447
+name: Matthew
+gravatar: aba901374d6bb336bee8af546ce80d57
+date: 2014-06-02 17:22:44
+message: >-
+  I tried out your tool and whenever I do the "Big Ass Export" an error gets generated in Unity3D as follows: InvalidOperationException: Operation is not valid due to the current state of the object
+
+
+  at the following line of code in the class ImportTiled2Unity: line 27:            XElement match = assignMaterials.First(el =&gt; el.Attribute("mesh").Value == renderer.name);
+
+
+  A null then gets thrown after.
+
+
+  Any ideas of how I can get this working?

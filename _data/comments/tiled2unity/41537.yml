@@ -1,0 +1,9 @@
+id: 41537
+name: Leandro Nucci
+gravatar: 4ec1a1918bb984bf7060247034086a5d
+date: 2016-02-10 20:18:44
+message: >-
+  Hello, if i export to mobile 2 layers will be invisible, how i can fix it?
+
+
+  <em><strong>Seanba sez:</strong> Hi Leandro, I would expect all layers to be visible on mobile devices although I have to admit I haven't tested it (but others have used it fine). If this buggy behavior could be replicated on one of the other build targets that comes stock with Unity then I'm sure I could figure out what is going on.</em>

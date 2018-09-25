@@ -1,0 +1,14 @@
+id: 47413
+gravatar: fixit
+date: 2016-04-14 23:58:18
+message: >-
+  Thanks for your quick reply Sean.
+
+
+  I managed to run command from Tiled Map Editor. But I got a error in log file: "UNITYDIR '/Users/vophihung/Documents/workspace/SuperSpartyBros/Assets/Tiled2Unity' is not a Tiled2Unity Unity Project folder"
+
+
+  I created Tiled2Unity folder inside my Unity project Assets folder manually before I run command from Tiled Map Editor
+
+
+  <em><strong>Seanba sez:</strong> Hi there. It sounds like you haven't imported the Tiled2Unity.unitypackage file that comes with Tiled2UnityLite into your Unity project. That contains a bunch of scripts that instruct Unity on how to properly import a map that you exported from Tiled (through Tiled2UnityLite). Delete the Tiled2Unity folder you made and import the package instead and try again. (When all is done, the UNITYDIR argument should point to the Tiled2Unity folder in your Unity project, and that folder should contain all the subfolders and scripts provided by the Tiled2Unity.unitypackage.</em>

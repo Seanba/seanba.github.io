@@ -1,0 +1,5 @@
+id: 50360
+name: Ruslan Abd
+gravatar: 0a16fbe9da84673310d2f9b8179d304c
+date: 2016-10-21 16:40:51
+message: "Hello Sean i don't know why but Vertex Scale always equals 1 even if i try to change it to 0.01\n\n<em><strong>Seanba sez:</strong> There is no longer a \"Vertex Scale\" in the Tiled2Unity utility. Instead, you will use \"Pixels Per Unit\" and set it to same value you use in Unity when importing sprites. In your example, that will be 100, not 0.01.</em> "

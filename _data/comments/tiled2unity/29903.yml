@@ -1,0 +1,5 @@
+id: 29903
+name: Tomer
+gravatar: fixit
+date: 2015-01-17 14:41:02
+message: "I've found the problem: my tiles in the tileset were bigger than the map tile size. When I set the map to the same tile size of the tileset everything works."

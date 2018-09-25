@@ -1,0 +1,15 @@
+id: 23031
+name: Eric
+gravatar: f5d9d9d1b119efea5ce534dcc93f20b8
+date: 2014-09-24 18:16:40
+message: >-
+  I hope I can phrase this question correctly. I am making a sidescroller, and what I want to do is just import the entire map into unity: for example: http://ian-albert.com/games/super_mario_bros_maps/mario-1-1.gif if I used that map of super mario and dragged it into my scene, how do I correlate the sprites to my sprite sheet so I can tell each sprite what to use for rigid2dbody collision?
+
+
+  Or is what I want even possible?
+
+
+  hope this makes sense
+
+
+  Thank you

@@ -1,0 +1,15 @@
+id: 49513
+name: revian
+gravatar: eb429b6d9187f700cfb00fc3a402878e
+date: 2016-06-03 00:35:33
+message: >-
+  HI\i, so i've been following this tutorial , and haven't had any luck after the point where you have to put in the commands. I'm getting confused as to what is supposed to go in the folder i unzipped the T2U, the CS folder, and how the commands go about finding each files necessary.
+
+
+  This is what i put in the Tiled command maker, where i directly made links to my files
+
+
+  /bin/sh /Users/CompName/tiled2unitylite.sh %mapfile /Users/CompName/Virtual\ Art/Unity/Tut_platV0.2/Assets/Tiled2Unity.
+
+
+  I've tried running it and it seems to do nothing, nor do i notice anything in unity or in the logs. i'm really confused here.

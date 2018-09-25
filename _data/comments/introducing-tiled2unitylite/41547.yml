@@ -1,0 +1,12 @@
+id: 41547
+name: m.Ryan
+gravatar: d18fb00b2efcbdb80d3a59d7b4747094
+date: 2016-02-11 04:07:55
+message: >-
+  Hi, I am not sure how to add the command "using the Execute Command GUI." Could you please give me some instructions as I am new to software development. Thanks so much for this tutorial
+
+
+  <em><strong>Seanba sez:</strong> Hi m.Ryan, that's part of the Tiled program where you enter a command to be executed when you press F5. Click on the litte down arrow button and select "Edit Commands..."</em>
+
+
+  <img src="http://www.seanba.com/blog/wp-content/uploads/2016/02/tiled-command.png" alt="Tiled Commands" />

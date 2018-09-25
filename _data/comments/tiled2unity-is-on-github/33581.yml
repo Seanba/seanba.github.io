@@ -1,0 +1,9 @@
+id: 33581
+name: Tim
+gravatar: ac7f8be98ce9d420732180cca316504f
+date: 2015-06-09 03:35:32
+message: >-
+  The OSX version only partially works. I'm able to export using Mono, but the exported tiles in-game have white outlines around them. Strange.
+
+
+  The OSX build also needs to be updated with the latest T2U build.

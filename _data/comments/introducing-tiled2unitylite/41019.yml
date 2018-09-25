@@ -1,0 +1,12 @@
+id: 41019
+name: Mikael Forslind
+gravatar: 1717d8ca7d3d3591ad4a6e8f867e8a5b
+date: 2016-01-06 19:00:35
+message: >-
+  Hi. I'm struggling to get this to work on OSX Yosemite. I followed all the instructions above but when I try to "Execute In Terminal" in Tiled I get "Unable to create/open" with paths to my folders. I checked all the paths and they should all be valid. I'm not really used to working in Terminal so I might have missed setting a correct path or rights to a file somewhere.
+
+
+  Any  ideas?
+
+
+  <em><strong>Seanba sez:</strong> Hi Mikael. Turns out this was an issue with Tiled depending on what the current working directory would be when you executed the command. Good news, though. I notified Bjorn (author of Tiled) and he has fixed it. You'll need one of the daily builds until he puts out his next official release. (<a href="http://tilemapkit.com/tiled/tiled-2016-01-08.dmg" rel="nofollow">Try this link</a> for today's build)</em>

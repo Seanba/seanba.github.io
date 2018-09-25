@@ -1,0 +1,39 @@
+id: 39036
+name: fantacide
+gravatar: c82510307a4f6344cb99b7f18cd1fd51
+date: 2015-09-25 05:14:33
+message: >-
+  Hi figgycity50,
+
+
+  It's been a while since you posted, but I'll put this here in case anyone else has had this problem too.
+
+
+  I had the same problem.  I'm assuming you already used the "Import Unity Package to Project" option (as I already had when I got this error).  You should have a S:\Projects\dont_steal_my_game_name\Assets\Tiled2Unity directory at this point.
+
+
+  Apparently some of the steps have changed since this article, which is mentioned in: http://www.seanba.com/tiled2unity-files.html:
+
+
+  "I had to change the way the Tiled2Unity exporter is made aware of your Unity project in order to export the right files to the right location. You will now have to explicitly select your Tiled2Unity scripts location in your Unity project instead of just selecting the project root folder. This is done by finding the Assets/Your/Path/To/Tiled2Unity/Tiled2Unity.export.txt file in your Unity project."
+
+
+  If you're using the Tiled command from this article
+
+
+  "c:\Program Files (x86)\Tiled2Unity\Tiled2Unity.exe" %mapfile c:\MyUnity\Test
+
+
+  Change it to this format instead:
+
+
+  "c:\Program Files (x86)\Tiled2Unity\Tiled2Unity.exe" %mapfile c:\MyUnity\Assets\Tiled2Unity
+
+
+  or for your game: "c:\Program Files (x86)\Tiled2Unity\Tiled2Unity.exe" %mapfile S:\Projects\dont_steal_my_game_name\Assets\Tiled2Unity
+
+
+  (If you're just using the Tile2Unity Export To ... button, navigate to S:\Projects\dont_steal_my_game_name\Assets\Tiled2Unity and open the existing Tiled2Unity.export.txt file.)
+
+
+  Hopefully that helps!

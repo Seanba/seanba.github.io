@@ -1,0 +1,10 @@
+id: 19934
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-08-14 15:19:25
+is_sean: true
+message: >-
+  Shawn, I've fixed the bug and will post a new version of Tiled2Unity later on today. You're using a texture with 2-pixel margins and it looks like Tiled and I disagree on how many tiles should fit in that image. (In other words, Tiled seems to ignore margins to the right and bottom of the image but I was using them in my calculation.) I suspect the coming fix with take care of the crash and the "indexing system" bug you're talking about. Stay tuned.
+
+
+  On "render order", I think what you're looking for is how tiles should be drawn when they overlap. That's a new feature of Tiled that I don't think maps well to Unity meshes. That they appear to be rendering from Top-Left is just a coincidence and I'd imagine you'd see some z-fighting in some cases. I'll give it some thought but you're probably better off re-engineering your tiles to get the look you want. The "Edit Terrain Information" tools in Tiled could help you with that. Layering could also help. Try to think of how an old NES game would render that map.

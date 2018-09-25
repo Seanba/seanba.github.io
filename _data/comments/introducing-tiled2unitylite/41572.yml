@@ -1,0 +1,5 @@
+id: 41572
+name: Pau
+gravatar: 8be3a2413e67fa86a42e5aa077135d2b
+date: 2016-02-13 08:36:27
+message: Unzipping cs-script.7z with '7zX' just extracted a bunch of empty .txt files for me. 'Unarchiver' extracted the desired 'cscs.exe' and the other goodies properly. Just leaving it here in case it may help someone.

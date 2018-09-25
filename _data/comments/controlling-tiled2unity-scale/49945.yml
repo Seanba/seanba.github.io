@@ -1,0 +1,21 @@
+id: 49945
+name: Mike Berg
+gravatar: 6d1d41172e88fd267d7dc3701aae2a4b
+date: 2016-08-10 04:25:11
+message: >-
+  Hey Sean!
+
+
+  If you have some time I'd like to ask why everything I export from Tiled is extremely blurry? I've looked in the comments above for suggestions but I seem to be missing the mark here.
+
+
+  Here is an Imgur album showing what I mean: http://imgur.com/a/E62cw
+
+
+  Do you have any suggestions on how to fix this?
+
+
+  I went looking for the line of code "textureImporter.filterMode = FilterMode.Point;" however it's already set to Point filter mode, so nothing I can change there.
+
+
+  Any help would be great, thanks!

@@ -1,0 +1,6 @@
+id: 24625
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-10-20 22:51:46
+is_sean: true
+message: Hi Ryan, I just downloaded 4.5.5f1 (Windows) myself and those ladders still work for me. It is possible at all that you manipulated the physics layer on those objects? If they are marked "Default" instead of "Ladders" then MegaDad will collide with them as if they were solid walls.

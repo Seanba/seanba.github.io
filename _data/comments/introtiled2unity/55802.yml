@@ -1,0 +1,12 @@
+id: 55802
+name: Delfinflosse
+gravatar: ed2756504edfd224e6152bf7760d48e6
+date: 2017-09-01 07:22:34
+message: >-
+  It seems to be a great Tool, but it doesnt work on my Computer (Unity Version 2017.1.0f3) I installed the Unity-Package, but it tells me everytime:
+
+
+  Could not export 'Test2.tiled2unity.xml' Tiled2Unity.unitypackage is not installed in unity project: D:\Unity-Programme\RPG Select "Help -&gt; Import Unity Package to Project" and re-export
+
+
+  Has anyone any Idea, how I could solve it?

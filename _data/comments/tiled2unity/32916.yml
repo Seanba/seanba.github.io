@@ -1,0 +1,15 @@
+id: 32916
+name: James
+gravatar: fixit
+date: 2015-05-21 17:19:35
+message: >-
+  Hi,
+
+
+  Is there a way to change the script so that the "Collision" sub-gameobjects have a certain tag? i.e. the unity:tag on the Collision objects. I don't see a way to do this. I assume you'd have to edit one of the C# files.
+
+
+  James
+
+
+  <em><strong>Seanba sez</strong>: Hi James. By default, all children of the "Collision" gameobject will inherit the (physics) layer of their parent. For tags though you will need to create a custom importer but that's easy enough to do. <a href="http://www.seanba.com/megadadadventures.html" rel="nofollow">See this link</a>.</em>

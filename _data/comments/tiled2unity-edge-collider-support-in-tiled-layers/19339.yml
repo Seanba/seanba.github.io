@@ -1,0 +1,5 @@
+id: 19339
+name: Peter
+gravatar: 3a79152ca6b2828dece53605b7617ddd
+date: 2014-08-05 06:28:01
+message: "By setting the Pixels To Units for the spritesheet being used to 1, the prefabs appear the corrext size, however they also spawn down and to the left of their position in Tiled (half their width to the left and half their height down), as well as not being given Box Collider 2Ds. For the colliders I'm given the warning: \"The collider did not create a collision shape as it failed verification. This could be because it was deemed too small or its vertices were too close. Vertices can also become close under certain rotations.\""

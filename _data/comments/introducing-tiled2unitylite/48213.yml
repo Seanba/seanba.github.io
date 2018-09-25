@@ -1,0 +1,12 @@
+id: 48213
+name: riceandpixel
+gravatar: 375fded73a785c8ef67779621a84cfe5
+date: 2016-04-20 06:23:33
+message: >-
+  Hi, quick update, I realised that I needed to append the filename and location of the .tmx file that I have saved out of 'Tiled' to the end of Efe's Terminal command, and that i also need to specify the 'UNITYDIR' (the location to save the converted file out to) - I have now done this and I think it's worked.
+
+
+  Just to clarify, the whole command I entered into terminal was as follows:
+
+
+  /usr/local/bin/mono $CSSCRIPT_DIR/cscs.exe -nl Tiled2UnityLite.cs $* &amp;&gt; tiled2unitylite.log /Users/jidrees/Youtube_RPG_Tutorial/Assets/tutorial_map_01.tmx /Users/jidrees/Youtube_RPG_Tutorial/Assets/Tiled2Unity/

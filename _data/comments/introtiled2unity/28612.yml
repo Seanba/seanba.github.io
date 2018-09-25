@@ -1,0 +1,6 @@
+id: 28612
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-12-23 11:55:40
+is_sean: true
+message: David, if you send me your exported [YouMapName].tiled2unity.xml file then I should be able to debug. You must be referencing texture files in a way that I'm not accounting for.

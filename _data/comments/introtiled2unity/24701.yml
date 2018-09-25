@@ -1,0 +1,15 @@
+id: 24701
+name: wax
+gravatar: fixit
+date: 2014-10-22 08:25:34
+message: >-
+  Hi. Thank you for this very nice tool!
+
+
+  I'm using it for a little game project, where the MainCamera of the scene is rotating all the time. If the camera has a rotation of 0° all of my tile-graphics are looking very nice. But when the camera has a rotation value different from 0°, then all graphics are looking bad. I've made a little screencast where you can see this issue in action:
+
+
+  http://screencast.com/t/4TmfggrEt
+
+
+  Do you have any idea what could go wrong? Has it something todo with the tiled-shader?

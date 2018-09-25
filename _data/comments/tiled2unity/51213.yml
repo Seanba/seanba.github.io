@@ -1,0 +1,34 @@
+id: 51213
+name: Arthur Vasconcelos
+gravatar: 34068175eddb5073a919cb8a2c61919b
+date: 2016-12-09 14:40:51
+url: http://arthurvasconcelos.com.br
+message: >-
+  Hi Seanba,
+
+
+  I came here to report that the Tiled2Unity is with several script problebs in the new version of Unity (5.5.x)
+
+
+  List bellow:
+
+
+  - Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs(201,29): warning CS0618: `UnityEditor.TextureImporter.lightmap' is obsolete: `lightmap Property deprecated. Check [[TextureImporterSettings.textureType]] instead. Getter will work as expected. Setter will set textureType to Lightmap if true, nothing otherwise.'
+
+
+  - Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs(203,29): warning CS0618: `UnityEditor.TextureImporter.grayscaleToAlpha' is obsolete: `Use UnityEditor.TextureImporter.alphaSource instead.'
+
+
+  - Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs(204,29): warning CS0618: `UnityEditor.TextureImporter.linearTexture' is obsolete: `linearTexture Property deprecated. Use sRGBTexture instead.'
+
+
+  - Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs(207,78): warning CS0618: `UnityEditor.TextureImporterGenerateCubemap.None' is obsolete: `This value is deprecated (use TextureImporter.textureShape instead).'
+
+
+  - Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs(210,67): warning CS0618: `UnityEditor.TextureImporterFormat.AutomaticTruecolor' is obsolete: `Use textureCompression property instead'
+
+
+  - Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs(210,29): warning CS0618: `UnityEditor.TextureImporter.textureFormat' is obsolete: `textureFormat is not longer accessible at the TextureImporter level. For old 'simple' formats use the textureCompression property for the equivalent automatic choice (Uncompressed for TrueColor, Compressed and HQCommpressed for 16 bits). For platform specific formats use the [[PlatformTextureSettings]] API. Using this setter will setup various parameters to match the new automatic system as well possible. Getter will return the last value set.'
+
+
+  You are doing a really great job! Thank you.

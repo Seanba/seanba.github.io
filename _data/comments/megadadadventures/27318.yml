@@ -1,0 +1,9 @@
+id: 27318
+name: Daniel
+gravatar: fixit
+date: 2014-11-29 12:12:08
+message: >-
+  Oops, my bad. I was close to the problem, as compilation order is key, but setting Tiled2Unity in Plugins did not solve my compilation error.  Forget that "plugin" folder thing I said :D
+
+
+  I tried creating my script on "Editor" folder, because you said "our Editor scripts" and it worked. I'm not used to using plugins for Editor options, so I did not know about this folder structure and its influence on compilation order.

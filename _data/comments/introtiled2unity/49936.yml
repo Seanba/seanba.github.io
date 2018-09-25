@@ -1,0 +1,15 @@
+id: 49936
+name: Victor Wu
+gravatar: fixit
+date: 2016-08-04 10:36:59
+message: >-
+  I have some questions: 1. How can I get the map data ? For example: I want to implement a SRPG, so I want to know like tile ID of a layer at location (x, y) Do I have to read the tmx file or you store the tile data somewhere ?
+
+
+  2. Does this util support custom property in TiledMap Editor ?
+
+
+  Thanks for your help.
+
+
+  <em><strong>Seanba sez:</strong> Hi Victor. 1) Getting map data can be accomplished a number of ways but takes some work. For an RPG game I recommend using raycasts against colliders where each tile type has its own flavor of a collider. If you need more information than the type of tile your character is on that you'll need to generate game objects. I talk about both approaches here: http://www.seanba.com/getting-tile-information.html 2) Yes, custom properties are supported but you'll need to write a custom importer to absorb such properties and "do something" with them. I talk about custom importers here: http://www.seanba.com/megadadadventures.html</em>

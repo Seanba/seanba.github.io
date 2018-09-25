@@ -1,0 +1,6 @@
+id: 18697
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-07-26 11:30:58
+is_sean: true
+message: Hi Brody, those example files use an "external tileset" which has the TSX extension. You'll need to press on the "Import Tileset" button at the bottom-left corner of the Tilesets widget in order to make changes. When you are done adding the collision data you can then press the "Exprot Tileset As" button to resave the TSX file. These changes will then be picked by all TMX files that reference that external tileset.

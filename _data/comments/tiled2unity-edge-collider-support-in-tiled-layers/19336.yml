@@ -1,0 +1,9 @@
+id: 19336
+name: Peter
+gravatar: 3a79152ca6b2828dece53605b7617ddd
+date: 2014-08-05 06:19:26
+message: >-
+  I'm having an issue where my prefabs created by my custom importer are tiny. The prefab they're based on is the correct size but every generated block is too small to even be seen. I thought the fact I'd used "unity:scale" as a map property to get the map the correct size, but even removing this property results in generated prefabs much, much smaller than everything else.
+
+
+  Any idea why my prefabs are being made so small?

@@ -1,0 +1,9 @@
+id: 41535
+name: Ben
+gravatar: ac8ffc75b242d1ac1b9514cd38868d63
+date: 2016-02-10 19:01:28
+message: >-
+  When I download cs-script, it downloads a "cs-script.7z" and not a folder. I was wondering why this is and what to do about it. Thanks.
+
+
+  <em><strong>Seanba sez:</strong> 7z files are compressed archives, not unlike zip files. You will need a utility to extract the contents into a folder. I use Unarchiver for that.</em>

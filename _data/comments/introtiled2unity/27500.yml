@@ -1,0 +1,9 @@
+id: 27500
+name: Gladers
+gravatar: 81bb796109917fefd1fd7d4766d6930e
+date: 2014-12-03 02:54:46
+message: >-
+  This is really awesome, and so quick to implement into unity. Is there a way to set the scale of the map from the import tool? Otherwise i have to make some manual tweaks to the scale after its imported.
+
+
+  Also for those who had issues with the Tile Collision editor menu not functioning in Tiled, try creating a new map in Tiled. I had an issue editing the Tile collisions with the example maps, but with my own new map this worked perfectly.

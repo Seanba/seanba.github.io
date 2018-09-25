@@ -1,0 +1,12 @@
+id: 40937
+name: Angel Biedma
+gravatar: df8def3fddd683d8d4a82ad484934b84
+date: 2015-12-31 11:18:20
+message: >-
+  Thanks for your tutorial but I am having some issues. In my case, in StrategyTile class I'm storing all tile attributes into a public member Dictionary TileProperties, I modified properly CustomTiledImporter to add each custom property to TileProperties dictionary and print a log message. Log message is printed but then in the inspector the dictionary appears empty and i don't know why.
+
+
+  I'm a bit newbie with Unity but I am a medium skilled programmer in Java and I know C# aswell.
+
+
+  Merry Christmas.

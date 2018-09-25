@@ -1,0 +1,5 @@
+id: 41738
+name: Emrys
+gravatar: aa7fac30fc3ea31775027686e8864354
+date: 2016-02-29 16:02:41
+message: "Hi, following your advice i was able to create my .log file, and am able to run it successfully with \" tail -f /usr/local/CS-Script/tiled2unitylite.log \". Seemingly so far so good. However when i try to run the command in Tiled: ( /bin/sh /usr/local/CS-Script/tiled2unitylite.sh %mapfile /Users/emrysshepherdsonhowe/Unity/Forest scene 1/Assets/Tiled2Unity ) the log gives me the following errors: /tiled2unitylite.sh: line 7: mono: command not found Cannot open assembly '/usr/share/CS-Script/cscs.exe': No such file or directory. I'm not sure what i'm doing wrong, is there a way for me to troubleshoot this? cheers, and sorry once again if this is simple stuff (i'm slowly getting my head around how to use the terminal but it's still challenging)."

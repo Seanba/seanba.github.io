@@ -1,0 +1,12 @@
+id: 41128
+name: Thomas
+gravatar: 74a3d4d3cb3a083bba5a70ee0a3ac381
+date: 2016-01-18 13:51:09
+message: >-
+  Hello, i have been having a problem making the prefab, the XML file is in the import folder, but the script hasn't converted the file into a prefab?
+
+
+  Thanks for your time!
+
+
+  <em><strong>Seanba sez:</strong> It's always a good idea to check the <a href="http://docs.unity3d.com/Manual/Console.html" rel="nofollow">Unity Console Window</a> for any errors. I try to make sure problems are reported there. Chances are you are running Unity with the deprecated Web Player as the build target. Check the console if that's the case and switch to something like Standalone Windows/Mac/Linux as the build target instead.</em>

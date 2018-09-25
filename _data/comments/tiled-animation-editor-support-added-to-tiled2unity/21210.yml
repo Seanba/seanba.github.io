@@ -1,0 +1,13 @@
+id: 21210
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-01 17:37:35
+is_sean: true
+message: >-
+  Hello Jogabba, yes, there is a dependency on the shaders that come with Tiled2Unity. However, you can edit other shaders to get the same effect by rejecting vertices that have a negative 'z' value.
+
+
+  You'll need something like this in your vertex shader ...<pre><code> if (IN.vertex.z < 0) { OUT.vertex.w = 0; // 'rejects' the vertex } else { OUT.vertex.z = 0; } </code></code></pre>
+
+
+  It's a bit of a hack but Tiled2Unity animates tiles by toggling between negative and positive 'z' values in the generated mesh. The absolute value of each 'z' component is the identifier of the frame being shown/hidden. Hope that helps.

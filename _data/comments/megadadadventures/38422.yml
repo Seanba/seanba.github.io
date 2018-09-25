@@ -1,0 +1,5 @@
+id: 38422
+name: Async
+gravatar: 85b6c1391757300e7ec9ff486610ad4b
+date: 2015-08-22 19:08:26
+message: "Is it possible to use a tile layer, but not import it as a mesh? Basically I have a tile layer, and there's some tileset images that always spawn a prefab where ever they are on the map (think of a bush image), but I'd like to just set that tile property to spawn-prefab: xxxxx, and use the tile layer to place them, rather than painfully inserting tile objects into an object layer."

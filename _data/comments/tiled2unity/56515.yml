@@ -1,0 +1,13 @@
+id: 56515
+name: Michael
+gravatar: c0c8dd6f7f934e0411b6b0f7a57807fe
+date: 2017-10-05 10:05:05
+url: http://michaelgreenhut.com
+message: >-
+  Hi,
+
+
+  I'm up to this step here, after installing the unity plugin: "3. Export a TMX File Run the Tiled2Unity Utility and open a Tiled TMX file. Select a Unity project to export to and hit the "Big Ass Export Button".
+
+
+  However, it won't let me open tmx files.  It only allows me to open xml files, and Tiled does not export to xml to my knowledge (I'm using 1.0.3).  Is this a bug or do I have the wrong version of T2U?

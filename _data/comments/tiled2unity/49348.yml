@@ -1,0 +1,12 @@
+id: 49348
+name: Daniel Larson
+gravatar: 6509e4f4be3826cd0082c8eadc5bff6c
+date: 2016-05-17 17:57:57
+message: >-
+  Hi Sean, this tool is AMAZING.
+
+
+  I have a question about the new Object support.  I was redoing your MegaDad Water scene as all one layer (mostly for fun) using some of the newer Tiled features and I can't figure out how to export as a trigger for object types.  unity:layer for my water type works like a charm and I can navigate to the collider and check isTrigger there and voila, so it's mostly moot, but it doesn't import to unity as a trigger, with or without the unity:isTrigger property, and I don't know if I'm doing something wrong or if it's a bug or just not supported.  I feel like it'd be pretty cool to be able to have that feature without extra layers and more automapping (Though I love me some automapping).
+
+
+  Thanks!

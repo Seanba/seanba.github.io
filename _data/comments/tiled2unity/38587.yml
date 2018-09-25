@@ -1,0 +1,5 @@
+id: 38587
+name: Candescence
+gravatar: b66d45b4e8d08bfa31c659e51edbec6f
+date: 2015-09-05 03:37:42
+message: 'PS: I actually tried rescalling the tilemap manually and the closest exact scale factor I could get it to that should be its proper size was roughly 0.9765624. Which means the original scale of the tiles was off by roughly 0.0234376. Tiny, but again, a huge deal, as it adds up very quickly.'

@@ -1,0 +1,12 @@
+id: 41561
+name: Kylle
+gravatar: 396289011d45708ab49682f751e73665
+date: 2016-02-12 01:47:19
+message: >-
+  Hi, I have the same problem as Jake and Thomas, XML file is in the import folder but the script hasn't converted the file into a prefab. Every time I try to import the tile map it always stops at "Assign material: mesh_0005". I'm running a Windows/Mac/Linux build and I'm using the latest version of Unity and Tiled2Unity.
+
+
+  Help me please, thanks.
+
+
+  <em><strong>Seanba sez:</strong> This was due to Tiled2Unity being installed at "Assets/tiled2unity" instead of "Assets/Tiled2Unity". I don't know why the project folder is lower-case but the next version of Tiled2Unity will work with lower or upper case.</em>

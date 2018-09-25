@@ -1,0 +1,9 @@
+id: 40994
+name: Wall Penetrator
+gravatar: 742b6715e7a36bf0956aeccba971608e
+date: 2016-01-04 10:53:41
+message: >-
+  Hallo! I'd like to ask a question regarding how to export I followed your steps and it seems that I'm having the same trouble as Emmanuel. It was successfully exported but I'd only get an XML file. Nothing in prefabs, Mesh or in any other folders as well. Even re-importing said file does not change anything. What should I do? Oh, and thank you very much for this awesome tool! Have a wonderful day
+
+
+  <em><strong>Seanba sez:</strong> The first step is to check the console output window for any errors. Two things that have recently been reported are A) Unity 5.0 is not supported right now (update Unity if you can, but I hope to have workaround for this soon) and B) The Web Player is no longer a viable platform (the latest version of Tiled2Unity should complain in the output)</em>

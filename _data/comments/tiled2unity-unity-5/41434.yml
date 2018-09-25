@@ -1,0 +1,15 @@
+id: 41434
+name: Simone
+gravatar: 6aa3090a8d7b16d01b45cae138ae0f20
+date: 2016-02-02 16:44:39
+message: >-
+  Hello,
+
+
+  Apparently the fix for 4.x doesn't work for 4.7, because I had to add: || UNITY_4_7 to the lines: #if UNITY_4_0 || UNITY_4_0_1 || UNITY_4_1 || UNITY_4_2 || UNITY_4_3 || UNITY_4_4 || UNITY_4_5 || UNITY_4_6
+
+
+  In order to get rid of the compile errors. So if anyone have the same issue with 4.7, this is the solution.
+
+
+  Oh, and thank you for this tool, it's so awesome :)

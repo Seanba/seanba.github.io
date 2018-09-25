@@ -1,0 +1,9 @@
+id: 31959
+name: izzy
+gravatar: 076b4434fe0b00eb71262380795f079c
+date: 2015-04-03 18:43:51
+message: >-
+  Hello Seanba, thanks for the great tool! I've came across a problem exporting my map that I can't seem to resolve. The first time I exported a map it worked perfectly but my collision wasn't quite right so I re-made the collision and exported the 2nd map but that one wasn't quite right either so I made a third one. Now when I try to export to Unity it just freezes and my project wont open. I can open my project by moving or deleting the Tiled2Unity folder but if I try to re-import and in Tiled2Unity and then Export to Unity it freezes. Have you come across this or having suggestions for fixing this issue?
+
+
+  Also, I've also tried using a brand new project to export to and it still locks up on me.

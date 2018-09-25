@@ -1,0 +1,15 @@
+id: 49729
+name: Eric Ioha
+gravatar: 4d7b6ea3a9f4d57f6f76403d9b6aee6a
+date: 2016-06-27 16:30:19
+message: >-
+  Hi Sean,
+
+
+  I have been having a problem where I can successfully import my map into unity with no errors and the preview in Tiled2unity looks right but when I check it in prefabs it's completely blacked out and unity wont allow me to add it into the scene. I can't seem to find a solution to the problem and hope you can help.
+
+
+  Thanks
+
+
+  <em><strong>Seanba sez:</strong> Hi Eric. This was a bug I fixed with version 1.0.7.2 of Tiled2Unity. Thanks.</em>

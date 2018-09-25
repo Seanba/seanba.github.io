@@ -1,0 +1,15 @@
+id: 25319
+name: facehead1992
+gravatar: 025857e5ddfe75a47d0a4824bd1cde6e
+date: 2014-11-01 15:27:30
+message: >-
+  Hey Sean,
+
+
+  I'm in the same predicament as Jogabba as far as the desire to include lighting (for a Fog O' War effect), but as I'm not familiar with Shaders and their usage, and I'm sure most beginners like me won't be, I would like to suggest an alternative feature be added to Tile2Unity to add the ability for simple lighting on animated tiles. Or perhaps you could simply write an article that details exactly how one could design a valid material / shader?
+
+
+  From what I understand, someone just needs to follow the vertex/fragment shader tutorials inside the Unity manual and add the IN.vertex and OUT.vertex snippet you detailed above inside the CGPROGRAM section? Is that what makes lighting on your Tiled2Unity animated imports work?
+
+
+  Thank you for all the hard work. It appears to be a fantastic program so far.

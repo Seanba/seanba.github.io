@@ -1,0 +1,5 @@
+id: 66983
+name: Lennart van Maaren
+gravatar: 8bae371ef9172b4676b7f61faa8baa1a
+date: 2018-07-31 05:21:29
+message: Hello guys.. im still learning how to use both Unity and Tiled i'm currently running into a problem. When i import my tiled map into Unity with this program it comes out as a complete distorted abomination i tried everything Antiailiasing off pixel snap on. The thing just keeps having stripes of white between tiles (where there are normally black or grey pixels) distorted tile placements that dont line up with the other tiles properly and tiles that just dont have the right colours. Obviously i'm doing something wrong. I was hoping i could be told here what it was.

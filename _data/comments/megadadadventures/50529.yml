@@ -1,0 +1,15 @@
+id: 50529
+name: Zohaib
+gravatar: 8147c3b212a282cfbbae499f9ec99c92
+date: 2016-10-31 04:34:53
+message: >-
+  I can't seem to add collision boxes to my map in Tiled. I tried out the maps you gave with the example and they work fine.
+
+
+  When I create a map from a tileset and open the collision editor I can't add a collision box on it.
+
+
+  Any thoughts?
+
+
+  <em><strong>Seanba sez:</strong> This is more of a Tiled issue but it sounds like you are using an external tileset (TSX) file. In order to add colliders (or othewise edit your tileset) you will need to import it first. In the "Tilesets" window in Tiled look for the "Import Tileset" button along the bottom. Remember to export your tileset back out when done.</em>

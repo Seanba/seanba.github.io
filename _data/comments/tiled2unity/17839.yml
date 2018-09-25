@@ -1,0 +1,10 @@
+id: 17839
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-07-13 12:26:41
+is_sean: true
+message: >-
+  Hi Simon, I did look at uTiled but the documentation is non-existent and it doesn't generate the kind of collision I wanted so I went with my own tool.
+
+
+  YMMV, but I prefer tools external to Unity and I took measures to make exporting from Tiled to Unity as painless as possible. For me, I do my work in Tiled, hit F5 to bring up Tiled2Unity, then hit the export button. Because Unity has no knowledge of TMX files I prefer this approach as Tiled2Unity cooks the data into *one XML file* that is understood by Unity, where the scripts update all the prefabs automagically.

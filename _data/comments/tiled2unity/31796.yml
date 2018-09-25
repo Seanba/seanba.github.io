@@ -1,0 +1,15 @@
+id: 31796
+name: Murilo
+gravatar: b394a4ff462ceabaaf69740059e15d5a
+date: 2015-03-24 06:32:57
+message: >-
+  Hey Sean,
+
+
+  First I would like to thank you for sharing this great tool. I have an idea and would like to know what you think: I'm an OSX user and would like to have access to the tool. I've seen that it supports a command line interface and thought that maybe it is possible to create a web app (hosted on a Windows server) that inputs a TMX file created in Tiled, converts it and expose a downloadable version of the converted blob (probably zipped) file to the user.
+
+
+  If you think that is possible via the already existent command line interface, I can very much build this web app and host it somewhere for some tests. What do you think?
+
+
+  Thanks!

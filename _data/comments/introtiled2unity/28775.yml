@@ -1,0 +1,24 @@
+id: 28775
+name: FrioneL
+gravatar: e6c7daaeec8e0305798a3205f6b7af82
+date: 2014-12-30 14:36:47
+message: >-
+  Hello Seanba.
+
+
+  First of all, really thanks for this awesome tool. I was really dissapointed with Unity when I saw it didn't have a good support for tiled maps.
+
+
+  I've read your tutorials and I wanted to start using this for my game. I could import the example map and all looks ok. The only thing is bothering me and I don't know what's happening is that I can't change the tiles collisions in the Tiled Map. I just can put collisions if it's an object layer, but not in a tiled one.
+
+
+  How did you do it? I tried to look in my friend google but there is not much information about this.
+
+
+  Thanks again,
+
+
+  Javi
+
+
+  [<strong>Seanba sez:</strong> <em>Hi Javi, thanks for the kind words. For Tile maps that use external tilesets you have to press the "Import Tileset" button before you can change settings on the tiles. That button is on the bottom of the Tileset pane. Don't forget to export the tileset back out when your done making your changes.</em>]

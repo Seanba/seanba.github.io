@@ -1,0 +1,22 @@
+id: 30953
+name: William Macfarlane
+gravatar: 7a415110918ed7513569cd1620172597
+date: 2015-02-08 13:13:13
+url: http://partsandcrafts.org
+message: >-
+  Thanks for the awesome tool!  I've been playing around with it and it seems to solve a lot of my problems for me!  But I have a question about instantiating GameObjects in the level and how this interacts with scaling.
+
+
+  Basically, I want my map to have 'spawn points' in the object layer, and have Tiled2Unity spawn certain kinds of objects at these points.  This is easy, thanks to ICustomTiledImporter interface.  But this results in my spawn instances having being children of the map object, and so inheriting the scale of the map.  In this case this makes them 1/16 of the size that they're supposed to be.  So I can set the scale for these objects to 16 to make them the right size again, but this breaks code written for the objects that depends on scales and distances.
+
+
+  I think that what I'd really like is to have the Tiled2Unity prefab have another GameObject that is the parent of the map, so the prefab hierarchy is something like
+
+
+  Level Map Collisions Layer1 Layer2 etc... Objects ObjectInstance1 ObjectInstance2 etc...
+
+
+  My question is, mainly, "is this a sensible thing to want, or am I going about this wrong?"  If it's sensible, I can dive deeper into how assets and prefabs and all that work and figure out how to hack it into Tiled2Unity, but if there's a better way to accomplish what I'm looking for, obviously I'd go for it.
+
+
+  thanks!

@@ -1,0 +1,9 @@
+id: 49725
+name: Hakan
+gravatar: 6b8648103807fc4f853b5a45769625a8
+date: 2016-06-26 10:34:47
+message: >-
+  My unity gets stuck at importing the xml file and says "Error importing texture 'Assets/Tiled2Unity/Textures/8x8_preset4.png'. Could not find material. Try re-importing Tiled2Unity/Imported/[MapName].tiled2unity.xml file"
+
+
+  <em><strong>Seanba sez:</strong> Hi Hakan, I recently fixed some problems with texture importing. Can you update to the latest version of Tiled2Unity and try again? (Don't forget to update your Unity-side scripts too)</em>

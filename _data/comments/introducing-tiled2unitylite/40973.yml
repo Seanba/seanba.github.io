@@ -1,0 +1,18 @@
+id: 40973
+name: Brandon Cordell
+gravatar: c7d5b3aad74c71de1c05003662938227
+date: 2016-01-02 22:01:03
+message: >-
+  This isn't working for me on El Capitan. Due to File System Restriction (See: https://developer.apple.com/library/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/FileSystemProtections/FileSystemProtections.html#//apple_ref/doc/uid/TP40016462-CH2-SW1), you can no longer write to /usr/*, except /usr/local/*.
+
+
+  It seems like CS-Script is hard coded to look in /usr/share/CS-Script and I can't seem to change that. Any ideas?
+
+
+  Thanks! Awesome software.
+
+
+  <em><strong>Seanba sez:</strong> It does seem that CS-Script is hardwired to that directory no matter what you set the CSSCRIPT_DIR environment variable to. I've reached out to the CS-Script developer and I hope to have something for you soon. I'm sure it's a small oversight.</em>
+
+
+  <em><strong>Seanba sez, part 2:</strong> See my update for El Capitan users in the post. I was able to get around this by installing CS-Script to another directory and adding an additional environment variable to my .bash_profile</em>

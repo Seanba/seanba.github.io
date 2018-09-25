@@ -1,0 +1,12 @@
+id: 27314
+name: Daniel
+gravatar: fixit
+date: 2014-11-29 11:44:01
+message: >-
+  Hi! Thanks for your work!
+
+
+  Just in case anyone needs this info, Tiled2Unity must be imported in "Plugins" folder in Assets, so it can be compiled first. Then, it will be possible to use Tiled2Unity namespace without any problems to create your custom importers. If it is not done this way, your custom script might be compiled first, and it will complain of namespace not having that specific class or interface.
+
+
+  More info this way: http://docs.unity3d.com/412/Documentation/ScriptReference/index.Script_compilation_28Advanced29.html

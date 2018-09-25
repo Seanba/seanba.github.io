@@ -1,0 +1,12 @@
+id: 17965
+name: Kevin Morrell
+gravatar: 1b1c271a1b196a2847981269094a2eeb
+date: 2014-07-15 23:09:53
+message: >-
+  I've got what might be a dumb question. I've been using Tiled2Unity for a 2D platformer, and it's been working out great, but I'm trying to implement some ground that collapses underneath the player when they stand on it. When I insert a tile into the object layer, though, that tile isn't rendered when I export. I've got a script that checks if the player has collided, and then the ground destroys, and I want to get that little bit of delay like in Super Metroid, as opposed the the player just immediately falling through the ground.
+
+
+  What is the best way to accomplish this? I know I could just create a 1x1 prefab by hand and give it a sprite ripped from my tilesheet and attach it to the gameObject, but I'm wondering if there's a way to automate at least part of this to get the tile from the Tile Object in Tiled, or the collider shape that I've already specified.
+
+
+  Thanks!

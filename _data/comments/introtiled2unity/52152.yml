@@ -1,0 +1,12 @@
+id: 52152
+name: Lukas
+gravatar: 488be57cf7526e54d89feff94595d916
+date: 2017-02-23 05:30:57
+message: >-
+  Hi, first of all I´d like to thanks for your super tool. But i have one question. I´d like to use coordinate in me tmx exported map. For example i need to know x,y, coordinates tiles, if i click to some tile a need know his x,y, coordinates. Pls how can a do this?
+
+
+  Thanks a lot.
+
+
+  <em><strong>Seanba sez:</strong> Hi Lukas, I do that sort of thing through a mixture of automapping and scripting. See this blog entry: http://www.seanba.com/getting-tile-information.html</em>

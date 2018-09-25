@@ -1,0 +1,9 @@
+id: 22623
+name: Jason
+gravatar: 2fc107c1964a965c463d304b0af294e2
+date: 2014-09-18 20:08:21
+message: >-
+  In general works very well. Making 100X300 maps and run smooth even on mobile devices. I did need to change the shader from tiled2d to a simple unity sprite shader. Tiles still look good, and fast smooth scrolling on slow hardware.
+
+
+  I did want to ask about the import times into Unity. With my 100X300 map it takes about 60 seconds for Unity to become responsive after every Big Ass Export. Is this to be expected? Running decent computer, ssd, etc. Not normally a big deal but the game I am working on requires a lot of fine tweaking of tiles so those 60 seconds really adds up.

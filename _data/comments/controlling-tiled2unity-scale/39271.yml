@@ -1,0 +1,24 @@
+id: 39271
+name: Some guy
+gravatar: 582b980aab4d8d12d95255278dcc5548
+date: 2015-10-05 09:46:30
+message: >-
+  Would you consider updating this post with an alternative (an Option #2 approach)
+
+
+  You can rig Unity to automatically set the "Pixels Per Unit" to 1 by extending the "AssetPostprocessor" class in the UnityEditor namespace.
+
+
+  ex: /** MyTexturePostProcessor.cs **/ using UnityEditor;
+
+
+  public class MyTexturePostProcessor : AssetPostprocessor { void OnPreprocessTexture () { TextureImporter textureImporter = (TextureImporter)assetImporter; textureImporter.spritePixelsPerUnit = 1; } }
+
+
+  You can read about the AssetPostprocessor here: http://docs.unity3d.com/ScriptReference/AssetPostprocessor.html
+
+
+  Don't need to add it to any scene.  It just works.  Any new image assets added should automatically update to reflect 1 pixel per point.  This should also make it easier to work with coordinates.
+
+
+  I can't take credit for this suggestion because I didn't take time to read all the comments here (TL;DR) someone might've already suggested it, plus I figured this out from googling.

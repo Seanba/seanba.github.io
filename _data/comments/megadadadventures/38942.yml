@@ -1,0 +1,6 @@
+id: 38942
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-09-20 11:47:53
+is_sean: true
+message: "Nicholas: Yes, I think Tiled + Tiled2Unity makes good sense of a game like Fire Emblem although if you're going to make tiles a first-class citizen of your game you're going to have to do some scripting. I've set up an example to help walk you through it (as an added bonus it uses Fire Emblem as an example): http://www.seanba.com/getting-tile-information.html"

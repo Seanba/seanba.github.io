@@ -1,0 +1,10 @@
+id: 28698
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-12-26 01:01:09
+is_sean: true
+message: >-
+  David, I was not handling texture files with period characters in the filename (i.e. my.texture.name.png) correctly and that was leading to confusion with file extensions later down the line. All fixed now with version 0.9.7.3.
+
+
+  I also had a similar bug with TMX files with extra period characters in the filename (i.e. my.tiled.file.tmx) and that is fixed now too. Thanks for the bug report.

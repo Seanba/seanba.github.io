@@ -1,0 +1,13 @@
+id: 32706
+name: Arthur Sun
+gravatar: af260c77837eaea8e95d3448aeda4618
+date: 2015-05-13 01:32:48
+url: http://www.artsungame.com
+message: >-
+  Hi Seanba, excellent work!
+
+
+  Your introduction implies to me that there must be some way to use orthographic code to implement a tilemap that looks like an isometric one. I tried to draw it myself but failed, neither have I found anything related on the internet. Could you give me some hint pls? Thanks!
+
+
+  <em><strong>Seanba sez</strong>: Hi Arthur, I'm looking into what it would take to add isometric support to Tiled2Unity. I get asked often enough about it that I think it's worth supporting. Stay tuned.</em>

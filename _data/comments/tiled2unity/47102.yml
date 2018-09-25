@@ -1,0 +1,9 @@
+id: 47102
+name: sponge
+gravatar: 3de3ddf425dfeae882550ee21f25aad9
+date: 2016-04-13 12:05:46
+message: >-
+  Is it feasible to integrate Tiled2UnityLite inside the Unity app directly to build the geometry at runtime from the tmx? I'd like to account for people loading custom maps in the future, but it seems between the converter and then possibly editor scripts, the build process for maps not packaged in the game might be tough. I'm not overly familiar with Unity, so I'm not sure in general how game modes of Unity games work.
+
+
+  <em><strong>Seanba sez:</strong> Hi sponge, I originally considered having Tiled2Unity fully contained as Unity scripts but there is some C# syntax/libs/etc. that are not available in the Mono-powered C# implementation used by Unity. If I were to do Tiled2Unity all over again I'd actually do it in C++ and rally to have it added to Tiled. (At the time it was a tool I didn't plan to release for public consumption)</em>

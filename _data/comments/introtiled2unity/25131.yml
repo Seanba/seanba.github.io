@@ -1,0 +1,15 @@
+id: 25131
+name: wax
+gravatar: fixit
+date: 2014-10-29 04:47:55
+message: >-
+  Ok,
+
+
+  I've done it. It's working now, after I had set the texture of the "mesh_[00]_[00]" inside of the shader-component. I don't know if this is the best way to do it, but it's working.
+
+
+  It would be very nice, if I could change the default FilterMode for imported textures. Is this possible anyway?
+
+
+  <em>[<strong>Seanba says</strong>: Hi Max, starting with version 0.9.6.1 of Tiled2Unity you can make changes to your import texture settings without having them clobbered. Thanks for the suggestion.]</em>

@@ -1,0 +1,16 @@
+id: 49293
+name: Luke
+gravatar: 2b88d856f17b7bfdb5e543b710ea8e4b
+date: 2016-05-10 10:37:39
+url: http://www.lostcart.co.uk/
+message: >-
+  Hi Sean,
+
+
+  Thanks for this cool tool! I've just started having a play about with it to see if it will be suitable for an isometric game I'm working on.
+
+
+  I have a similar question to Magicpanda I guess, how do we go about drawing a dynamic sprite in the correct order, say for example we have a ground layer that has a bunch of trees on it and we want characters to walk around the trees, they should get drawn in front of the ones they're lower than and behind the ones they're higher than, is that possible to achieve using this?
+
+
+  Any help will be great! Thanks

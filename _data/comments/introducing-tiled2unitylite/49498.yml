@@ -1,0 +1,9 @@
+id: 49498
+name: Peter
+gravatar: de5b05d2520fe5049fbd033971ff87ac
+date: 2016-06-01 21:26:36
+message: >-
+  You can also compile Tiled2UnityLite to an .exe (runnable under mono on Linux, etc), via the following:
+
+
+  $ mcs -r:System.Xml.Linq,System.Drawing Tiled2UnityLite.cs $ ./Tiled2UnityLite.exe ...

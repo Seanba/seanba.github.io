@@ -1,0 +1,15 @@
+id: 51416
+name: Nish
+gravatar: a2c8d6db8f21219331fbaa9af510a42e
+date: 2017-01-03 20:19:53
+message: >-
+  Let's say, in a top-down 2D RPG, you want all the ground tiles to be "destroyable" (switching out with various different tiles depending on the kind of damage done to it - burned ground for fire damage, a hole for explosives, ...). How would I approach such a thing? The difference to the appearing blocks thing is that the entire map is destroyable, meaning that all the ground tiles are game objects and need to be defined on the object layer right?
+
+
+  Then, it's not just a tile appearing, but depending on the interaction, one of like 10 different other tiles need to be chosen that is then displayed instead of the normal ground tile.
+
+
+  Do you have any suggestions in which direction I have to go in order to make this work? Thank you very much!
+
+
+  <em><strong>Seanba sez:</strong> Hi Nish, yes, in the case of destroyable terrain (or anything that you interact with as a player to change state) then you want to use sprites and not a static mesh of tiles. In this case, I would use an Object Layer in Tiled that is made up of Tile Objects. You would then have to have a custom importer script that decorates the exported game objects with additional behaviors and what-not that are specific to the game you are making. It's more involved but totally doable. Just beware that your maps are not too big as complexity grows in a quadratic (N-squared) fashion.</em>

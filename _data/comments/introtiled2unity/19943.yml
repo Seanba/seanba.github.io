@@ -1,0 +1,13 @@
+id: 19943
+name: Shawn
+gravatar: b796faf0fa590a5a33351f19886fda48
+date: 2014-08-14 18:14:05
+url: http://treefortress.com
+message: >-
+  Cool thanks for the quick response and fix, amazing!
+
+
+  Regarding the draw order, it should be possible with Unity meshes I think? As 2dToolKit does support any of the 4 render orders (top-left, top-right, bottom-left, bottom-right), and then creates multiple meshes from them, as you can see here: http://cl.ly/image/0G1F1I1l2J01
+
+
+  If we can't get Tiled to work we'll likely end up using 2DToolKit, (rather than kill the perspective) but would really love to use Tiled as it's much more stable and powerful. Cheers,

@@ -1,0 +1,13 @@
+id: 32179
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-04-15 17:42:09
+is_sean: true
+message: >-
+  Felipe, those seams are from the texture sampler grabbing texels just outside a tile boundary. Are you using a custom shader? The one I wrote for Tiled2Unity shouldn't have that problem.
+
+
+  The <strong>best</strong> way to fix this is to put an 1-pixel edge around each tile in your tileset that contains the same pixel as the one beside it. You want to keep your tiles at the same size in Tiled, but with a 1-pixel margin. That way, when the texture sampling goes out of bounds it will pick the same pixel.
+
+
+  If you are in a pinch you could try the --texel-bias (or just -t) command line argument. It defaults to 8192 but you can try values of 4096 or even 2048. This will "bring in" the texture coordinate of each corner of your tile by the inverse of that number, which gives the texture sampler a better chance of keeping in bounds.

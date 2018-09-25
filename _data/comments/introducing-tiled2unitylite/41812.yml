@@ -1,0 +1,21 @@
+id: 41812
+name: Jason
+gravatar: 1e968269af43422e00341ed08763ec4e
+date: 2016-03-15 01:28:22
+message: >-
+  Investigating my issue further... I was using Mono 4.0.1, but have upgraded to 4.2.1 for the sake of this line in the error (and since the FALLBACK didn't work for me).
+
+
+  System.TypeInitializationException: The type initializer for ‘System.Drawing.GDIPlus’ threw an exception. —&gt; System.DllNotFoundException: /Library/Frameworks/Mono.framework/Versions/4.2.1/lib/libgdiplus.dylib
+
+
+  I have verified the file is there, and when ran, it also throws an error:
+
+
+  /Library/Frameworks/Mono.framework/Versions/4.2.1/lib/libgdiplus.0.dylib ; exit; unknown001ec2b9de25:~ karenelise$ /Library/Frameworks/Mono.framework/Versions/4.2.1/lib/libgdiplus.0.dylib ; exit; -bash: /Library/Frameworks/Mono.framework/Versions/4.2.1/lib/libgdiplus.0.dylib: cannot execute binary file
+
+
+  Any ideas?
+
+
+  <em><strong>Seanba sez:</strong> Hi Jason, for some reason some installs of Mono do not include the proper GDI+ libraries. I got around this by removing all dependencies on GDI+ classes in Tiled2Unity version 1.0.4.4 which is available for download now.</em>

@@ -1,0 +1,15 @@
+id: 32968
+name: zolar
+gravatar: 487ee6a05b0a6e9f9a0a6a24ded0c698
+date: 2015-05-27 21:03:24
+message: >-
+  Hi Seanba, i should have been more clear. I wanted to have a different tag for the collision vs the visual. So the visual.tag = dirt but the collision.tag = solid, for example.
+
+
+  thanks!
+
+
+  <strong>Seanba sez:</strong> <em>Zolar, that is totally simple and possible and is exactly the kind of thing you'd use a custom importer for. Add an editor script like this to your project (Remember, it has to be in a folder named "Editor" to work -- like all other editor scripts.) </em> <code> [Tiled2Unity.CustomTiledImporter] public class MyCustomImporter : Tiled2Unity.ICustomTiledImporter { &nbsp;&nbsp;public void HandleCustomProperties(GameObject gameObject, IDictionary<string , string> customProperties) &nbsp;&nbsp;{ &nbsp;&nbsp;&nbsp;&nbsp;// Handle custom properties if you have them &nbsp;&nbsp;}
+
+
+  &nbsp;&nbsp;public void CustomizePrefab(GameObject prefab) &nbsp;&nbsp;{ &nbsp;&nbsp;&nbsp;&nbsp;// Find all polygon colliders &nbsp;&nbsp;&nbsp;&nbsp;foreach (var pc2d in prefab.GetComponentsInChildren&lt;PolygonCollider2D&gt;()) &nbsp;&nbsp;&nbsp;&nbsp;{ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Set their GameObject.Tag to "solid" if parent tag is "dirt" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (pc2d.transform.parent.tag == "dirt") &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pc2d.gameObject.tag = "solid"; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;} }</string></code>

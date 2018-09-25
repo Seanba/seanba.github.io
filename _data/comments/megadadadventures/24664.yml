@@ -1,0 +1,12 @@
+id: 24664
+name: Ryan K
+gravatar: b7557f6da5f0d36c5fd6cc7996fe36c3
+date: 2014-10-21 17:35:57
+message: >-
+  Weird, I must be missing something- I started with a fresh project (2d), imported no additional packages, then imported super mega dad.
+
+
+  All objects started out with "Default" layers.  Once I added a "Ladder" layer (because it didnt exist), I tried to reassign the objects' layers, to no avail.  I then wiped the imported super mega dad package re-imported, and it kinda works.  I can climb down a ladder once, then it acts like a solid wall again.
+
+
+  I imagine there may be some more layers etc missing in my empty project.

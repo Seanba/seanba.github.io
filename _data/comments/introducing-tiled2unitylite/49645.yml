@@ -1,0 +1,21 @@
+id: 49645
+name: Fadhil
+gravatar: 1d9672f315b14c958076cf3e452b5584
+date: 2016-06-13 04:46:17
+message: >-
+  Hi seanba,
+
+
+  thanks for sharing, I have a trouble here. whenever i tried to execute the cscs.exe within the terminal i got this error :
+
+
+  Cannot open assembly '/Users/xxxxxx/cscs.exe': File does not contain a valid CIL image.
+
+
+  xxxx is the path to a custom folder where CS-Script is located. Any help would be greatly appreciated.
+
+
+  Thanks!
+
+
+  <em><strong>Seanba sez:</strong> Hi Fadhil, after a lot of support requests I finally decided to work through making Tiled2UnityMac which works the same way as the Windows version. Give it a try, it should be a lot easier to work with.</em>

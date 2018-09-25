@@ -1,0 +1,9 @@
+id: 49639
+name: Dylan
+gravatar: afd6f2a186a54fd8ae85c9024f37835e
+date: 2016-06-11 22:33:41
+message: >-
+  Hey, I've been trying to get this running and I got to the last step, but I haven't had any luck getting it to work. When I run the .sh file in terminal, it says in the log "Missing TMX path argument", so I believe that the shell file is working. I've put in the correct directories into the command in Tiled, but when I press export nothing happens.
+
+
+  Any help would be greatly appreciated. Thank you.

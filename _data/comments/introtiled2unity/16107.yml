@@ -1,0 +1,6 @@
+id: 16107
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-06-15 10:53:19
+is_sean: true
+message: "FYI: I put up a fix for my friends using Tiled2Unity in countries that display floating point numbers differently than what we're used to in North America. (This is why Thomas was seeing some jacked up textures on his meshes)"

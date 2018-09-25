@@ -1,0 +1,22 @@
+id: 36
+name: Chad Stewart
+gravatar: f86293a42dc04a967615e8cb8a62d800
+date: 2010-04-07 17:50:03
+url: http://www.chadpluspl.us
+message: >-
+  Hey Sean!
+
+
+  I like the article! (I wonder why.) I got a lot of healthy debate on that post, and I'm really glad! Guess it goes to show that it should be labeled a rough draft now! There are definitely a lot of gotchas and tidbits that I took for granted when originally writing it. Commandment for every programmer: Assume no one else knows!
+
+
+  On number eight, I guess I kind of assume that everyone is working with source control! :p  But really, I guess I should have advised caution. No one wants to be the guy who confused a need for a singleton for needing only a single instance. Also, if it takes too much time, it's obviously too risky.  Good call.
+
+
+  I completely agree with you on writing better code before commenting as a crutch. I probably should have mentioned directly that commenting should not be about how and should only mention the why.
+
+
+  "If only it wasn’t written for just the junior programmer audience." Perhaps there is a better set for senior level programmers that includes mentoring and a few other points. I don't know. Just saying. Perhaps I have an unfinished draft somewhere.
+
+
+  Thanks for the mention!

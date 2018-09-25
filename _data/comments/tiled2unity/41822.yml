@@ -1,0 +1,12 @@
+id: 41822
+name: Bill
+gravatar: 99b5525515ae8399bb0a275a8b993e14
+date: 2016-03-18 04:54:39
+message: >-
+  I'm a new user to tiled and your utility and I'm having an issue with object properties. I created a test map and added a couple of objects. In each of those objects I added a couple of custom properties. I used your util and imported the data into unity. Everything seems to work like it should, but I don't see the property values anywhere.
+
+
+  If I look at the xml that was imported into unity, the properties are in the file, but just not shown in unity at all. Is there something else I need to setup to get access to the data in unity?
+
+
+  thanks. <em> <strong>Seanba sez:</strong> Hi Bill, custom properties need to be acted upon through additional code that you will write in your own Custom Importer class. You can read more about Custom Importers in <a href="http://www.seanba.com/megadadadventures.html" rel="nofollow">my post here</a>. </em>

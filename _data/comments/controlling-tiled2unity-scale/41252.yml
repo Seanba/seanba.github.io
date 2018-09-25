@@ -1,0 +1,9 @@
+id: 41252
+name: datahead8888
+gravatar: 8baf1cb2cd433c107090e462d448e019
+date: 2016-01-27 15:16:42
+message: >-
+  I agree with @thor6136 -- I'd also be interested in seeing a property exposed for each image used for the filter mode used for the generated Unity texture.  I tend to prefer using bilinear in my game -- it seems to blur less when the scene scrolls.
+
+
+  <em><strong>Seanba sez:</strong> Hi Datahead, you can change the properties on the Texture Importer to fit your tastes per texture. They will not be undone by Tiled2Unity when you export again.</em>

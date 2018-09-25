@@ -1,0 +1,6 @@
+id: 22695
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-19 10:18:47
+is_sean: true
+message: Hi Jason, the import times can get noticable with larger maps but I wouldn't expect a turn-around time approaching 60 seconds. If you wouldn't mind sending me an example TMX files (and any associated TSX files and textures) I can see about making things go a bit faster. It may just be that there is something about the way your maps are set up that I'm not accounting for.

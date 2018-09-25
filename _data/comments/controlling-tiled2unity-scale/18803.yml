@@ -1,0 +1,13 @@
+id: 18803
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-07-28 22:18:15
+is_sean: true
+message: >-
+  Hello kong, it's common for people doing 2D game development in Unity to have seams appear and I apologize for not having a 100% solid solution yet for that. (I get around the issue by controlling my camera position in-game)
+
+
+  Also, I just tried the same example file with that scale and it looks okay for me. Granted, different graphics cards will highlight the problem stronger than others.
+
+
+  How does the scene look in "Game View"? If looks that bad there I don't mind taking a look at your example. Just email me your project as a Unity Package and I'll see what I can find. Thanks.

@@ -1,0 +1,12 @@
+id: 34696
+name: Jesse Smith
+gravatar: 57d6c5ddaf3abb8b61a9b746feb8cf13
+date: 2015-06-23 20:14:11
+message: >-
+  Hello,
+
+
+  I am having trouble with colliders being exported to Unity 5. I created a object layer called colliders. I created several colliders using the polygon and square shape collider in Tiled. When exported to Unity, none of my colliders are showing up. What is the problem?
+
+
+  Please reply.

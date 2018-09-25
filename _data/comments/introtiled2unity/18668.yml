@@ -1,0 +1,9 @@
+id: 18668
+name: Brody
+gravatar: 5a9adb3c3ca82e524a200f03aa364093
+date: 2014-07-26 00:12:40
+message: >-
+  Hello,
+
+
+  I just started using Tiled and Tiled2Unity today, and I'm stuck on adding collider's to the minimalist map example.  I downloaded and installed the May 25th build, and opened the .tmx file inside Tiled.  I was able to open the Tile Collision  Editor, but am completely lost on what to do next.  I clicked on the first blank/gray square for the mini-tiles tileset, but I can't select anything inside the Collider editor.  I tried a combination of the different selection tools, and still have no idea on what to do.

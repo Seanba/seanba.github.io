@@ -1,0 +1,6 @@
+id: 49349
+name: Elijah Freeman
+gravatar: 595e695a83c49cb32a53b0f9252625cb
+date: 2016-05-17 18:11:45
+url: ????
+message: 'Hello, SeanBa! I love that you have made a version of Tiled2Unity for OSX platforms! I am currently stuck at trying to execute the help command. I have tried everything but I do not know how to execute it! I have been following this web page: http://www.csscript.net/help/CS-Script_on_Mono.html but I always get an access denied when trying to run ./cscs.exe -s &gt; hello.cs but with my cscs.exe in place of their example.'

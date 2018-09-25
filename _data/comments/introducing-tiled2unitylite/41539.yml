@@ -1,0 +1,12 @@
+id: 41539
+name: Anson Leung
+gravatar: e5494d0252bd6e45d4c85fc6116155a4
+date: 2016-02-10 21:03:05
+message: >-
+  I've tried to use the command mono cscs.exe Tiled2UnityLite.cs YourMap.tmx YourProject/Assets/Tiled2Unity directly, and it shows that it successfully parsed the tmx file into a tiled2unity2.xml file. However, when unity is trying to import the asserts, it is always trapped in importing .obj asserts or the creating the prefabs. Do you have any ideas about this, or is it just the map (100x100) is too large to be handled? Below is a screen cap of it http://postimg.org/image/xlhn05a2p/
+
+
+  Thanks!
+
+
+  <em><strong>Seanba sez:</strong> Hi Anson, this is almost always a problem with the way colliders have been set up in Tiled. Make sure you have "Snap to Grid" or "Snap to Fine Grid" turned on and your colliders are along at least one or two of the tile edges so that Tiled2Unity has a good chance at combining neighboring colliders together. Otherwise you'll end up with a PolygonCollider2D with a lot of holes in it and I'm afraid Unity doesn't handle that very well and often gets hung trying to create that component.</em>

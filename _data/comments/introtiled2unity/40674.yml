@@ -1,0 +1,22 @@
+id: 40674
+name: Nanofus
+gravatar: fixit
+date: 2015-12-06 18:26:12
+url: http://clanonium.nanof.us/
+message: >-
+  Hi Sean, and thank you very much. :) This tool has brought me more happiness than any other Unity tool/asset.
+
+
+  However I have a small feature request! I am using <a href="https://www.assetstore.unity3d.com/en/#!/content/24083" rel="nofollow">this</a> lighting system in my game. It uses polygon 2d colliders, but does not support separate parts in a single polygon collider, or convex polygon colliders.
+
+
+  I have a workaround where I put certain parts of the map in separate layers in Tiled so that they became separate colliders in Unity, but could it be possible to be able to cut a single layer's collider into separate, non-concave colliders within Tiled2Unity?
+
+
+  Thank you very much!
+
+
+  <em><strong>Seanba sez:</strong> Hi Nanofus. I think that's a good job for a custom importer that takes in a source Polygon2D collider and replaces it with a series of Polygon2D colliders that are convex and without holes. Of course, it's not trivial, but there's probably some asset out there than can decompose the complex polygons for you. Just taking a quick look, I've found <a href="https://www.assetstore.unity3d.com/en/#!/content/3739" rel="nofollow">FarseerUnity</a> which claims to have an adequate polygon decomposer in it.</em>
+
+
+  <em><strong>Seanba sez, part 2</strong>: Hi again, Nanofus. As of version 1.0.3.0 you can elect to export polygons colliders as a series of convex PolygonCollider2D or the standard PolygonCollider2D which supports holes and concave edges.</em>

@@ -1,0 +1,15 @@
+id: 40940
+name: Albert
+gravatar: 3bf5e988b65d7aea5a9ff5b790668525
+date: 2015-12-31 12:45:07
+message: >-
+  Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs(6,18): error CS0234: The type or namespace name `Linq' does not exist in the namespace `System.Xml'. Are you missing an assembly reference?
+
+
+  That's the error I get when I export the maps to Unity. All I get is the XML file inside the imported folder and no prefabs. Any ideas?
+
+
+  -A
+
+
+  <em><strong>Seanba sez:</strong> I suspect that is due to you choosing Unity Web Player as a platform which Unity has deprecated to the point that Tiled2Unity can no longer support it. Can you try a different platform, like PC/Mac/Linux Standalone? If you must develop for the Unity Web Player you can go with the old version of Tiled2Unity (see the download page) but you'll be missing some features with that. FWIW, I've just put a new version of Tiled2Unity up which will alert users to this limitation from now on.</em>

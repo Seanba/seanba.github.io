@@ -1,0 +1,22 @@
+id: 35898
+name: Adrian
+gravatar: 2aaab94195166138d10f2d54dbbcfb79
+date: 2015-07-06 09:07:51
+url: https://lionadi.wordpress.com/
+message: >-
+  Thx for this great tool.
+
+
+  I started testing and working with the tool and is great. I did en up adding my custom script for adding a support to export normal maps from Tiled to Unity with Tiled2Unity.
+
+
+  Here is the script changes: https://github.com/lionadi/Tiled2Unity/tree/master/unity/Tiled2Unity/Scripts/Editor
+
+
+  The new shader: https://github.com/lionadi/Tiled2Unity/blob/master/unity/Tiled2Unity/Shaders/normalTiledMap.shader
+
+
+  And my instruction on how to use the new changes: https://lionadi.wordpress.com/2015/07/06/tiled2unity-using-normal-maps-for-your-tiled-projects/
+
+
+  Please forgive my mistakes if you find them. I quickly made this  today for my own needs and decided to add them for others to use if this is needed.

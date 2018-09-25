@@ -1,0 +1,12 @@
+id: 32637
+name: Alan Stagner
+gravatar: f8b446cc16e5b43a5995bf3550e994b3
+date: 2015-05-10 02:03:38
+message: >-
+  I've got a question about colliders. It seems that it's very difficult to get the collider for a tile properly configured so that it doesn't generate... weird results, to say the least.
+
+
+  For instance, here's the collision polygon for a tile: https://dl.dropboxusercontent.com/u/99106620/Tiled2Unity_Issue_Collider.png
+
+
+  And here's what happens upon import (it's the tile under the rightmost collider..island...thing) https://dl.dropboxusercontent.com/u/99106620/Tiled2Unity_Issue_ColliderImport.png If you look closely, it doesn't even extend to the edges of the tile like it does in Tiled, and there's a huge gap between it and the neighboring tile. I'm not sure what I'm doing wrong here. Any help?

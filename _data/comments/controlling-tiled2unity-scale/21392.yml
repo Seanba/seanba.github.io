@@ -1,0 +1,13 @@
+id: 21392
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-03 12:00:01
+is_sean: true
+message: >-
+  Thor, I think I know what you mean. Like, you have a lamppost in your level that you want to be able to walk in front and behind?
+
+
+  If you can make the art so that it has two parts, one that is always in front and another that is always behind the player then you could by with using layers. (i.e. The bottom half of the lamppost has collision set up in such a way that you can always draw it behind the player -- then you have the top half always draw in front of the player.)
+
+
+  If it is more complicated than that then you may be better served with each lamppost being a sprite and those sprites and the player sprite would set their render order through script in realtime. Hope that helps.

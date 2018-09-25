@@ -1,0 +1,5 @@
+id: 49744
+name: Hijack
+gravatar: 7de3ed1248ba17d9088222db46dcaf62
+date: 2016-06-30 10:53:21
+message: "Hi ! I have a problem with Tiled2Unity. When i export my maps, between some tile, there is one pixel space. It happen only on \"inside corner\" tiles. I double checked my texture, and it's not coming from this. In Tiled, there is not this problem, it's only after exporting to unity those space apears. Thanks for yo;ur help ! <em> <strong>Seanba sez</strong>: Hi Hijack. What are you seeing is seams and it is common when using lights but can also show up under other conditions. The texture sampler sometimes chooses a texel just outside a tile boundary so it ends up rendering a piece of a neighboring tile. This is why you see it on \"inside corner\" tiles. The best surefire way to fix is to have a 1-pixel \"buffer\" around your tiles that repeats the pixel that comes before it. This webpage those of good job of explaining it: http://www.firebelly.net/post/114529965784/tile-gaps-using-unity-5-and-tiled2unity</em>"

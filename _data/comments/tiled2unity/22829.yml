@@ -1,0 +1,6 @@
+id: 22829
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-21 21:58:31
+is_sean: true
+message: Hi Alex. It looks like a problem with the texture coordinates. Check the output console for any errors on importing. If you send me your TMX file (and textures) I can take a look too.

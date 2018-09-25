@@ -1,0 +1,12 @@
+id: 49983
+name: Kuba
+gravatar: 365edaac9f64dcbf24a33b3b2afa797e
+date: 2016-08-24 03:21:49
+message: >-
+  Hi, i have problem. When i paste mono $CSSCRIPT_DIR/cscs.exe Tiled2UnityLite.cs --help to my terminal i have this problem
+
+
+  System.IO.FileNotFoundException: Could not find file "Tiled2UnityLite.cs" at CSScriptLibrary.FileParser.ResolveFileDefault (System.String file, System.String[] extraDirs, Boolean throwOnError)  in :0 at CSScriptLibrary.FileParser.ResolveFile (System.String file, System.String[] extraDirs, Boolean throwOnError)  in :0 at CSScriptLibrary.FileParser.ResolveFile (System.String fileName, System.String[] extraDirs)  in :0 at csscript.CSExecutor.Execute (System.String[] args, csscript.PrintDelegate printDelg, System.String primaryScript)  in :0
+
+
+  What i should do?

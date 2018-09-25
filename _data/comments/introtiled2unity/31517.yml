@@ -1,0 +1,15 @@
+id: 31517
+name: David Van Horn
+gravatar: 49aabbcd2a3d212cf3f8a4c8fc2149c0
+date: 2015-03-07 00:05:42
+message: >-
+  Sorry to bug you again, but I've come up against another error. I was installing the newest version of Tiled as it had been a while since I updated, and when I did these two errors came up.
+
+
+  Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Mesh.cs(216,26): error CS1061: Type `UnityEngine.BoxCollider2D' does not contain a definition for `offset' and no extension method `offset' of type `UnityEngine.BoxCollider2D' could be found (are you missing a using directive or an assembly reference?)
+
+
+  Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Mesh.cs(226,26): error CS1061: Type `UnityEngine.CircleCollider2D' does not contain a definition for `offset' and no extension method `offset' of type `UnityEngine.CircleCollider2D' could be found (are you missing a using directive or an assembly reference?)
+
+
+  Also, the Tiled2Unity tab up top does not appear. This is also causing a problem where I can't export the Tiled maps into unity, and when I tried it would say it successfully exported the map, but nothing shows up in unity.

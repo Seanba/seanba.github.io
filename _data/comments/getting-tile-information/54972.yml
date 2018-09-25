@@ -1,0 +1,9 @@
+id: 54972
+name: Draugor
+gravatar: fixit
+date: 2017-08-06 02:45:44
+message: >-
+  great tool and great tutorial.
+
+
+  I'm using the TileObject approach, but because my maps can get big i'm using the import script in the "CustomizePrefab"-function to read all my tileinfo stuff, put it in a 2D-array of a normal c# class, that represents my tileinfo data, and finally delete the Objectlayer of the prefab. That way my prefab doesn't have thousands of gameobjects that impact performance and i can still retrieve the information i need from my data-array. I could even go as far as to save my map-data as a json-string in a text file and load that in when i load the map, which means i could do some small changes without having to re-import the whole map again.

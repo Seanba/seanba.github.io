@@ -1,0 +1,9 @@
+id: 41647
+name: duppie
+gravatar: 72d9f83930cd6ce8aa1303fb4a576a30
+date: 2016-02-19 11:14:46
+message: >-
+  I did every step correctly according to https://www.youtube.com/watch?v=7ZLtXFnF5Js&amp;list=PL_4rJ_acBNMH3SExL3yIOzaqj5IP5CJLC&amp;index=3, but when i choose my project to import my map( maked with Tiled), it says: Tiled2Unity.export.txt Can't find the file. Check the name and try again. I also tried with all the other possible names I can think off, but it is saying that always. pls halp :(
+
+
+  <em><strong>Seanba sez:</strong> Hi duppie. I *think* what you're explaining here is the open file dialog when you click the "Export To ..." button in Tiled2Unity? You need to use that to traverse to the Tiled2Unity folder in your Unity project and select the <code>Tiled2Unity.export.txt</code> that is there. That is how Tiled2Unity knows where to export your files to.</em>

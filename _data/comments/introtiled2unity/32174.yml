@@ -1,0 +1,5 @@
+id: 32174
+name: Alan Stagner
+gravatar: f8b446cc16e5b43a5995bf3550e994b3
+date: 2015-04-15 14:47:49
+message: OK, yeah, just implemented that. I added a boolean array to TiledMap.cs representing collision data for each tile. I also added a method which calculates the collision data by checking each tile with Physics2D.OverlapPoint, and some helper methods to retrieve collision data for any given tile. It works like an absolute charm, giving me nice old-school-style RPG movement. As an added bonus, I modified the importer to call the method which calculates collision data, so it automatically calculates and serializes that data upon import :)

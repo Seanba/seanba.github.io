@@ -1,0 +1,18 @@
+id: 31639
+name: Ed Farias
+gravatar: 792c56674359b93afd966456b64ad1d9
+date: 2015-03-15 10:52:59
+message: >-
+  I sent an email already, but thought I would post here too in case someone else can help.  For some reason I can't get tiled2unity to work.   Every time I try to import a tmx file, I get this error.
+
+
+  Could not export 'Castle.tiled2unity.xml' Tiled2Unity.unitypackage is not installed in unity project: C:\Users\Ed\Documents\Unity\TimeQuest\TimeQuest\Assets\Tiled2Unity Select "Help -&gt; Import Unity Package to Project" and re-export
+
+
+  I can assure you the unity package is imported, if I try to import it again using the Help-Import Packge, Unity tells me it is already imported.
+
+
+  What am I missing?
+
+
+  Thanks.

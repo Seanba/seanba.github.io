@@ -1,0 +1,12 @@
+id: 41323
+name: Nick Chavez
+gravatar: 6d20415cb0a36e9bdc12ae38a9ac3480
+date: 2016-01-30 18:58:49
+message: >-
+  Hi Sean,
+
+
+  You mention this at the beginning of the post, but how would one make one way platforms as in Mario? I used the polyline collider and specified it at the top of the platform, but this still does not let objects pass through from under. Any ideas?
+
+
+  <em><strong>Seanba sez:</strong> Hi Nick, if you're using the physics stuff that is built into Unity then you can look at the Platform Effector 2D class. Because I desire pixel-perfect collisions I shy away from rigid bodies, gravity settings, and the like and use a series of raycasts to do collision checking instead. In that case, I don't check for collisions against collision with up normals if I'm moving up -- if that makes sense.</em>

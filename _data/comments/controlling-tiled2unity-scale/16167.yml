@@ -1,0 +1,6 @@
+id: 16167
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-06-16 11:20:13
+is_sean: true
+message: Cheers, those artifacts are due to the "Pixel snap" settting on the shader. Disabling it will get rid of those in the "Scene view" but then you will have other sub-pixel artifacts in the "Game view" depending on your GPU hardware. Do you still see those bands when you play your game?

@@ -1,0 +1,6 @@
+id: 32626
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-05-08 20:30:07
+is_sean: true
+message: 'Zoltar, could you bit more specific? Tiled2Unity does not tag colliders or meshes but GameObjects. If you need custom behavior where children in the graph inherit properties from their parents then check out the custom importer examples here: http://www.seanba.com/megadadadventures.html'

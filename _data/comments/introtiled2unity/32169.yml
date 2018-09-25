@@ -1,0 +1,5 @@
+id: 32169
+name: Alan Stagner
+gravatar: f8b446cc16e5b43a5995bf3550e994b3
+date: 2015-04-15 13:09:33
+message: Hm.... actually, now that you mention it you've got me thinking... It sounds like a hack, but potentially I could manually check the collision mesh myself, right? And from that, generate, say, a 2D boolean array representing whether each tile can be walked through or not. That could be done as an editor step, potentially.

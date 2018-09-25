@@ -1,0 +1,10 @@
+id: 21393
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-03 12:03:56
+is_sean: true
+message: >-
+  Hi Dawson, check the console/debug output in Unity when you export. There may be some errors there. When I've seen this before it was because a mesh didn't have the proper material assigned to it. Sometimes Unity renames meshes on you and that makes it hard for Tiled2Unity to successfully create the prefab.
+
+
+  Also, send me your *.tiled2unity.xml file and I'll find some time to look at it.

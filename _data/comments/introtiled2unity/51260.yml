@@ -1,0 +1,9 @@
+id: 51260
+name: Patrick
+gravatar: 90f4af03cb44ce24371be8c23ca9f698
+date: 2016-12-14 17:12:31
+message: >-
+  I am having problems importing my map into Unity. When I import the map it is white. So I tried the above tutorial and it imported just fine. I am following gamesplusjames 2D RPG tutorial #6 Making Tile maps. The preview shows it fine but when I export it and it shows up in Unity under the Prefab the tile is white. I can see the objects are there but not on the green background it is suppose to have. Hope this makes sense. I would like to finish this tutorial. Thank you.
+
+
+  <em><strong>Seanba sez:</strong> For those wondering this was the result of a texture being moved in the Unity project. With Patrick's help, I updated Tiled2Unity to report such errors now.</em>

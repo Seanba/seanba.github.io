@@ -1,0 +1,9 @@
+id: 49724
+name: Trevor Petersen
+gravatar: 03a83204be1c9d235b8b3464b5b5bb35
+date: 2016-06-25 15:14:29
+message: >-
+  Hi, I'm using Tiled2Unity in a project of mine and was wondering if there is any way to set the scale to 32 pixels per inch.  In my current project I have some restrictions that will not allow for my character to be 100 pixels per inch, so the character is set to 32 pixels per inch.  I was wondering if there is a way to make the tiles also be 32 pixels per inch so that they match the character.
+
+
+  <em><strong>Seanba sez:</strong> Hi Trevor. The value would have been 1/32 but I recently changed Tiled2Unity so that you just enter 32, just like you would in Unity. Thanks.</em>

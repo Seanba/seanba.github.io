@@ -1,0 +1,10 @@
+id: 28262
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-12-16 15:56:56
+is_sean: true
+message: >-
+  David, in the past I would get untextured tiles because Unity would decorate the mesh name to something Tiled2Unity wasn't expecting. Do you see any warnings or errors in the log/output window in Unity?
+
+
+  If there's nothing obvious there I can try to export your TMX file (and textures) to see if I can replicate the issue.

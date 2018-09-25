@@ -1,0 +1,9 @@
+id: 31610
+name: Ed
+gravatar: 920cca2361a65836c35bec7ba9d8e351
+date: 2015-03-13 13:08:13
+message: >-
+  Hi Thanks for the tool.
+
+
+  I have a strange problem. I have two maps in tow scenes. When the first scene loads up, map looks ok. But when I transition to 2nd scene and come back to scene 1, the map is distorted, like all the tileset coordinates are off.  Do you have any ideas? The strange thing is the 2nd scene is ok when you transition from the distorted first scene to it.

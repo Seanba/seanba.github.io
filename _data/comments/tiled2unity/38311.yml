@@ -1,0 +1,15 @@
+id: 38311
+name: Matthew Dooley
+gravatar: 8d18475b4950bd26074b4df2ccdaa0c7
+date: 2015-08-12 19:08:20
+message: >-
+  Hello,
+
+
+  So, I was in need of Tiled2Unity for OS X. So thanks to Gnumaru (https://github.com/Gnumaru) work on making it compatible with mono, I was able to make an OS X app.
+
+
+  So anyone interested in using it on OS X install the Unity Package from the zip already provided and download this app: http://doolsllc.com/Tiled2Unity.zip It will give you a link to install mono.
+
+
+  (Warning: I did not sign the app, this means you'll have to allow it to run.)

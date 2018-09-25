@@ -1,0 +1,9 @@
+id: 40586
+name: Alex
+gravatar: 54dffb7845dd6f93cba6740b12ee7311
+date: 2015-12-02 21:26:49
+message: >-
+  Thanks so much for this program, Sean! It's help tremendously with my game already, but I'm having a bit of a problem. I made a large map, but I had to create 900 or so layers to get an effect that I wanted. Over 890 of the layers only have up to 4 tiles or less, but it's making me get an error due to the file being too big. I need these different layers to appear individually to make a path be built as you progress forward through the map, but I don't know if this size will work for being imported. Is there any way that I can import this correctly by changing layers, or at least create more memory in the program itself? Thanks in advance!
+
+
+  <em><strong>Seanba sez:</strong> Hi Alex. I don't think that number of layers should be a problem, especially given 99% of them only have 4 tiles (But maybe it's a DOM thing? I don't know.). Can you be more specific about the error? What is the error? Are you getting it in the Tiled2Unity utility or in Unity? Could you send me an example of a Tiled file (don't forget the tileset textures!) that are causing this?</em>

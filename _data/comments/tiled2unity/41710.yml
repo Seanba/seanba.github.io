@@ -1,0 +1,15 @@
+id: 41710
+name: Valerie
+gravatar: c41a58ee888957c3aac7ce814a62a057
+date: 2016-02-22 00:33:08
+message: >-
+  Hey there,
+
+
+  I must say your tool is pure magic and saved me a TON of time! But... I have the same problem as Jake above... I did an export once. Did a playtest and ended up changing the layout a bit and now it gets stuck when the Meshes are being generated in Unity. Not sure what to do :S Anything you can offer to help? Thanks :)
+
+
+  Oh... I'm using: Unity : 5.3.2f1 Tiled2Unity : 1.0.4.2 Tiled : 0.15.1
+
+
+  <em><strong>Seanba sez:</strong> Chances are strong this is due to using Tiled's "Tile Collision Editor" without using "Snap to Grid" or "Snap to Fine Grid". Without this, you end up with sub-pixel coordinates that keep neighboring polygon/rectangle objects from being merged. That results in very slow importing as Unity struggles to create a PolygonCollider2D with a lot of paths in it. I'm working on a new version of Tiled2Unity that warns users at export time of this.</em>

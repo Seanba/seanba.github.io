@@ -1,0 +1,15 @@
+id: 55275
+name: Sharlatan
+gravatar: 5b0290cc57e985af37ac92bd526f5f84
+date: 2017-08-14 09:06:46
+message: >-
+  Question regarding mapping certain tiles to specific sorting layers in Unity:
+
+
+  You write the following: -------------- Important Update: With Tiled2Unity 1.0.5.0 and later you no longer need to use the unity:layer property. Instead, use the Type field of your rectangles, polygons, and polylines in the Tile Collision Editor. This Type will match the physics layer in your Unity project. --------------
+
+
+  But what do I do if the tile in question doesn't have any collision object that got added through the Tile Collision Ediotr? E.g. a tree top which shouldn't have any collision because the player can walk behind it. In that case I lack the collision object where I could set the correct layer in the type field.
+
+
+  Thanks a lot!

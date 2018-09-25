@@ -1,0 +1,9 @@
+id: 39045
+name: Async
+gravatar: 85b6c1391757300e7ec9ff486610ad4b
+date: 2015-09-25 16:53:00
+message: >-
+  Seanba, could something similar to what is in 0.9.13.0 (ignore: collision, etc), but to allow unique tiles to be generated if they contain special map tile properties be added in a future version?(not even generated, but handled by a custom importer would be good enough)
+
+
+  Basically a pass-through to allow a custom-importer in Unity to process all tiles in a specified layer, by itself.

@@ -1,0 +1,15 @@
+id: 28903
+name: FrioneL
+gravatar: e6c7daaeec8e0305798a3205f6b7af82
+date: 2015-01-02 14:29:14
+message: >-
+  Hi Seanba.
+
+
+  Thanks again for this amazing tool.
+
+
+  I've a little question: what's the difference between the HandleCustomProperties and the CustomizePrefab? Couldn't we just use HandleCustomProperties to do the same thing as the CustomizePrefab function? We are receiving each gameObject and also its properties, so we have even more information than the CustomizePrefab.
+
+
+  Thanks!

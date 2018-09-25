@@ -1,0 +1,6 @@
+id: 19923
+name: Shawn
+gravatar: b796faf0fa590a5a33351f19886fda48
+date: 2014-08-14 12:39:22
+url: http://treefortress.com
+message: Hmm it seems to be related to the Collider that has been added to Tile-index24, if I remove that from the TileSet, it loads fine. 24 is also the max index for the tileset... Maybe there is an issue with having a collider on the final index ?

@@ -1,0 +1,16 @@
+id: 19925
+name: Shawn
+gravatar: b796faf0fa590a5a33351f19886fda48
+date: 2014-08-14 12:58:24
+url: http://treefortress.com
+message: >-
+  Sorry, to bug, but could you tell me how I'd go about adding support for Render Order?
+
+
+  The latest builds of Tiled allow you to specify drawing from Bottom-Right, rather than Top-Left, which we require for out art style.
+
+
+  However the mesh always seems to be rendered from top-left: http://cl.ly/image/29251u0Z3Y1Q
+
+
+  Cheers,

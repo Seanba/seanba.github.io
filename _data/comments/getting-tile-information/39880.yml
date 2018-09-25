@@ -1,0 +1,15 @@
+id: 39880
+name: bagellad
+gravatar: 966fa7d98c67b735b1352791e583981d
+date: 2015-11-04 21:12:40
+message: >-
+  I had the same issue with the sample files, but once i upgraded my unity it went away.
+
+
+  It might be that I am home with the flu but for the life of me I can't figure out how to spawn a custom object, like say a treasure chest from tiled and then have it work within unity. I was trying to add another
+
+
+  "if (customProperties.ContainsKey("Terrain"))" but looking for another property like "Test" just after the other if statement but I cannot get it to work, but it is getting my updated map because i can see the geography change...
+
+
+  I also can't seem to get any debug.log to output anything within the public class CustomImporter_StrategyTiles. To help with my debugging.. any suggestions?

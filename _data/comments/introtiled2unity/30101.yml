@@ -1,0 +1,9 @@
+id: 30101
+name: dean
+gravatar: fixit
+date: 2015-01-21 08:06:36
+message: >-
+  I've imported a map into unity but for some reason the size is scaled way too high. The tiles should be 32x32 but they're well over 500x500. Anyone have an idea why that might be happening?
+
+
+  [<em><strong>Seanba sez</strong>: Hi Dean. Try using the unity:scale property. Details here: http://www.seanba.com/controlling-tiled2unity-scale.html</em>]

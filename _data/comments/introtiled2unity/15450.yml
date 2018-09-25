@@ -1,0 +1,6 @@
+id: 15450
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-06-02 18:11:06
+is_sean: true
+message: I'm looking now. Textures within the same Unity project your are exporting too should not be re-imported so it sounds like something is wrong. I'm investigating. If all your textures and TMX files are within your Unity project you could send it me as a Unity package -- not sure if you want to do that though.

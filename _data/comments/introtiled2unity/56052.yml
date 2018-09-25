@@ -1,0 +1,12 @@
+id: 56052
+name: Alan
+gravatar: 2785cbdf1e7a03842686dc97400ebf05
+date: 2017-09-12 02:47:19
+message: >-
+  Hi,
+
+
+  I keep running into a problem, when I updated my source image via a graphics program, sometimes it doesnt update in tiled, the path / reference is correct but just doesnt update.
+
+
+  Even if I edit the tileset and change the source image (to the same one) , it still doesnt update the image to what I have changed and still shows the old version, like its cached

@@ -1,0 +1,6 @@
+id: 21187
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-01 11:59:42
+is_sean: true
+message: Hi DJVDJV, I've had people make maps that were in the 500x500 range and I recommend against it but not because of performance. The complexity of a map that size has got to be enormous and I can't see it being manageable once you start fleshing out your game. I prefer to work with maps that are several dozen tiles in width and height, maybe going long in one direction for scrolling.

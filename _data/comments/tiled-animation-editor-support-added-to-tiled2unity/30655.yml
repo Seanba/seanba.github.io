@@ -1,0 +1,12 @@
+id: 30655
+name: robutMike
+gravatar: 9f81b2b517b4268693f9cb388ce73c0e
+date: 2015-01-31 10:04:13
+message: >-
+  You mentioned that animated tiles might be computationally expensive since each frame is its own mesh. Would it be better to simply instantiate a prefab animated tile into that area when you first load the scene?
+
+
+  Additionally, are there any plans to allow "marker tiles" that can be replaced with prefabs when the room is instantiated?  For example, a coin marker would be replaced with a coin prefab that has its own set of components and whatnot.
+
+
+  Just curious! Thanks again for your great tool.

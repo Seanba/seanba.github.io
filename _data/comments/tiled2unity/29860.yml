@@ -1,0 +1,5 @@
+id: 29860
+name: Tomer
+gravatar: fixit
+date: 2015-01-16 17:50:09
+message: "I think I've found a bug. When using a tileset from a collection of images the collisions don't end up in the correct coordinates, but on the bottom of the tile. It ends up like this: http://imgur.com/HufAmNA"

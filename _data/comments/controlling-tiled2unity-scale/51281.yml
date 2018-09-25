@@ -1,0 +1,12 @@
+id: 51281
+name: LYY
+gravatar: 6b7a3034a159f58051931095975afb33
+date: 2016-12-18 03:03:32
+message: >-
+  Hello Seanba! Please help. My problem is similar to the rest here(some lines between tiles), I've turned off Pixel Snap but I don't know how to change the texture filter mode from the prefabs. Ive turned off anti aliasing but the lines are still there.
+
+
+  <em><strong>Seanba sez:</strong> Depending on the size of the textures used in your tilesets, the easiest way to remove seams is to tuck-in the texture coordinates by launching Tiled2Unity with the --texel-bias setting set to some power-of-two value. By default, this value is 8192 (so that texture coordinates are tucked in by 1/8192th of a pixel). Try a smaller number (4096, 2048, etc) until seams disappear. Don't choose a number that is equal to or smaller than your largest texture width or height though.
+
+
+  BUT ... the best way to fight seams is to surround your tiles in your tileset with matching pixels so that when Unity's texture sampling miscalculates a texel (that's what is causing your seams) it chooses a texel with the same color. You can read more about that here: http://www.firebelly.net/post/114529965784/tile-gaps-using-unity-5-and-tiled2unity</em>

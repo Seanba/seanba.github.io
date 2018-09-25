@@ -1,0 +1,36 @@
+id: 37948
+name: Jesse A
+gravatar: a26f89f3c9210e7cdfc7175cb5c52020
+date: 2015-07-30 23:00:38
+message: >-
+  @DavR This is how I did it and it seems to be working great. 1) Download mono here: http://www.mono-project.com/docs/about-mono/supported-platforms/osx/
+
+
+  2) Download the updated Tiled2Unity files here: https://github.com/Gnumaru/Tiled2Unity/raw/master/tool/Tiled2Unity/build/Tiled2UnityTool.zip
+
+
+  3) This is the important part here... Go to your downloads folder and open up the folder you just downloaded called "Tiled2UnityTool".
+
+
+  4) Grab all those files (starts with Ookii.Dialogs.Modified.dll and the last one is Tiled2Unity.exe) and place them in your home folder. You need to either drag and drop them there or copy and paste them there. The home folder for me is the last folder in my Finder under my favorites off to the left hand side.
+
+
+  5) Once all the files are there you need to open up the Terminal window. An easy way to find the terminal is to click the magnifying glass that is at the top right of your Mac. When the search feature opens up type "Terminal" and it will be the first thing that pops up.
+
+
+  6) In the terminal window type      mono Tiled2Unity.exe      then press enter You should now see the Tiled2Unity software open up. Sadly you are no ready to use it yet.
+
+
+  7) Next you need to go online to github. https://github.com/Gnumaru/Tiled2Unity Once you are there on the right hand side in the middle click "Download Zip"
+
+
+  8) Once the files are downloaded, go to your downloads folder and open up the folder you just downloaded. Should be titled "Tiled2Unity-master". Open the next folder titled "unity". You now should see a folder titled "Tiled2Unity". You need to drag this folder into your Unity project into your assets folder that should already be re-created for you.
+
+
+  9) Now you can go back to the Tiled2Unity software you opened up earlier through your terminal window. Here you need to select File and then Open Tiled File... of course select your tile map you've created in Tiled. Next you need to set the Export To field to export to your unity project folder. Not the assets folder, just the main folder of your project. Before clicking "Big Ass Export Button" be sure you set your vertex scale appropriately. Setting this to 0.01 seems to work perfect for 32 pixel sized tiles. After you set the number press the "Big Ass Export Button" and it should say Successfully exported. Open up your Unity project and check the prefabs folder. Your map should be right there waiting for you.
+
+
+  Hope this helped.
+
+
+  -Jesse A.-

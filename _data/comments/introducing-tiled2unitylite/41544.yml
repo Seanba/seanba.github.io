@@ -1,0 +1,15 @@
+id: 41544
+name: Jason
+gravatar: 2081a9da3d0914881819f9034ee5127a
+date: 2016-02-11 01:27:49
+message: >-
+  Hey great tutorial, Im just a little stuck at the part where you "Go to the directory you’ve unzipped Tiled2UnityLite.cs to and run the help command on our script." I opened Titled2UnityLite.cs with Mono which like you said had 10,000 lines of script on it. I am confused as to where you enter the help command. Any help would be greatly appreciated. Thanks
+
+
+  <em><strong>Seanba sez:</strong> Hi Jason, I'll try to edit the post to clarify but you want to run this command from the terminal:
+
+
+  <code>mono $CSSCRIPT_DIR/cscs.exe Tiled2UnityLite.cs --help</code>
+
+
+  Depending on how you have CS-Script "installed" you may need to replace $CSSCRIPT_DIR with the full path to your cs-script folder.</em>

@@ -1,0 +1,6 @@
+id: 38931
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-09-20 09:54:12
+is_sean: true
+message: Keep in mind that for vertex scaling, the formula to use is 1 / (size of tile) as opposed to (size of tile) / 100. In other words, if you want to treat 1 unit as 32 pixels then use 1/32, not 32/100.

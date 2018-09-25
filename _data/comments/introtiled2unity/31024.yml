@@ -1,0 +1,6 @@
+id: 31024
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-02-10 21:35:05
+is_sean: true
+message: William, version 0.9.8.0 of Tiled2Unity supports a new command line argument (-s or --scale) which will scale the vertices and geometry of the exported map but keep the GameObject scale at (1, 1, 1). This way you can spawn other GameObjects in the hierarchy and they won't inherit a crazy scale of 0.0625 (1/16th).

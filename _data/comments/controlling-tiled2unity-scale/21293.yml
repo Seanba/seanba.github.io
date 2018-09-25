@@ -1,0 +1,16 @@
+id: 21293
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-09-02 14:39:16
+is_sean: true
+message: >-
+  Hello, Thor. There's a couple of things you can do:
+
+
+  1) Change this line in the Tiled2Unity scripts to the filter mode you want: textureImporter.filterMode = FilterMode.Point;
+
+
+  2) Use textures that are already part of your Unity project. In this case, Tiled2Unity does not try to overwrite the texture settings.
+
+
+  I'll think of way I can make this process better. Maybe I can have a property on the tileset (in Tiled) that gives direction to the Tiled2Unity importer scripts.

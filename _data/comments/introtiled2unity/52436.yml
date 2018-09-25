@@ -1,0 +1,9 @@
+id: 52436
+name: Alessandro
+gravatar: 8a31265191075ca9dadfa6f017d12aa4
+date: 2017-03-23 17:27:17
+message: >-
+  Hi, congratulation for the awsome tool! You may add the support for composite collders. they should be better in performances than polygon colliders
+
+
+  <em><strong>Seanba sez:</strong> Hi Alessandro. I see no reason for composite colliders to perform better as they use polygon colliders behind-the-scenes. If you have some data that shows otherwise then I may consider it. However, I haven't received any reports ever about poor collider performance ever so I'd want to know it's worth the bother first. Thanks.</em>

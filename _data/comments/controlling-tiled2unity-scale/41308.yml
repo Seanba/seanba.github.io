@@ -1,0 +1,9 @@
+id: 41308
+name: Carlos
+gravatar: 243f241f42d41e2c182b7ca92adc23f7
+date: 2016-01-29 17:49:07
+message: >-
+  Hi Seanba, I'm using Tiled2Unity for a while but there's something that concern me. i'm working in a 8 bit style so, my tiles are 16x16 px so I have 16 in "pixel per unit". I try put in unity:scale 0.016 doesn't do any change. if put 0.016 in scale vertex it's too small compare to one tile in unity. only with 0.0624 is close to the tile in unity. what I can do to solve this? btw great application.
+
+
+  <em><strong>Seanba sez:</strong> Hi Carlos, a common error in scaling is to use value/100 (or in your case, 1/1000) instead of 1/value as the scaling value. In your case you want 1/16 = 0.0625 as the scale value which you will note is very close to the 0.0624 value you got through trial and error.</em>

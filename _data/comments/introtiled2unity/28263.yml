@@ -1,0 +1,6 @@
+id: 28263
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-12-16 15:59:39
+is_sean: true
+message: Anon, what are the texture import settings on the texture(s) being referenced by the generated mesh? Tiled2Unity works best with uncompressed and unfiltered textures. You may be seeing some artifacting with bilinear filtering, for instance.

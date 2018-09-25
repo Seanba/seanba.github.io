@@ -1,0 +1,25 @@
+id: 41307
+name: siberianbrother
+gravatar: 9ffdbd953747e9e32670a285faf043b6
+date: 2016-01-29 14:59:35
+message: >+
+  Thanks to Seanba and all those who posted comments here for mading t2u available for Mac!
+
+
+  I've finally managed to set up t2u, and the last question which I have is how is it possible to change vertex scale when you export your map?
+
+
+
+
+  <em><strong>Seanba sez: </strong></em> <blockquote>Use the -s or --scale option. For instance, if you want to do 1/100 scale the command would be:
+
+
+  <code>/bin/sh /MyPath/tiled2unitylite.sh %mapfile -s=0.01 /MyProject/Assets/Tiled2Unity</code> or <code>/bin/sh /MyPath/tiled2unitylite.sh %mapfile --scale=0.01 /MyProject/Assets/Tiled2Unity</code>
+
+
+  Keep in mind the scale value needs to be 1/v and not v/100. A common mistake for someone that wants to use 1/32 scale is to use a scale value of 0.32 instead of 0.03125. </blockquote>
+
+
+
+
+

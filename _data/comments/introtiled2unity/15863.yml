@@ -1,0 +1,10 @@
+id: 15863
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-06-10 13:10:04
+is_sean: true
+message: >-
+  Hi James. Many Unity 2D projects use the 0.01 pixel-to-unit scale with sprites. In this case you can drop your prefab into the scene attached to a root GameObject that has its scale set to (0.01, 0.01, 0.01).
+
+
+  If people find it useful I could add awareness of a <code>unity:scale</code> property within the Tiled TMX files. This is how we can set Tag, (Physics) Layer, Sort Layer, and Sort Order on exported objects, btw.

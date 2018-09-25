@@ -1,0 +1,9 @@
+id: 68015
+name: Mikael
+gravatar: fixit
+date: 2018-09-02 10:13:50
+message: >-
+  I am having trouble importing my tiled map into Unity. I export it successfully with no problems, but I get this errror within Unity; Error creating material 'tileset.mat'. Texture was not found: Assets/Sprites/tileset.png UnityEngine.Debug:LogError(Object) Tiled2Unity.ImportBehaviour:RecordError(String, Object[]) (at Assets/Tiled2Unity/Scripts/Runtime/ImportBehaviour.cs:172) Tiled2Unity.ImportTiled2Unity:AssignTextureAssetToMaterial(Material, String, String, ImportBehaviour) (at Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Material.cs:161) Tiled2Unity.ImportTiled2Unity:ImportAllMaterials(ImportBehaviour) (at Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Material.cs:142) Tiled2Unity.ImportTiled2Unity:ImportAllTextures(ImportBehaviour) (at Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Texture.cs:61) Tiled2Unity.ImportTiled2Unity:ImportBegin(String, ImportTiled2Unity) (at Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Xml.cs:40) Tiled2Unity.TiledAssetPostProcessor:OnPostprocessAllAssets(String[], String[], String[], String[]) (at Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs:83) UnityEditor.AssetPostprocessingInternal:PostprocessAllAssets(String[], String[], String[], String[], String[])
+
+
+  Thanks for any help!

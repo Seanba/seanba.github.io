@@ -1,0 +1,12 @@
+id: 41802
+name: Python
+gravatar: e4c4f704e8dfe964d6ef8c0368bc3931
+date: 2016-03-10 10:48:40
+message: >-
+  I have not downloaded Tiled2Unity but I have seen a video explaining how to use this tool. One question comes to my mind:
+
+
+  I saw that your program uses PolygonColliders2D for the collisions. Is it possible to use BoxColliders2D instead, as I will only need boxes?
+
+
+  Thanks <em> <strong>Seanba sez:</strong> Hi Python, with a BoxCollider2D instance for each tile any map of appreciable size will quickly explode to having many thousands of such components on it -- so much so that it will be unmanageable and/or degrade performance. Combining colliders into polygons greatly reduces the object count by several orders of magnitude. So, short answer is "no" this isn't supported. However, through some clever use of Tiled automapping you could have each tile create a box object which will get exported as a bunch of separate box colliders. I recommend against that approach though due to the concerns already mentioned. Is there a reason why you can't do collision checks against polygon colliders in any case? That would be by far the best approach.</em>

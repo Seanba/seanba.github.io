@@ -1,0 +1,9 @@
+id: 16426
+name: Ginich
+gravatar: 828106671f317019addeebc23eb56383
+date: 2014-06-20 20:33:03
+message: >-
+  Does Tile2Unity support tile sets from multiple images? I've tried it but the application throws an error when trying to load the TMX file. Think its throwing a null pointer exception.
+
+
+  It works if I try to export a TMX file with 1 image

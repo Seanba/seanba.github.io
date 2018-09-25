@@ -1,0 +1,9 @@
+id: 49842
+name: agray427
+gravatar: 4628792da69710f04222142125b953ea
+date: 2016-07-13 02:05:35
+message: >-
+  I'm having an issue with importing. I'm not sure if it's because I scaled the texture, but there are lines that go across the prefab in a grid pattern (scene and game view). The grid pattern is the exact size as the grid the texture was cut by. One thing that helps is turning off Pixel Snap in the material, but there are still a few lines although some a removed. Do you have any idea why?
+
+
+  <em><strong>Seanba sez:</strong> What you are seeing are seams. I've fixed a bug in the latest version of Tiled2Unity (1.0.7.5 as of this writing)  that helps this in the case of rotated or flipped tiles. Seams may still show up due to mathematical precision issues with the texture sampling and will depend on a host of issues (texture size, camera location, lighting, platform, GPU drivers, etc.). In those cases the only surefire way to handle seams is to surround each tile in your tileset with a 1 pixel border that repeats the pixel color that came before it. There is a good write up on that here: <a href="http://www.firebelly.net/post/114529965784/tile-gaps-using-unity-5-and-tiled2unity" rel="nofollow">TILE GAPS USING UNITY 5 AND TILED2UNITY</a></em>

@@ -1,0 +1,19 @@
+id: 33624
+name: wraithseeker
+gravatar: 3aae849af47d41c34facec33c13147e7
+date: 2015-06-09 13:09:17
+url: http://www.wraithseeker.com
+message: >-
+  2) I set the size of my camera to be 240 but it doesn't cover the whole tilemap (sorry it's my first week using Unity switching from SpriteKit Apple).
+
+
+  I looked through your Mega-Dad example and checked out the web demo and it seems that the camera fits nicely but if I imported the Mega Dad example in Unity and then ran it, the same problem appears . (My native resolution design is 16:9 and should scale according for other resolutions)
+
+
+  3) Is it possible to replace the  map to be bigger with new images without recreating a new maps in Tiled? For example for phones I would be using tile size of 32x32 but for tablets 64x64 . I would have new images.
+
+
+  4) I have 60 Tiled tmx map. What is the best approach to generating them? I am thinking of two approaches, the first one would be to create a new scene for every level which would be inefficient.
+
+
+  I'm looking towards creating 1 game scene and then loading levels accordingly and I would like to ask if this is feasible and if so what's the general outline to doing it? Am I supposed to put all the levels under the Hierarchy and hide/show them accordingly?

@@ -1,0 +1,12 @@
+id: 40908
+name: Matthias
+gravatar: ad78cf42f8c421bc3e532fc3e16f3f9d
+date: 2015-12-28 12:28:18
+message: >-
+  Hi Sean,
+
+
+  I'm getting a script error on import  (Import Unity Package to Project) in TiledAssetPostProcessor; using v 1.0.0.2 and 5.2.3f1, this prevents any prefab from being created
+
+
+  <em><strong>Seanba sez: </strong>This is fixed now. The problem was Unity 5.0-5.2 didn't support a function I was using.</em>

@@ -1,0 +1,12 @@
+id: 25129
+name: wax
+gravatar: fixit
+date: 2014-10-29 04:33:31
+message: >-
+  Thank you Seanba for your answer.
+
+
+  sorry, could you please explain the required procedure in detail?
+
+
+  I've imported a copy of the used .png file into my textures folder (Assets/Resources/Textures) with "FilterMode" = Bilinear and re-imported the level with Tiled2Unity. When I'm starting the game, then everything is looking the same as before.

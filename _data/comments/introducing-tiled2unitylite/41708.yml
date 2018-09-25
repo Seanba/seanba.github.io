@@ -1,0 +1,15 @@
+id: 41708
+name: Emrys
+gravatar: aa7fac30fc3ea31775027686e8864354
+date: 2016-02-21 09:48:21
+message: >-
+  hi i'm having trouble with the .log file step. How do i create such a file? and where should it be placed? another quick question, this might be a pretty dumb one.., but do i need to change "MyProject" in the Tiled command to be the name of my project in unity? cheers.
+
+
+  <em><strong>Seanba sez:</strong> Hi Emrys. The log file needs to be in the same directory as the shell script. You can create the file in any number of different ways but probably the easiest is to be in the terminal at the directory you have the tiled2unitylite.sh file and type:
+
+
+  <code>echo "This is my log file" > tiled2unitylite.log</code>
+
+
+  You replace "MyProject" not only with the name of your Unity project but the path on your hard drive to that project. I know it can be confusing at first but keep with it. Having a working knowledge of how to manipulate your development environment and use the command line is extremely helpful in software development :)</em>

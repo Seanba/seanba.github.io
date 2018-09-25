@@ -1,0 +1,12 @@
+id: 40577
+name: BaochaosDevs
+gravatar: fixit
+date: 2015-12-02 13:02:27
+message: >-
+  Hi Sean, I am an enthusiastic game developer, and I love nothing but Unity. I spent a month making 67 maps on tiled for a game, and was planning to use this software only to find out it was only on windows! I beg you, some way to make a macintosh version!!! Thanks, BHDevs
+
+
+  <em><strong>Seanba sez: </strong>Hi BHDevs. Tiled2Unity uses C# and has a dependency on MS DLLs so a port is not trivial. However, some folks have reported success with OSX if you check out the <a href="http://www.seanba.com/tiled2unity-is-on-github.html" rel="nofollow">comments in this thread</a>.</em>
+
+
+  <em><strong>Seanba sez, part 2:</strong> Tiled2UnityLite is now available for use on Mac.</em>

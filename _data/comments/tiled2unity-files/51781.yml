@@ -1,0 +1,5 @@
+id: 51781
+name: Benchmark04
+gravatar: fixit
+date: 2017-01-27 14:02:32
+message: 'i have a question, when i use a prefab-map in my scene und add some childs to some of the tiles adding things like scripts and colliders and stuff, how can i prevent the overwriting everytime when i want to change the map with tiled and export it again? <em> <strong>Seanba sez:</strong> For that sort of thing you want a Custom Importer to edit the prefab for you. Such importers are invoked when the prefab is reconstructed and their job will be to add the child gameobjects, scripts. colliders, etc.. that you would otherwise do by hand. I talk about custom importers here: http://www.seanba.com/megadadadventures.html</em>'

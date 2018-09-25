@@ -1,0 +1,12 @@
+id: 28929
+name: James Kim
+gravatar: 2219efe7a592eb010cd4d7088adc9467
+date: 2015-01-03 05:26:54
+message: >-
+  Hi thanks for amazing work. These days I was looking for tilemap plugins, and finally reached the conclusion that this one and 2dtoolkit are the best.
+
+
+  But some feature, which cropping tile's transparent area and then gather into a altas again but in more minimal form, is missing. Actually this feature is really important for the performance and also binary size.
+
+
+  So do you have any plan to support this cropping feature?

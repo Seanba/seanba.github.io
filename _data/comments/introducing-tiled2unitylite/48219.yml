@@ -1,0 +1,12 @@
+id: 48219
+name: riceandpixel
+gravatar: 375fded73a785c8ef67779621a84cfe5
+date: 2016-04-20 07:27:20
+message: >-
+  one more thing (sorry) - I get this error showing up in Unity, not sure if it's relevant:
+
+
+  Assets/Tiled2UnityLite.cs(21,14): error CS0234: The type or namespace name `Drawing' does not exist in the namespace `System'. Are you missing an assembly reference?
+
+
+  <em><strong>Seanba sez:</strong> (Just to fill in other users, Tiled2UnityLite.cs was being included in the Unity project in this example. Simple mistake, but it needs to be treated as a tool outside of Unity.)</em>

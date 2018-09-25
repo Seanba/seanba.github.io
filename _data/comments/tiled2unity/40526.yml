@@ -1,0 +1,9 @@
+id: 40526
+name: Adam
+gravatar: 1b89b982f116949623a9dbb4725345b2
+date: 2015-11-30 08:55:39
+message: >-
+  Hey Seanba, great tool you have made, love it a lot. I have however encountered a problem. I load my map into Tiled2unity and everything goes fine. But when I try to open my project it gets stuck importing on 'NameOfMap'.obj. The map is large in size but I have tried to break it up into pieces but still no luck. Another guess of mine is that maybe its the collision. Love to hear back from you. Thanks
+
+
+  <em><strong>Seanba sez: </strong>I would guess it's the size of your map. Unity tries it best to cut up large meshes into smaller ones but sometimes gets stuck in the process. Can you send me your *.tiled2Unity.xml file that it is trying to import?</em>

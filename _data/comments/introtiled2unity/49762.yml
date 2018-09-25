@@ -1,0 +1,21 @@
+id: 49762
+name: Stephen M
+gravatar: 8ec56b6355bda3630ccf97656df84c2c
+date: 2016-07-02 11:06:38
+message: >-
+  Hi! I made a tiled map called Westland in Tiled.  When I get to the part to press the Big Ass Export Button and wait for Unity, I get 2 errors: 'Assets/Tiles2Unity/Materials/ Westland.mat' is not a valid asset file name.
+
+
+  And
+
+
+  UnityException" Creating asset at path Assets/Tiled2Unity/Materials Westland.mat failed.
+
+
+  The import progress box is frozen after that and the only way to get rid of it is to exit Unity completely.  So I made a new map with a new name, "trial", but when I try that, i get the same error about Westland, even though I'm not even using that map.  Any ideas?
+
+
+  Thank you so much for your help! I'd really appreciate it
+
+
+  <em><strong>Seanba sez:</strong> Hi Stephen. The texture being used had a leading whitespace in its filename (i.e. " Wasteland" instead of "Wasteland"). It turns out in Unity that you can't name an asset that way. I will look into catching that and warning the user for a future build.</em>

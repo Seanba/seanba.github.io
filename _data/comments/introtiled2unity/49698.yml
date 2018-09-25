@@ -1,0 +1,29 @@
+id: 49698
+name: Nfam0us
+gravatar: 7e6241c128b4da07d75440da2a99180e
+date: 2016-06-21 00:05:34
+message: >-
+  I am having the issue that was mentioned earlier, where there's an xml fille generated. There are, however, no prefabs.
+
+
+  I found this in the Log: Writing face uv coordinates when I noticed that the "clipping" output log had no file listed.
+
+
+  ImportTexture : will import 'C:\Users\Bobby\Documents\UnityDataTools\Art\Unsorted\cute_lpc_revised.png' to C:\Users\Bobby\Documents\UnityDataTools\Projects\DoNE\DoNE\Assets\Tiled2Unity\Assets\Tiled2Unity\Textures\
+
+
+
+
+  It's attempting to import an image from a working directory path to a directory path that doesn't exist within the Tiled2Unity package.
+
+
+  I've tried uninstalling and reinstalling the package, deleting the entire folder its files are in. Doesn't matter. It keeps trying to pull things to the wrong directories. Even after I manually imported the image into the directory, it still wouldn't create the prefab.
+
+
+  I'm guessing I did something simple to point it to the wrong place. I've been over the directions more than a dozen times, but then my brain's in pieces from reading switch logs all day (network IT by day, n00b video game dev hobbyist by night).
+
+
+  Any help would be hugely appreciated. Thanks.
+
+
+  <em><strong>Seanba sez:</strong> Tiled2Unity was reporting that texture being copied to the wrong diretory and is now fixed.</em>

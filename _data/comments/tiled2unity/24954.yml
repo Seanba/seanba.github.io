@@ -1,0 +1,6 @@
+id: 24954
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2014-10-26 12:54:06
+is_sean: true
+message: Hi Bonfi, the best course of action is took author a bunch of map pieces in Tiled and export them into Unity. Then, have some other process that stitches these pieces together appropriately.

@@ -1,0 +1,9 @@
+id: 33614
+name: Tim
+gravatar: ac7f8be98ce9d420732180cca316504f
+date: 2015-06-09 11:49:01
+message: >-
+  Updated it here with the newest version: Seems to work fine now. I had to scale the collision layers x2 for some reason though.
+
+
+  To use: 1. Go to https://github.com/timminkov/Tiled2Unity 2. Download the Zip or clone the repo. 3. Use the exe in Tiled2Unity/tool/Tiled2Unity/src/bin/Debug/ as per instructions above (I use Mono, Wine didn't work for me).

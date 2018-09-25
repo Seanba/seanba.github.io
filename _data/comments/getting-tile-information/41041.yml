@@ -1,0 +1,16 @@
+id: 41041
+name: Feliza
+gravatar: a91047adbd5515795b1df9e2321f2f86
+date: 2016-01-08 15:52:51
+url: http://feliza1992.blogspot.de/
+message: >-
+  Hello, i got some questions concerning the polygoncollider2d approach. How do i know what kind of tile my raycast hit, is it the name of the layer or something? Basically i have a collider on each and every object, right? Doesnt that mean that i have to select which collider one can walk through and which not for every group of objects in unity for every map,which is a lot of work?
+
+
+  Thanks for answering my questions in advance.
+
+
+  Best wishes
+
+
+  Feliza

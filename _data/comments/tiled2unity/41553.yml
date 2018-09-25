@@ -1,0 +1,15 @@
+id: 41553
+name: Jake
+gravatar: 535f8cb9062045ff9733b9566860c0dc
+date: 2016-02-11 15:14:41
+message: >-
+  Hi, I have a similar problem to Thomas, when i export the tiled map, there is only an XML file in the import folder but the script hasn’t converted the file into a prefab that i can use. But the solution that you said doesn't help as, as far as i can tell i am running a Windows/Mac/Linux build and i am still getting the error. Anything else i can do or check that may help?
+
+
+  There is also an error in the console which i am not sure what exactly it is (im fairly new to unity, but i know the basics), this is what it displays: Assets/Tiled2Unity/Scripts/Runtime/TileAnimator.cs(10,19): error CS0234: The type or namespace name `Assertions' does not exist in the namespace `UnityEngine'. Are you missing an assembly reference?
+
+
+  Can you please help? Thanks.
+
+
+  <em><strong>Seanba sez:</strong>Hi Jake, my guess is that you are using a flavor of Unity 4 and that is no longer supported. If you go to the Tiled2Unity download page you can get an old version that is compatible with Unity 4 but I would recommend upgrading Unity instead.</em>

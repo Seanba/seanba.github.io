@@ -1,0 +1,12 @@
+id: 41048
+name: Schwarz
+gravatar: cedb58105df372b43c94908f2e293d3c
+date: 2016-01-09 04:41:21
+message: >-
+  Is Tiled2Unity compatible to Unity5.0? Or do I have to downgrade/upgrade my Unity3D?
+
+
+  <em><strong>Seanba sez:</strong> Hi Schwarz, it turns out Tiled2Unity uses an API introduced with Unity 5.1. Upgrading Unity will fix it. You can also comment out the lines that are not working for you. My next version of Tiled2Unity (probably this weekend, Jan 9th 2016) will take of the compile error with Unity 5.0 as well.</em>
+
+
+  <em><strong>Seanba sez, part 2:</strong> The latest version of Tiled2Unity (1.0.2.1) fixes script compile errors with Unity 5.0</em>

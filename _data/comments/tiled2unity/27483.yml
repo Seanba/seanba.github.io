@@ -1,0 +1,12 @@
+id: 27483
+name: Kai Arnold
+gravatar: 0fb05a46db947f0a9033cbc776b21ad7
+date: 2014-12-02 19:54:49
+message: >-
+  Oh, and one more easy one, your gizmo drawing should take the prefab scale into account.  TiledMap.cs should be more like:
+
+
+  float GetMapWidthInPixels() { return this.NumTilesWide * this.TileWidth * transform.localScale.x; } float GetMapHeightInPixels() { return this.NumTilesHigh * this.TileHeight * transform.localScale.y; }
+
+
+  That's still completely correct as the prefab could be getting scaled further by a parent, but it's closer, and probably handles the majority of cases (i.e. people using unity:scale).

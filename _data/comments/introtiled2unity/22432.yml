@@ -1,0 +1,5 @@
+id: 22432
+name: Aqua
+gravatar: 9d11e7a5e86108c199f6ee462cbff32b
+date: 2014-09-17 02:08:24
+message: I've exported the map made in Tiled, and when I put the prefab into the scene in unity it's showing small space between the top and bottom of each tile. Any ideas on what I need to do to fix it?

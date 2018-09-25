@@ -1,0 +1,9 @@
+id: 25367
+name: Odd
+gravatar: 1a85ed459791523740a46475f9ec54fe
+date: 2014-11-02 08:42:07
+message: >-
+  Just thought I'd let everyone know that this tool works with wine; but you need two winetricks:
+
+
+  winetricks dotnet40 winetricks riched20

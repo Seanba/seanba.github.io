@@ -60,29 +60,18 @@ With the latest version of Tiled2Unity you can mark a Tiled map with the `unity:
 
 Normally, Tiled map prefabs are constructed in the `.../Tiled2Unity/Prefabs` folder but with the `unity:resource` property they will reside in `.../Tiled2Unity/Prefabs/Resources` instead. With this you can easily instantiate the prefab in realtime via a Unity script, for example ...
 
-<pre class="brush: csharp; gutter: false;">using UnityEngine;
-
+```c#
 using System.Collections;
 
-
-
 public class MapCreator : MonoBehaviour
-
 {
-
     void Start()
-
     {
-
         UnityEngine.Object prefab = Resources.Load("MyTiledMapPrefab");
-
         GameObject.Instantiate(prefab);
-
     }
-
 }
-
-</pre>
+```
 
 Developers employing some kind of procedural generated content scheme should find that useful.
 

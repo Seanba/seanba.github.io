@@ -1,0 +1,9 @@
+id: 49222
+name: Jack
+gravatar: a6a69778ff5f905b11d645072d260143
+date: 2016-04-29 23:32:47
+message: >-
+  Update: I got the log file to start sending out messages however they aren't very helpful and they just say that my directories don't exist even though I am using putting in what I'm pretty sure is right. Nothing happens if I try to run the command from inside Tiled. This is the command I'm giving it, does it look right?
+
+
+  /bin/sh Users/jack/Documents/Prog/Tiled2UnityLite-1.0.5.1/tiled2unitylite.sh %mapfile /Users/jack/testproj/Assets/Tiled2Unity

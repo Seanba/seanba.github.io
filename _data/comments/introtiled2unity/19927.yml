@@ -1,0 +1,13 @@
+id: 19927
+name: Shawn
+gravatar: b796faf0fa590a5a33351f19886fda48
+date: 2014-08-14 13:05:18
+url: http://treefortress.com
+message: >-
+  Interestingly, even when I removed the collider, allowing the exporter to run, it was still not rendering properly. Tiles were missing and/or incorrect in the generated mesh.
+
+
+  The main may be that I used a SpriteSheet from TexturePacker, which was exported as a 128x256 POT (Power of Two) texture, meaning it contained a bunch of whitespace, it seems like Tiled creates indexes for these empty tiles, and that this somehow breaks the Exporters tile indexing system.
+
+
+  As soon as I switched to "Any Size" in texturePacker, which trims all whitespace, everything began working properly.

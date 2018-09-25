@@ -1,0 +1,5 @@
+id: 49220
+name: Jack
+gravatar: a6a69778ff5f905b11d645072d260143
+date: 2016-04-29 22:42:25
+message: Hello, Thank you very much for putting this tutorial up however I'm having a similar problem to the one johnrm described. I'm getting no error messages nor is the log showing any messages when I run the command from Tiled however nothing happens. If I had to guess it would be a problem with the .bash_profile because I really don't know much about that. If you have any advice it would be greatly appreciated. Thanks

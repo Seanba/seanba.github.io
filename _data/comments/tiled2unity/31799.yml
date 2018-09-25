@@ -1,0 +1,13 @@
+id: 31799
+name: Seanba
+gravatar: ff5a13b37fd8ebc821088528d23b5987
+date: 2015-03-24 09:48:34
+is_sean: true
+message: >-
+  Hi Murilo, I think that sounds like a great idea and it should be supported by the current command line. -a or --auto-export should export the Tiled file automatically without bringing up the UI.
+
+
+  A couple of things to watch out for: <ul> <li>UNITYDIR argument will need to resolve to a real Unity project that has imported the Tiled2Unity scripts. You can have a dummy/empty project for this</li> <li>Some users are locked into specific versions of Tiled2Unity so you *might* want to have your server set up to support that</li> <li>You'll want to expose the -s or --scale argument so that users can scale their maps to whatever "Pixels to Unit" setting they are using</li> </ul>
+
+
+  It's been several months since I've used the automoatic exporting options so it's possible that feature has gone stale. Let me know if you run into problems and I will provide fixes. Thanks.

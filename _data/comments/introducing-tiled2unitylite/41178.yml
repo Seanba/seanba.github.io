@@ -1,0 +1,10 @@
+id: 41178
+name: Efe
+gravatar: c8a655b6359c7b493f5c5f7b30798019
+date: 2016-01-24 17:40:02
+url: http://efealacamli.tumblr.com
+message: >-
+  For those who had issue on "tiled2unitylite.sh: line 7: mono: command not found"
+
+
+  Specifying mono(you can find by typing this command in terminal: which mono ) in tiled2unitylite.sh has worked for me like this: /usr/local/bin/mono $CSSCRIPT_DIR/cscs.exe -nl Tiled2UnityLite.cs $* &amp;&gt; tiled2unitylite.log
