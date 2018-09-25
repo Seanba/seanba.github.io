@@ -14,7 +14,7 @@ layout: default
 
       {%- for post in site.posts -%}
       {%- assign mod2 = forloop.index | modulo: 2 -%}
-        <li {% if mod2 == 0 %} class="post-item-even"{% else %} class="post-item-odd" {% endif %}>
+        <li {% if mod2 == 0 %} class="post-item-odd"{% else %} class="post-item-even" {% endif %}>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h5>
