@@ -1,6 +1,6 @@
 id: 27318
 name: Daniel
-gravatar: fixit
+gravatar: no-grav
 date: 2014-11-29 12:12:08
 message: >-
   Oops, my bad. I was close to the problem, as compilation order is key, but setting Tiled2Unity in Plugins did not solve my compilation error.  Forget that "plugin" folder thing I said :D

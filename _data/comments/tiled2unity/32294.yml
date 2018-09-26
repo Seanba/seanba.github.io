@@ -1,5 +1,5 @@
 id: 32294
 name: Tease
-gravatar: fixit
+gravatar: no-grav
 date: 2015-04-22 02:18:54
 message: Also, it seems like the Pixels Per Unit setting in sprites are not affecting the imported map size, it's just using the default 100. Unfortunately 100 is too much, am I doing something wrong? The sprites are already in the Unity project so T2U is using them, it just seems to ignore the PPU setting.

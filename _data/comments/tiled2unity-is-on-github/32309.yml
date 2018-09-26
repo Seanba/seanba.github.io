@@ -1,6 +1,6 @@
 id: 32309
 name: fatsopanda
-gravatar: fixit
+gravatar: no-grav
 date: 2015-04-23 01:13:32
 message: >-
   Hola Mac users! I tried the above tips but am getting an error: System.IO.FileNotFoundException: Could not load file or assembly 'PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies.

@@ -67,7 +67,7 @@ class Script
         }
         else
         {
-            comment.gravatar = "fixit";
+            comment.gravatar = "no-grav";
         }
 
         comment.avatar = null;

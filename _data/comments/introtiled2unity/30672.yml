@@ -1,6 +1,6 @@
 id: 30672
 name: Tiled User
-gravatar: fixit
+gravatar: no-grav
 date: 2015-01-31 15:19:59
 message: >-
   Even a 128x128 tile map creates a file with over 65k vertices.

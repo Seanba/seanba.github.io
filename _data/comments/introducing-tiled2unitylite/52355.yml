@@ -1,6 +1,6 @@
 id: 52355
 name: David
-gravatar: fixit
+gravatar: no-grav
 date: 2017-03-13 12:24:45
 message: >-
   I've mostly gotten this working – but the Unity import hooks aren't triggering, so I get the file in Assets/Tiled2Unity/Imported but none of the rest. Any idea? The Tiled2Unity files in the project were put in by the Windows non-lite version of Tiled2Unity, but replacing some of them by importing the package that came with the Lite version didn't help. I'm running Ubuntu Xenial, if it matters.

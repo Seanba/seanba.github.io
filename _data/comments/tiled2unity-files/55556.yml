@@ -1,6 +1,6 @@
 id: 55556
 name: Nicholas
-gravatar: fixit
+gravatar: no-grav
 date: 2017-08-22 20:38:20
 message: >-
   Hey there! Not sure if I'm missing something. But I've installed Tiled2Unity to my project (lets say it's at C:/Project/Assets/Tiled2Unity) and I can export to the folder targeting the installed Tiled2Unity.export.txt file.

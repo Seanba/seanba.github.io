@@ -1,5 +1,5 @@
 id: 31508
-gravatar: fixit
+gravatar: no-grav
 date: 2015-03-06 14:41:09
 message: >-
   Few changes are needed to make Tiled2Unity work on linux with mono. Probably a mac "version" should need no aditional changes. I have made a fork on GitHub here:

@@ -1,6 +1,6 @@
 id: 39936
 name: daniel
-gravatar: fixit
+gravatar: no-grav
 date: 2015-11-07 07:47:48
 message: >-
   ty for answer. It is not works on object layer :c my main problem is the animated tiles had poor performance.  i made a customTiledImport for handle animations. It is works well, but after every BIG ASS EXPORT i have to delete 2d box collider.  I have not found the instantiation script and i couldnt destroy the boxcollider in the customtiledimport script. sry for my terrible english and thx any advice.

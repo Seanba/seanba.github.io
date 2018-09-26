@@ -1,5 +1,5 @@
 id: 28260
 name: David Van Horn
-gravatar: fixit
+gravatar: no-grav
 date: 2014-12-16 15:35:54
 message: I've been running into a problem where the exported prefab just has a blank mesh. The tiles are all grey. The hitboxes seem to be working fine, and are visible when clicked on, but the mesh is just all grey. It was working fine before, so I'm not sure what happened.

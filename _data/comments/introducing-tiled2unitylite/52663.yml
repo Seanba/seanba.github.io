@@ -1,6 +1,6 @@
 id: 52663
 name: Matthias
-gravatar: fixit
+gravatar: no-grav
 date: 2017-04-19 12:36:30
 message: >-
   When I try to run this on linux, I get the error that there is no "Tiled2Unity" folder in my assets directory for my project.

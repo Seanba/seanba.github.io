@@ -1,5 +1,5 @@
 id: 18114
 name: Tim
-gravatar: fixit
+gravatar: no-grav
 date: 2014-07-18 04:37:04
 message: I seem to have found a small bug that prevents the exported prefabs from working in Unity. It took me a while to figure out why, but I found that a space in my tileset filename was causing the exported prefab to be an empty game object. As long as there is no space in the tileset filename, everything works fine!

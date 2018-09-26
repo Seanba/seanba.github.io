@@ -1,5 +1,5 @@
 id: 34446
 name: Majicpanda
-gravatar: fixit
+gravatar: no-grav
 date: 2015-06-20 17:26:04
 message: I hope people really start using the iso so that you want to develop it out further.  This was something I was looking at in Nov-Feb and could not come up with any solution on my own, so this was a huge surprise.  The only thing that is troublesome is the fact that iso tiles that need to be dynamic based on Y pos -&gt; sort order cannot be baked into a big mesh.  I didn't see any way to keep certain tiles completely separate and not baked so that we can apply a script that dynamically changes the sort order at runtime or on import.

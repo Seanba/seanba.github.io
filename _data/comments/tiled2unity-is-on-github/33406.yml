@@ -1,6 +1,6 @@
 id: 33406
 name: GX
-gravatar: fixit
+gravatar: no-grav
 date: 2015-06-06 15:29:07
 message: >-
   I'm following the instructions above, but when I try to import the package into my project by help-&gt;Import unity package to project nothing is happening.  I tried importing the package from the Unity GUI, but could not find "Tiled2Unity.unitypackage".  Any advice?  Running OS X 10.10.3.

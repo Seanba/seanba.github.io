@@ -1,6 +1,6 @@
 id: 52445
 name: JamesK
-gravatar: fixit
+gravatar: no-grav
 date: 2017-03-25 10:08:53
 message: >-
   Hey Sean, thanks again for the great job you've done with this tool.  I was going to report the issue with the collision polygons not always generating correctly (with diagonals in my case) but it looks like you just fixed it in 10.0.10.1.  So thanks!

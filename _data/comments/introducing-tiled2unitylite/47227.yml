@@ -1,4 +1,4 @@
 id: 47227
-gravatar: fixit
+gravatar: no-grav
 date: 2016-04-14 02:00:55
 message: "Thanks for your great tutorial. But I get stuck and what I have to do after running this command?\n\nmono $CSSCRIPT_DIR/cscs.exe Tiled2UnityLite.cs --help\n\nYou wrote that \"you are ready to export Tiled maps directly from Tiled Map Editor into your Unity project using the Execute Command GUI.\"\n\nBut I don't know how I can open Execute Command GUI?\n\n<em><strong>Seanba sez:</strong> Hi there. It's a button on the Tiled toolbar that looks like 3 ratchets or gears. Press the little down arrow beside it and you should see \"Edit Commands...\"</em> "

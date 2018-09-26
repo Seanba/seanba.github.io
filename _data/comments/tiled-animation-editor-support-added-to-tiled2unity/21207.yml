@@ -1,6 +1,6 @@
 id: 21207
 name: Jogabba
-gravatar: fixit
+gravatar: no-grav
 date: 2014-09-01 16:01:25
 message: >-
   I've noticed that, in order for animated tiles to look animated, it's compulsory to use the Tiled/TextureTintSnap shader. However, until now I've been using another shader because in TextureTintSnap, Unity's default lighting systems do not work. Is there any way to make tiles look animated without using the default T2U shader?

@@ -1,6 +1,6 @@
 id: 36507
 name: James
-gravatar: fixit
+gravatar: no-grav
 date: 2015-07-11 13:37:18
 message: >-
   With the new export option, I can't seem to get the command line to work.  For simplicity, say my unity project is in C:\Game and my Tiled2Unity.export.txt is in C:\Game\Assets\ThirdParty\Tiles2Unity

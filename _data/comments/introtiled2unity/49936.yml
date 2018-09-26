@@ -1,6 +1,6 @@
 id: 49936
 name: Victor Wu
-gravatar: fixit
+gravatar: no-grav
 date: 2016-08-04 10:36:59
 message: >-
   I have some questions: 1. How can I get the map data ? For example: I want to implement a SRPG, so I want to know like tile ID of a layer at location (x, y) Do I have to read the tmx file or you store the tile data somewhere ?

@@ -1,5 +1,5 @@
 id: 39924
 name: daniel
-gravatar: fixit
+gravatar: no-grav
 date: 2015-11-06 09:22:27
 message: "helo! can i turn off the boxcollider2d  spawning? btw u are great!\n\n<em><strong>Seanba sez:</strong> Yes, select the layer in Tiled and add a custom property named <code>unity:ignore</code> and set the value to <code>collision</code>. That will keep any colliders from being generated on that specific layer.</em> "

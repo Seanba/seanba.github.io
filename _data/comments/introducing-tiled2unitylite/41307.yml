@@ -11,7 +11,7 @@ message: >+
 
 
 
-  <em><strong>Seanba sez: </strong></em>Use the -s or --scale option. For instance, if you want to do 1/100 scale the command would be:
+  <em><strong>Seanba sez: </strong></em> Use the -s or --scale option. For instance, if you want to do 1/100 scale the command would be:
 
 
   <code>/bin/sh /MyPath/tiled2unitylite.sh %mapfile -s=0.01 /MyProject/Assets/Tiled2Unity</code> or <code>/bin/sh /MyPath/tiled2unitylite.sh %mapfile --scale=0.01 /MyProject/Assets/Tiled2Unity</code>

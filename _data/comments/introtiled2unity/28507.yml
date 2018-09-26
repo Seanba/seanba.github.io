@@ -1,5 +1,5 @@
 id: 28507
 name: David Van Horn
-gravatar: fixit
+gravatar: no-grav
 date: 2014-12-21 01:49:37
 message: "Actually, I dug deeper and found it was using the wrong material. It was also giving an error like this. Could not find mesh named 'mesh_[02]_[10]' for material matching Choices are: mesh_[00]_[00] mesh_[01]_[00] mesh_[02]_[01] UnityEngine.Debug:LogError(Object) Tiled2Unity.ImportTiled2Unity:FixMaterialForMeshRenderer(String, Renderer) (at Assets/Tiled2Unity/Scripts/Editor/ImportTiled2Unity.Material.cs:48) Tiled2Unity.TiledAssetPostProcessor:OnAssignMaterialModel(Material, Renderer) (at Assets/Tiled2Unity/Scripts/Editor/TiledAssetPostProcessor.cs:148) UnityEditor.AssetPostprocessingInternal:ProcessMeshAssignMaterial(Renderer, Material)"
