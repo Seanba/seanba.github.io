@@ -11,13 +11,13 @@ message: >+
 
 
 
-  <em><strong>Seanba sez: </strong></em> <blockquote>Use the -s or --scale option. For instance, if you want to do 1/100 scale the command would be:
+  <em><strong>Seanba sez: </strong></em>Use the -s or --scale option. For instance, if you want to do 1/100 scale the command would be:
 
 
   <code>/bin/sh /MyPath/tiled2unitylite.sh %mapfile -s=0.01 /MyProject/Assets/Tiled2Unity</code> or <code>/bin/sh /MyPath/tiled2unitylite.sh %mapfile --scale=0.01 /MyProject/Assets/Tiled2Unity</code>
 
 
-  Keep in mind the scale value needs to be 1/v and not v/100. A common mistake for someone that wants to use 1/32 scale is to use a scale value of 0.32 instead of 0.03125. </blockquote>
+  Keep in mind the scale value needs to be 1/v and not v/100. A common mistake for someone that wants to use 1/32 scale is to use a scale value of 0.32 instead of 0.03125.
 
 
 

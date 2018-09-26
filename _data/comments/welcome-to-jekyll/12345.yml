@@ -3,11 +3,22 @@ name: Sean Barton
 gravatar: ff5a13b37fd8ebc821088528d23b5987
 date: 2007-12-18 18:51:55
 is_sean: true
-message: "*Hey! Does Markdown commenting work?*
+message: >-
+  *Hey! Does Markdown commenting work?*  
+  
+  Yes it appears so.  
+  
+  But what about newlines?
+  
+  ```python
+  
+  # How to do multiple lines of code
+  
+  # Note that we need a newline before the 3 ending ticks
+  
+  def deppard()
+    return "Foo"
+  end
+  
+  ```
 
-
-Yes it appears so.  But what about newlines? Just use margin?
-
-
-`// This is some code.`
-"

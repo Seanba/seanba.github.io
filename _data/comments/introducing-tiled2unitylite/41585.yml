@@ -1,5 +1,0 @@
-id: 41585
-name: Matteo
-gravatar: 04c3bccd9cc0e6cd1ba13f60952982c4
-date: 2016-02-14 14:46:04
-message: 'Ok, this command fix my problem: export DYLD_FALLBACK_LIBRARY_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib:/usr/lib'
