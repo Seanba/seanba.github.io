@@ -39,3 +39,6 @@ kramdown:
   input: GFM
 
 exclude: [tools]
+
+comments:
+  receiver: https://seanba-blog-comment.azurewebsites.net/api/PostComment
