@@ -2,7 +2,7 @@ title: Sean Barton - Game Developer
 email: sean@seanba.com
 description: >-
   Hi! My name is Sean Barton. I'm a US-Canadian game developer working in Austin, Texas.
-  I've been programming video games professionally since 1999 and I still love it.
+  I've been programming video games professionally since 1999 and I still love it. // fixit - this sucks
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Seanba_
@@ -41,4 +41,4 @@ kramdown:
 exclude: [tools]
 
 comments:
-  receiver: https://seanba-blog-comment.azurewebsites.net/api/PostComment
+  receiver: https://seanba-blog-comments.azurewebsites.net/api/PostComment

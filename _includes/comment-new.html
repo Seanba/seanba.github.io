@@ -26,31 +26,32 @@
 </form>
 
 <script>
-    function setupForm() {
-      var status = document.getElementById('commentstatus')
-      status.innerText = ''
+  function setupForm() {
+    var status = document.getElementById('commentstatus')
+    status.innerText = ''
 
-      var requiredIds = [ 'message', 'email', 'name']
-      var missing = requiredIds.filter(id => document.getElementById(id).value.length < 3)
-      if (missing.length > 0) {
-        status.innerText = 'Some required fields are missing - (' + missing.join(', ') + ')'
-        return
-      }
-
-      var button = document.getElementById('commentbutton')
-      if (button.innerText.localeCompare('Confirm comment', undefined, { sensitivity: 'base'}) != 0) {
-        button.innerText = 'Confirm comment'
-        return
-      }
-
-      var form = document.getElementById('commentform')
-      form.action = '{{ site.comments.receiver }}'
-      button.innerText = 'Posting...'
-      button.disabled = true
-      var fields = document.getElementById('commentfields')
-      fields.disabled = true
-      form.submit()
+    var requiredIds = [ 'message', 'email', 'name']
+    var missing = requiredIds.filter(id => document.getElementById(id).value.length < 3)
+    if (missing.length > 0) {
+      status.innerText = 'Some required fields are missing - (' + missing.join(', ') + ')'
+      return
     }
-  </script>
-</form>
+
+    var button = document.getElementById('commentbutton')
+    if (button.innerText.localeCompare('Confirm comment', undefined, { sensitivity: 'base'}) != 0) {
+      button.innerText = 'Confirm comment'
+      return
+    }
+
+    var form = document.getElementById('commentform')
+    form.action = '{{ site.comments.receiver }}'
+    button.innerText = 'Posting...'
+    button.disabled = true
+
+    var fields = document.getElementById('commentfields')
+    fields.readonly = true
+    
+    form.submit()
+  }
+</script>
 <div id="commentstatus" style="clear:both" class="status"></div>
