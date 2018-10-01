@@ -63,6 +63,7 @@ div#comments {
     form#commentform {
       padding: 8px;
 
+      /*
       input {
         transition: all .2s linear;
         padding: 5px 9px;
@@ -70,7 +71,7 @@ div#comments {
         font-size: 13px;
         border-radius: 4px;
         height: 32px;
-      }
+      }*/
 
       input:focus, div.textarea:focus, button#commentbutton:active, button#commentbutton:focus {
         outline:none;
@@ -79,16 +80,17 @@ div#comments {
       }
 
       div.textarea, div.status {
-        border-radius: 4px;
         height: auto;
         line-height: 1.4;
         font-size: 14px;
-        font-family: "Helvetica Neue",arial,sans-serif;
         padding: 6px 10px 8px;
       }
 
       div.textarea {
-        width: 100%;
+        width: -webkit-calc(100% - 20px);
+        width:    -moz-calc(100% - 20px);
+        width:         calc(100% - 20px);
+
         transition: all .15s ease-in-out;
         overflow: auto;
         word-wrap: break-word;
@@ -100,7 +102,7 @@ div#comments {
 
       div.status:not(:empty) {
         margin-bottom: 10px;
-        border: solid 1px #eaa;
+        border-left: solid 2px #eaa;
         background-color: #ecc;
       }
 
@@ -132,6 +134,7 @@ div#comments {
         border: 1px solid #caced3;
       }
 
+      /*
       button#commentbutton {
         margin: 10px 0 0 0;
         padding: 5px 9px;
@@ -159,7 +162,7 @@ div#comments {
           background-color: 1px solid #ffffee;
           background-image: linear-gradient(-180deg, #ffffee 0%, #eeeedd 90%)
         }
-      }
+      }*/
 
       #remember-me {
         display: inline-block;
