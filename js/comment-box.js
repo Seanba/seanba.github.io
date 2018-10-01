@@ -106,7 +106,7 @@ Haack.ready(function() {
         return
       }
       let button = e.target
-      if (button.innerText.localeCompare('Confirm comment', undefined, { sensitivity: 'base' } ) === 0) {
+      if (button.innerText.localeCompare('Confirm comment', undefined, { sensitivity: 'base' } ) != 0) {
         button.innerText = 'Confirm comment'
         button.title = 'Click the button again to confirm the comment'
         button.classList.add('confirm-button')
