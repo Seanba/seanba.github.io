@@ -17,10 +17,13 @@ permalink: /:title:output_ext
 
 emptyArray: []
 
+comments:
+  receiver: https://seanba-blog-comments.azurewebsites.net/api/PostComment
+
 authors:
   seanba:
     name: Sean Barton
-    email: seanba@gmail.com
+    email: sean@seanba.com
     url: http://www.seanba.com
 
 defaults:
@@ -28,7 +31,7 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      author: "seanba"
+      author: seanba
       commenting: open
 
 # Build settings
@@ -40,5 +43,3 @@ kramdown:
 
 exclude: [tools]
 
-comments:
-  receiver: https://seanba-blog-comments.azurewebsites.net/api/PostComment

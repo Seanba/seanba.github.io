@@ -12,6 +12,15 @@ $even-border-color: #C6D9E9;
 $odd-background: #EEEEEE;
 $odd-border-color: #CCCCCC;
 
+@font-face
+{
+  font-family: 'FontAwesome';
+  src: url("/assets/font/fontawesome-webfont.eot");
+  src: url("/assets/font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),url("/assets/font/fontawesome-webfont.woff") format("woff"),url("/assets/font/fontawesome-webfont.ttf") format("truetype"),url("/assets/font/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg"),url("/assets/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 #myheader
 {
   width: 100%;
@@ -88,82 +97,7 @@ $odd-border-color: #CCCCCC;
   padding-top: 1px;
 }
 
-/* Styles for commenting system. */
-div#comments
-{
-  border-color: $myborder-color;
-  border-top-style: solid;
-  border-top-width: $myborder-width;
-}
-
-div#comments #comments-list
-{
-  list-style-type: none;
-}
-
-/*
-#comments li
-{
-  background: red;
-}
-*/
-
-#comments li.byauthor
-{
-  border-style: solid;
-  border-color: $myborder-color;
-  border-width: 1px;
-}
-
-div#comments #comments-list li
-{
-  margin: 0;
-  padding: 8px;
-  clear: both;
-  min-height: 48px;
-  font-size: 15px;
-  line-height: 21px;
-  margin-top: 8px;
-}
-
-div#comments #comments-list li blockquote
-{
-  margin: 0;
-  margin-left: 60px;
-}
-
-div#comments #comments-list li blockquote cite
-{
-  font-style: normal;
-  font-size: 12px;
-}
-
-div#comments #comments-list li blockquote cite span.author
-{
-  font-weight: 700;
-  font-size: 13px;
-}
-
-div#comments #comments-list li blockquote div.comment-body p
-{
-  margin: 0;
-  margin-bottom: 0.75em;
-}
-
-div#comments img.avatar
-{
-  border-radius: 4px;
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-
-div#commentstatus
-{
-  margin-bottom: 2em;
-  font-weight: 700;
-}
-
+/* Homepage styling */
 li.post-item-even
 {
   background: $even-background;
@@ -192,6 +126,21 @@ span.post-meta
 iframe
 {
   margin-bottom: 1em;
+}
+
+.info-circle:after
+{
+  content: "\f05a";
+  display: inline-block;
+  font: 1.3em FontAwesome;
+  color: #777;
+}
+
+input + .info-circle:after
+{
+  position: relative;
+  left: -20px;
+  margin-right: -15px;
 }
 
 /* Styles from the old hosted www.seanba.com website */
