@@ -6,4 +6,4 @@ title: Quick Introduction
 
 And maybe why I do this.
 
-Put a link to the about me page. [About me]({{ site.baseurl }}{% link collections/_pages/about.md %})
+Put a link to the about me page. [About me](about.html)

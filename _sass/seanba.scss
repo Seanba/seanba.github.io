@@ -144,6 +144,23 @@ input + .info-circle:after
   top: 2px;
 }
 
+img.avatar.avatar-64.photo
+{
+  margin: 5px;
+}
+
+.byauthor
+{
+  border-color: $myborder-color;
+  border-style: solid;
+  border-width: 1px;
+}
+
+span.author
+{
+  font-weight: 700;
+}
+
 /* Styles from the old hosted www.seanba.com website */
 img.sba-align-left
 {

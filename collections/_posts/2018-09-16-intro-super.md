@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing SuperTiled2Unity
+title: "Introducing SuperTiled2Unity"
 date:   2018-09-16
 categories: SuperTiled2Unity Unity Tiled
 ---

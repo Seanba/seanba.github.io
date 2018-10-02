@@ -1,10 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about.html
 ---
 
-About content goes here.
+fixit - About content goes here.
 
 * A list item
 * Another list item
