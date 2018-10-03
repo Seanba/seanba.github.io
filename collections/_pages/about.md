@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: "About Sean Barton"
 permalink: /about.html
 ---
 
