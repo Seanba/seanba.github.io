@@ -10,9 +10,8 @@ title: Quick Introduction
 
 I'm an American-Canadian software developer working in Austin, Texas where I never have to shovel snow. :fire:
 
-My career focuses exclusively on video game software and tools.
+My career focuses exclusively on video game software and tools. You can read more [about me here](about.html).
 
 {% include social.html %}
 
-[Read more about me here.](about.html)
-
+<a href="mailto:sean@seanba.com">Send me an email</a>
