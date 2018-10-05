@@ -1,7 +1,7 @@
 ---
 title: Donate
 ---
-<a href="supertiled2unity.html">
+<a href="donate.html">
 <img src="assets/images/donate-via-paypal.png" alt="Seanba" class="u-full-width"/>
 </a>
 
