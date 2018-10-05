@@ -40,8 +40,8 @@ As a toymaker I get to work on a lot of fun AAA and indie titles. I think it's p
 Night in the Woods and Enter the Gungeon. It's a nice range.
 
 **22nd Century Toys Titles / Collaborations**
- * [Burly Men at Sea](https://burlymenatsea.com)
  * [Borderlands](https://en.wikipedia.org/wiki/Borderlands_(video_game))
+ * [Burly Men at Sea](https://burlymenatsea.com)
  * [Crossing Souls](https://en.wikipedia.org/wiki/Crossing_Souls)
  * [Enter the Gungeon](https://en.wikipedia.org/wiki/Enter_the_Gungeon)
  * [Feist](https://en.wikipedia.org/wiki/Feist_(video_game))
@@ -78,5 +78,5 @@ Sean Barton
 **Email:** [sean@seanba.com](mailto:sean@seanba.com)  
 **Twitter:** [@Seanba_](https://twitter.com/seanba_)
 
-<img src="assets/images/meg-op-crayon.jpg" alt="Artwork by Sean Barton" class="u-full-width"/>
+<img src="assets/images/transformers-85-decep.jpg" alt="Transformers 1985" class="u-full-width"/>
 
