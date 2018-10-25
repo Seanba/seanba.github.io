@@ -6,19 +6,19 @@
   {% assign comments = comments | push: comment[1] %}
 {% endfor %}
 {% assign comment_count = comments | size %}
-{% if comment_count > 0 %}
-  <div id="comments">
-    <h3>{% if comment_count == 1 %}One response{% else %}{{ comment_count }} responses{% endif %}</h3>
-    <ol id="comments-list">
-    {% assign sorted_comments = comments | sort: 'date' %}
-    {% for comment in sorted_comments %}
-      <li{% if comment.is_sean == true %} class="byauthor" {% endif %}>
-        {% include comment.html %}
-      </li>
-    {% endfor %}
-    </ol>
-  </div>
-{% endif %}
-{% if page.commenting == 'open' %}
-{% include comment-new.html %}
-{% endif %}
+{% assign author = page.author | downcase %}
+<div id="comments">
+  <h2>Comments</h2>
+  {% include comment-new.html %}
+  <h3 id="comment-count">{% if comment_count == 1 %}One response{% else %}{{ comment_count }} responses{% endif %}</h3>
+
+  {% assign sorted_comments = comments | sort: 'date' %}
+  {% for comment in sorted_comments %}
+    {% assign commentor = comment.name | downcase %}
+    <div {% if commentor == author %} class="byauthor" {% endif %}>
+      {% include comment.html %}
+    </div>
+    <br/>
+  {% endfor %}
+
+</div>

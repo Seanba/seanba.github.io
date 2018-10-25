@@ -1,12 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
-title: Welcome to my blog
+title: "Welcome to Seanba.com"
 ---
 
-fixit - flesh this out
+This is my little blog where I occassional talk about things I'm interested in (programming, video games, etc.) and share some knowledge I've learned through the years as a game developer.
 
-Some content should go here. A quick word on who I am and my priorites. As well as a page describing me more and maybe some games I've worked on.
+Most people coming here are interested in the tools I've made available to help with 2D game developement in the [Unity game engine](https://unity3d.com/). [SuperTiled2Unity](supertiled2unity.html)
+is what I now use to import [Tiled maps](https://www.mapeditor.org/) into my games and you may find it useful too.
+
+If you'd like to learn more about me and some of the games I've worked on then check out [my about page](about.html). **Thanks!**
 

@@ -1,8 +1,7 @@
 id: 12345
-name: Sean Barton
+name: Seanba
 gravatar: ff5a13b37fd8ebc821088528d23b5987
 date: 2007-12-18 18:51:55
-is_sean: true
 message: >-
   *Hey! Does Markdown commenting work?*  
   
@@ -16,7 +15,7 @@ message: >-
   
   # Note that we need a newline before the 3 ending ticks
   
-  def deppard()
+  def leppard()
     return "Foo"
   end
   
