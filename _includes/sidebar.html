@@ -1,7 +1,7 @@
 <div id="mysidebar">
   {% for note in site.sidenotes %}
 
-    {{ note.content | markdownify}}
+    {{ note.content | markdownify }}
 
     {% if forloop.last != true %}
       <hr class="mybreak"/>
