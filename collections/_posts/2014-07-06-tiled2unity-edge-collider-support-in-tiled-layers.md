@@ -17,8 +17,6 @@ categories:
 ---
 <img title="Edge Colliders for One-Way Collision" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="Edge Colliders for One-Way Collision" src="/assets/wp-content/uploads/2014/07/Preview_smb3-long.png" width="640" height="146" />
 
-fixit - find the files for this example and add them to github
-
 Judging from the emails I’ve been getting, my little <a title="Download Tiled2Unity" href="{{ '/Tiled2Unity/' | relative_url }}" rel="Download Tiled2Unity" target="_blank">Tiled2Unity</a> tool is proving to be useful for developers wanting to bring their <a title="Tiled Map Editor" href="http://www.mapeditor.org/" rel="Tiled Map Editor">Tiled Map Editor</a> levels into their Unity projects.
 
 The best received feature in Tiled2Unity is the ability to <a title="Tiled2Unity Tile Collision Example" href="{{ '/introtiled2unity/' | relative_url }}.html" rel="Tiled2Unity Tile Collision Example" target="_blank">build up collision geometry</a> from the tiles you lay down &#8212; but it only supported creating a `PolygonCollider2D` from rectangle and polygon objects. With the release of Tiled2Unity 0.9.3.0 (<a title="Tiled2Unity Download" href="{{ '/Tiled2Unity/' | relative_url }}" rel="Tiled2Unity Download">download latest Tiled2Unity here</a>),  support has been extended to polylines which are represented as `EdgeCollider2D`s in Unity.
