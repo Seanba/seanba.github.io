@@ -8,9 +8,9 @@ $mytiled2unitywarning-color: #F4E3B2;
 $mytiled2unitywarning-border-color: #F8B800;
 
 $even-background: #E4F2FD;
-$even-border-color: #C6D9E9;
+$even-border-color: black;
 $odd-background: #E4F2FD;
-$odd-border-color: #C6D9E9;
+$odd-border-color: black;
 
 @font-face
 {
@@ -102,22 +102,20 @@ $odd-border-color: #C6D9E9;
 /* Homepage styling */
 li.post-item-even
 {
-  background: $even-background;
   list-style-type: none;
   padding: 8px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-left-color: $even-border-color;
+  border-top-style: dotted;
+  border-top-width: 1px;
+  border-top-color: $even-border-color;
 }
 
 li.post-item-odd
 {
-  background: $odd-background;
   list-style-type: none;
   padding: 8px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-left-color: $odd-border-color;
+  border-top-style: dotted;
+  border-top-width: 1px;
+  border-top-color: $odd-border-color;
 }
 
 span.post-meta
