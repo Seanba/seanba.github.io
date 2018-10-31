@@ -12,7 +12,7 @@ SuperTiled2Unity is the second generation of Tiled2Unity, a popular exporter I f
 I strive to make SuperTiled2Unity painless to use. Just drag-and-drop your Tiled assets into your Unity project and you should be good to go.
 Any further changes you make to your Tiled files will be automatically imported for you as you save.
 
-Documentation for SuperTiled2Unity [is found here](supertiled2unity.readthedocs.io). (Yes, there's not much there yet. I'll build this up over time.)
+Documentation for SuperTiled2Unity [is found here](https://supertiled2unity.readthedocs.io). (Yes, there's not much there yet. I'll build this up over time.)
 
 SuperTiled2Unity is also available as [a GitHub repository here](https://github.com/Seanba/SuperTiled2Unity). **Please report any issues or bugs there.** Other forms of communication are too easily missed/forgotten.
 
