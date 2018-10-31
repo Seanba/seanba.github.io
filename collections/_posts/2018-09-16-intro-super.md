@@ -8,7 +8,7 @@ excerpt_separator: "<!--more-->"
 
 <img class="u-full-width" alt="SuperTiled2Unity" src="assets/images/st2u-bar-wide.png"/>
 
-**Tiled2Unity is dead.** Long live [SuperTiled2Unity](SuperTiled2Unity). <!--more-->
+**Tiled2Unity is dead.** Long live [SuperTiled2Unity](supertiled2unity.html). <!--more-->
 
 Since May of 2014, Tiled2Unity has been a popular piece of software, mostly 
 due to [Tiled Map Editor](https://www.mapeditor.org/) being an essential 2D authoring tool and because Unity has been slow to support tile-based assets.
