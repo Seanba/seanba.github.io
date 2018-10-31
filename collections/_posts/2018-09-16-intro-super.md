@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing SuperTiled2Unity"
-date:   2018-10-28
+date:   2018-10-31
 categories: SuperTiled2Unity Unity Tiled
 excerpt_separator: "<!--more-->"
 ---
