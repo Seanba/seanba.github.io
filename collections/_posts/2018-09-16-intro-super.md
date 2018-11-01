@@ -3,6 +3,7 @@ layout: post
 title: "Introducing SuperTiled2Unity"
 date:   2018-10-31
 categories: SuperTiled2Unity Unity Tiled
+permalink: /intro-super.html
 excerpt_separator: "<!--more-->"
 ---
 
