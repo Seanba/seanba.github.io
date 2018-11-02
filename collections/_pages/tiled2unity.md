@@ -2,6 +2,7 @@
 layout: page
 title: Get Tiled2Unity
 permalink: /tiled2unity.html
+redirect_from: "/Tiled2Unity/"
 ---
 <div class="u-full-width">
   <p class="mytiled2unitywarning">
