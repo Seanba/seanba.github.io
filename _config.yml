@@ -46,3 +46,4 @@ exclude: [tools]
 plugins:
   - jemoji
   - jekyll-redirect-from
+  - jekyll-feed
