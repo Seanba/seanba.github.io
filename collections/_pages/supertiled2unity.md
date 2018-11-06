@@ -3,6 +3,7 @@ layout: page
 title: Get SuperTiled2Unity
 permalink: /supertiled2unity.html
 redirect_from: "/SuperTiled2Unity/"
+description: SuperTiled2Unity is like regular Tiled2Unity but is easier to use and has been updated to use new Unity classes like Tilemaps and Scripted Importers.
 ---
 
 **SuperTiled2Unity** is my custom-built tool made to seamlessly import [Tiled Map Editor](https://www.mapeditor.org/) assets into Unity. That name is purposely tongue-in-cheek as 

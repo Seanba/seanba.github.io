@@ -3,6 +3,7 @@ layout: page
 title: Get Tiled2Unity
 permalink: /tiled2unity.html
 redirect_from: "/Tiled2Unity/"
+description: Note that Tiled2Unity is now deprecated. Consider using SuperTiled2Unity to import Tiled maps in your Unity projects. It's still free to use.
 ---
 <div class="u-full-width">
   <p class="mytiled2unitywarning">
