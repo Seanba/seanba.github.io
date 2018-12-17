@@ -2,7 +2,9 @@
 layout: page
 title: Get SuperTiled2Unity
 permalink: /supertiled2unity.html
-redirect_from: "/SuperTiled2Unity/"
+redirect_from:
+  - /SuperTiled2Unity
+  - /supertiled2unity
 description: SuperTiled2Unity is like regular Tiled2Unity but is easier to use and has been updated to use new Unity classes like Tilemaps and Scripted Importers.
 ---
 
