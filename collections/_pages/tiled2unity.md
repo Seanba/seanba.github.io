@@ -8,7 +8,7 @@ description: Note that Tiled2Unity is now deprecated. Consider using SuperTiled2
 <div class="u-full-width">
   <p class="mytiled2unitywarning">
     Tiled2Unity was created before Unity had support for tiles and tilemaps.
-    It is still available for download but is outdated and unsupported. Consider using <a href="/supertiled2unity/">SuperTiled2Unity</a> instead. <strong>Thanks!</strong>
+    It is still available for download but is outdated and unsupported. Consider using <a href="/supertiled2unity.html">SuperTiled2Unity</a> instead. <strong>Thanks!</strong>
   </p>
 </div>
 
