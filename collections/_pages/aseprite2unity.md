@@ -14,7 +14,7 @@ The resulting prefab can be added to your scenes with sprites and animations alr
 
 **Important links:**
 - Online documentation can be found [on Read the Docs](https://aseprite2unity.readthedocs.io/en/latest/).
-- All source is [available on Github](https://github.com/Seanba/Aseprite2Unity). **Please report any bugs here.**
+- All source is [available on GitHub](https://github.com/Seanba/Aseprite2Unity). **Please report any bugs here.**
 
 I enjoy [my life as a professional game developer](about.html) and therefore make my tools available for free.
 I only ask that you [consider making a donation](donate.html) should my tools become an essential part of your own journey.
