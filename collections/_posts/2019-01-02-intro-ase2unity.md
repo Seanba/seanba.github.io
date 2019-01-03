@@ -18,6 +18,6 @@ So, I took what I consider to be the best 2D sprite authoring tool ([Aseprite](h
 My latest tool, [Aseprite2Unity](aseprite2unity.html), drills into `.ase` or `.aseprite` files and creates sprites and animation clips automatically.
 The resulting prefab is ready to go with [SpriteRenderer](https://docs.unity3d.com/Manual/class-SpriteRenderer.html) and [Animator](https://docs.unity3d.com/Manual/class-Animator.html) components filled out.
 
-You can downlad and learn more about this tool [on the Aseprite2Unity page](aseprite2unity.html). **Enjoy!**
+You can download and learn more about this tool [on the Aseprite2Unity page](aseprite2unity.html). **Enjoy!**
 
 <img class="u-full-width" alt="Mega Dad frames" src="assets/images/mega-dad-strip.png"/>
