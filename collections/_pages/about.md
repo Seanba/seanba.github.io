@@ -40,6 +40,7 @@ As a toymaker I get to work on a lot of fun AAA and indie titles. I think it's p
 Night in the Woods and Enter the Gungeon. It's a nice range.
 
 **22nd Century Toys Titles / Collaborations**
+ * [Ape Out](https://en.wikipedia.org/wiki/Ape_Out)
  * [Borderlands](https://en.wikipedia.org/wiki/Borderlands_(video_game))
  * [Burly Men at Sea](https://burlymenatsea.com)
  * [Crossing Souls](https://en.wikipedia.org/wiki/Crossing_Souls)
@@ -49,14 +50,18 @@ Night in the Woods and Enter the Gungeon. It's a nice range.
  * [Mafia III](https://en.wikipedia.org/wiki/Mafia_III)
  * [Minit](https://en.wikipedia.org/wiki/Minit_(video_game))
  * [Mother Russia Bleeds](https://en.wikipedia.org/wiki/Mother_Russia_Bleeds)
+ * [My Friend Pedro](https://en.wikipedia.org/wiki/My_Friend_Pedro)
  * [Night in the Woods](https://en.wikipedia.org/wiki/Night_in_the_Woods)
+ * [Pikuniku](https://en.wikipedia.org/wiki/Pikuniku)
  * [Plants Vs. Zombies 2 : It's About Time](https://en.wikipedia.org/wiki/Plants_vs._Zombies_2:_It%27s_About_Time)
  * [Plants Vs. Zombies : Garden Warfare](https://en.wikipedia.org/wiki/Plants_vs._Zombies:_Garden_Warfare)
  * [Reings](https://en.wikipedia.org/wiki/Reigns_(video_game))
+ * [Reigns: Game of Thrones](https://en.wikipedia.org/wiki/Reigns:_Game_of_Thrones)
  * [Slain: Back from Hell](https://en.wikipedia.org/wiki/Slain!)
  * [Speed Brawl](http://speedbrawl.com/)
  * [Stardust Vanguards](https://store.playstation.com/en-us/product/UP1200-CUSA03731_00-0000000000000000)
  * [Strafe](https://en.wikipedia.org/wiki/Strafe_(video_game))
+ * [Toe Jam & Earl : Back in the Groove](https://en.wikipedia.org/wiki/ToeJam_%26_Earl:_Back_in_the_Groove)
 
 <img src="assets/images/games/mafia-3-banner.jpg" alt="Mafia III" class="u-full-width"/>
 
