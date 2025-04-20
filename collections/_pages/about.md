@@ -43,6 +43,7 @@ Night in the Woods and Enter the Gungeon. It's a nice range.
  * [Ape Out](https://en.wikipedia.org/wiki/Ape_Out)
  * [Borderlands](https://en.wikipedia.org/wiki/Borderlands_(video_game))
  * [Burly Men at Sea](https://burlymenatsea.com)
+ * [Carrion](https://en.wikipedia.org/wiki/Carrion_(video_game))
  * [Crossing Souls](https://en.wikipedia.org/wiki/Crossing_Souls)
  * [Enter the Gungeon](https://en.wikipedia.org/wiki/Enter_the_Gungeon)
  * [Feist](https://en.wikipedia.org/wiki/Feist_(video_game))
